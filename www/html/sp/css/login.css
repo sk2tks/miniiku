@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#main .loginForm dl {
+	margin: 0 15px;
+	font-size: 11px;
+}
+
+#main .loginForm dt {
+	margin-bottom: 2px;
+}
+
+#main .loginForm dd {
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+#main .loginForm dd .text {
+	width: 100%;
+}
+
+#main .loginForm .ddSpecial {
+	padding-top: 2px;
+}
+
+#main .loginForm .ddSpecial input {
+	margin: 0;
+	vertical-align: middle;
+}

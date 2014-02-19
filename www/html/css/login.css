@@ -1,0 +1,142 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+body {
+	margin: 0 auto;
+	width: 548px;
+	min-width: 548px !important;
+}
+
+.popBox {
+	background: url(../img/login/pop_top_bg.png) no-repeat left top;
+	padding-top: 4px;
+	margin: 0 auto;
+	position: relative;
+	text-align: left;
+	width: 548px;
+}
+
+.popBox .close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 26px;
+	height: 26px;
+	background: url(../img/login/close.gif) no-repeat;
+}
+.popup a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.popup {
+	background: url(../img/login/pop_btm_bg.png) no-repeat left bottom;
+	padding: 19px 22px 40px 18px;
+}
+
+.popup h1 {
+	background: url(../img/login/h1_bg.gif) no-repeat 5px top;
+	border-bottom: 3px solid #5FA454;
+	color: #333;
+	font-size: 2em;
+	margin-bottom: 16px;
+	padding: 7px 0 1px 57px;
+}
+
+.popup .popInner {
+	width: 402px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.popup .mailForm {
+	margin-bottom: 17px;
+}
+
+.popup .mailForm dt {
+	font-size: 1.2em;
+	padding: 3px 0 4px;
+}
+
+.popup .mailForm dd {
+	padding: 0 0 10px 14px;
+}
+
+.popup .mailForm dd input {
+	width: 347px;
+}
+
+.popup .mailForm .check {
+	font-size: 1.2em;
+	margin: 0 0 1px 11px;
+}
+
+.popup .mailForm .check input {
+	vertical-align: middle;
+}
+
+.popup .mailForm .submit {
+	width: 311px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.popup .mailForm .submit li {
+	float: left;
+	padding-top: 11px;
+}
+
+.popup .mailForm .submit li input {
+	vertical-align: top;
+}
+
+.popup p {
+	clear: both;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.popup p a {
+	color: #912828;
+	display: block;
+	font-size: 1.25em;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+.popup p a:hover {
+	text-decoration: none;
+}
+
+.popup .text {
+	margin-bottom: 20px;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.popup .link {
+	margin-bottom: 13px;
+	text-align: center;
+}
+.popup2 {
+	padding: 0px;
+}
+
+.popup2 h1 {
+	border-bottom: 3px solid #5FA454;
+	color: #333;
+	font-size: 2em;
+	margin-bottom: 16px;
+	padding: 7px 0 1px 57px;
+	background-image: url(../img/login/h1_bg02.gif);
+	background-repeat: no-repeat;
+	background-position: 5px top;
+}
+
+.popup2 .popInner {
+	margin: 0 auto;
+	width: 402px;
+}

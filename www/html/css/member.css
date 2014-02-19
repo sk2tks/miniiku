@@ -1,0 +1,150 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+body {
+	width: 548px;
+	min-width: 548px !important;
+}
+
+.popBox {
+	background: url(../img/member/pop_top_bg.png) no-repeat left top;
+	padding-top: 4px;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	width: 548px;
+}
+
+.popBox .close {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 26px;
+	height: 26px;
+	background: url(../img/member/close.gif) no-repeat;
+}
+
+.popup {
+	background: url(../img/member/pop_btm_bg.png) no-repeat left bottom;
+	padding: 19px 22px 40px 18px;
+}
+
+.popup h1 {
+	background: url(../img/member/h1_bg.gif) no-repeat 5px top;
+	color: #333;
+	font-size: 2em;
+	margin-bottom: 16px;
+	padding: 7px 0 1px 57px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #FF8FA4;
+}
+.popup a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+.popup .popInner {
+	margin: 0 auto;
+	width: 402px;
+}
+
+.popup .mailForm {
+	margin-bottom: 17px;
+}
+
+.popup .mailForm dt {
+	font-size: 1.2em;
+	padding: 3px 0 4px;
+}
+
+.popup .mailForm dd {
+	padding: 0 0 10px 14px;
+}
+
+.popup .mailForm dd input {
+	width: 347px;
+}
+
+.popup .mailForm .check {
+	font-size: 1.2em;
+	margin: 0 0 1px 0px;
+	text-align: center;
+}
+
+.popup .mailForm .check input {
+	vertical-align: middle;
+}
+
+.popup .mailForm .submit {
+	margin-left: 11px;
+	width: 354px;
+}
+
+.popup .mailForm .submit li {
+	float: left;
+	padding-top: 11px;
+}
+
+.popup .mailForm .submit li input {
+	vertical-align: top;
+}
+
+.popup p {
+	clear: both;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.popup p a {
+	color: #912828;
+	display: block;
+	font-size: 1.25em;
+	margin-top: 20px;
+	text-decoration: underline;
+}
+
+.popup p a:hover {
+	text-decoration: none;
+}
+
+.popup .text {
+	margin-bottom: 40px;
+}
+
+.popup .link {
+	margin-bottom: 13px;
+	text-align: center;
+}
+
+
+.radioBox .radioList li {
+	color: #070707;
+	float: left;
+	font-size: 1.1em;
+	width: 160px;
+	margin-left: 40px;
+	padding-top: 1px;
+	padding-right: 0;
+	padding-bottom: 15px;
+	padding-left: 0;
+}
+
+.radioBox .radioList .liSpecial {
+	padding-top: 0;
+	width: 520px;
+}
+
+.radioBox .radioList li span {
+	vertical-align: top;
+}
+
+.radioBox .radioList li span input {
+	vertical-align: top;
+}
+
+.radioBox .radioList .liSpecial .inputText {
+	margin-left: 19px;
+	width: 295px;
+}

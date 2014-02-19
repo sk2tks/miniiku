@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts .ttl {
+	border-bottom: 4px solid #6FBA31;
+	margin-bottom: 12px;
+	position: relative;
+	zoom: 1;
+}
+
+#conts .ttl p {
+	background: url(../img/mypage/ttl_bg.gif) no-repeat left bottom;
+	color: #253515;
+	font-size: 1.3em;
+	line-height: 1.3;
+	padding: 12px 0 0 34px;
+	width: 530px;
+}
+
+#conts .ttl p span {
+	font-size: 1.4em;
+}
+
+#conts .ttl .link {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#conts h2 {
+	background: url(../img/owner/h2_bg03.gif) no-repeat left top;
+}
+
+#conts .h201 {
+	padding-bottom: 5px;
+	font-size: 1.8em;
+	border-bottom: 3px solid #ffbb85;
+	background: url(../img/owner/h2_bg.gif) no-repeat left top;
+}
+
+#conts .owner {
+	width: 740px;
+	margin: 0 auto 15px;
+}
+
+#conts .owner .inner {
+	padding: 0 20px 15px;
+	background: url(../img/owner/img_btm.gif) no-repeat left bottom;
+	zoom: 1;
+}
+
+#conts .owner .dis,
+#conts .owner .dis img {
+	display: block;
+	vertical-align: baseline;
+}
+
+#conts .owner .colorRed {
+	color: #dc0000;
+}
+
+#conts .owner p {
+	margin-bottom: 8px;
+	font-size: 1.3em;
+	color: #0f0f0f;
+}
+
+#conts .owner table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#conts .owner table th,
+#conts .owner table td {
+	padding: 5px 0;
+	font-size: 1.4em;
+	color: #0f0f0f;
+	line-height: 1.5;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+#conts .owner table input {
+	width: 265px;
+}
+
+#conts .owner table .email {
+	width: 368px;
+}
+
+#conts .owner .submit {
+	padding-top: 10px;
+	text-align: center;
+}
+
+#conts .h202 {
+	background: url(../img/owner/h2_bg01.gif) no-repeat 5px top;
+	margin-bottom: 5px;
+	padding-right: 5px;
+}
+
+#conts .h202 a {
+	margin-top: -10px;
+	float: right;
+	position: relative;
+	zoom: 1;
+}
+
+#conts .h202 a img {
+}
+
+#conts .resultUl {
+	margin: 0 6px;
+}
+
+#conts .resultUl li {
+	padding: 7px 9px;
+	width: 720px;
+}
+
+#conts .resultUl .floatL {
+	margin-right: 18px;
+}
+
+#conts .resultUl dl {
+	width: 530px;
+	float: left;
+}
+
+#conts .resultUl .OwnBtn {
+	float: right;
+}
+
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}

@@ -1,0 +1,146 @@
+﻿@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	background: url(../../img/client/spot/h2_bg.gif) no-repeat 10px 2px;
+}
+
+body#index2 #conts .linkUl .tab01 a {
+    background: url(../../img/client/spot/ind2_link01_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab02 a {
+    background: url(../../img/client/spot/ind2_link02_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab03 a {
+    background: url(../../img/client/spot/ind2_link03_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab04 a {
+    background: url(../../img/client/spot/ind2_link04_on.jpg) no-repeat;
+}
+
+body#index2 #conts .tabBox .tableA th {
+	color: #464646;
+	text-align: center;
+}
+
+body#index2 #conts .tabBox .tableA td {
+	color: #464646;
+}
+
+body#index2 #conts .tabBox .tableA th span {
+	display: block;
+}
+
+body#index2 #conts .tabBox .tableA th span a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+body#index2 #conts .tabBox .tableA td span {
+	margin-right: 8px;
+}
+
+body#index2 #conts .tabBox .tableA td input {
+	color: #464646;
+	margin: 0 4px;
+	width: 130px;
+}
+
+body#index2 #conts .tabBox .tableA td textarea {
+	color: #464646;
+	font-size: 1.0em;
+	height: 45px;
+	width: 620px;
+}
+
+body#index2 #conts .tabBox .infoBox02 .tdStyle {
+    color: #D36C05;
+}
+
+body#index2 #conts .tabBox .infoBox02 .tdStyle02 {
+    color: #219723;
+}
+
+body#index2 #conts .tabInner .tabBox .features .textBox h4 {
+	font-weight: bold;
+}
+
+body#index #conts .linkUl .tab01 a {
+    background: url(../../img/client/spot/link01_on.jpg) no-repeat;
+}
+
+body#index #conts .linkUl .tab02 a {
+    background: url(../../img/client/spot/link02_on.jpg) no-repeat;
+}
+
+body#index #conts .linkUl .tab03 a {
+    background: url(../../img/client/spot/link03_on.jpg) no-repeat;
+}
+
+body#index #conts .linkUl .tab04 a {
+    background: url(../../img/client/spot/link04_on.jpg) no-repeat;
+}
+
+body#index #conts .tabBox .tableA {
+	clear: both;
+	margin-bottom: 16px;
+}
+
+body#index #conts .tabBox .tableA th {
+	color: #464646;
+	font-size: 1.6em;
+	text-align: left;
+	padding-left: 20px;
+}
+
+body#index #conts .tabBox .tableA td {
+	color: #464646;
+}
+
+body#index #conts .text {
+	margin-bottom: 15px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+body#index #conts .text span {
+	float: left;
+	margin-top: 2px;
+	width: 300px;
+}
+
+body#index #conts .text a {
+	float: right;
+}
+
+body#index #conts .text a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+body#index #conts .map {
+	margin-left: 5px;
+}
+
+body#index #conts .map a {
+	display: inline-block;
+	margin-top: 5px;
+	color: #2224FF;
+}
+
+body#index #conts .tabBox .infoBox02 .tdStyle {
+    color: #D36C05;
+}
+
+body#index #conts .tabBox .infoBox02 .tdStyle02 {
+    color: #219723;
+}
+
+#conts .tabBox .thSpecial {
+	padding-left: 23px;
+	text-align: left !important;
+}

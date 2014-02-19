@@ -1,0 +1,273 @@
+﻿@charset "utf-8";
+/*--------------------------------------
+common
+--------------------------------------*/
+html, body, div, h1, h2, h3, p, a, ul, li {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+body {
+	font-size: 62.5%;
+	font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+ul {
+	list-style: none;
+}
+.container{
+	width: 980px;
+	margin: 0 auto;
+	background: url("../img/base.jpg") repeat-y center;
+}
+.header, .header h1, .header h1 a, .catch, .catch a, .troubles h2, .troubles a, .about h2, .about h3, .message h2, .message h3, .message .to-miniku a {
+	display: block;
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-indent: -9999px;
+}
+
+/*--------------------------------------
+header
+--------------------------------------*/
+.header{
+	background-image: url("../img/title_base01.jpg");
+}
+.header h1 {
+	margin-left: 304px;
+	background: url("../img/title_base02.jpg") right top;
+}
+.header h1 a {
+	width: 452px;
+	height: 192px;
+	background-image: url("../img/title_logo.jpg");
+}
+.catch {
+	position: relative;
+	top: 5px;
+	height: 85px;
+	background-image: url("../img/title_lead.jpg");
+}
+.catch a{
+	position: absolute;
+	right: 0;
+	top: -68px;
+	width: 224px;
+	height: 153px;
+	background-image: url("../img/title_linkbtn_off.jpg");
+}
+.catch a:hover{
+	background-image: url("../img/title_linkbtn_on.jpg")
+}
+
+/*--------------------------------------
+contents
+--------------------------------------*/
+/* troubles */
+.troubles{
+	position: relative;
+	top: 6px;
+	height: 252px;
+}
+.troubles h2{
+	width: 350px;
+	height: 122px;
+	background-image: url("../img/main01_title.jpg");
+}
+.troubles a{
+	position: absolute;
+}
+.nursery a,.spot a{
+	top: 0;
+	height: 122px;
+}
+.nursery a {
+	left: 350px;
+	width: 290px;
+	background-image: url("../img/main01_q01_off.jpg");
+}
+.nursery a:hover {
+	background-image: url("../img/main01_q01_on.jpg");
+}
+.spot a {
+	left: 640px;
+	width: 340px;
+	background-image: url("../img/main01_q02_off.jpg");
+}
+.spot a:hover {
+	background-image: url("../img/main01_q02_on.jpg");
+}
+.culture a, .park a, .community a{
+	top: 122px;
+	height: 130px;
+}
+.culture a {
+	left: 0;
+	width: 350px;
+	background-image: url("../img/main01_q03_off.jpg");
+}
+.culture a:hover {
+	background-image: url("../img/main01_q03_on.jpg");
+}
+.park a {
+	left: 350px;
+	width: 290px;
+	background-image: url("../img/main01_q04_off.jpg");
+}
+.park a:hover {
+	background-image: url("../img/main01_q04_on.jpg");
+}
+.community a {
+	left: 640px;
+	width: 340px;
+	background-image: url("../img/main01_q05_off.jpg");
+}
+.community a:hover {
+	background-image: url("../img/main01_q05_on.jpg");
+}
+
+/* about */
+.about h2{
+	height: 130px;
+	margin-top: 6px;
+	background-image: url("../img/main02_title.jpg");
+}
+.about ul{
+	margin-left: 15px;
+	overflow:hidden;
+}
+.about ul:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.about li{
+	float:left;
+	width: 297px;
+	margin-left: 15px;
+	padding-bottom: 19px;
+	background: url("../img/main02_q_btm.jpg") no-repeat bottom left;
+}
+.about li p {
+	min-height: 126px;
+	padding: 16px 20px 8px;
+	font-size: 1.4em;
+	text-align: center;
+	background: url("../img/main02_q_base.jpg") repeat-y top left;
+}
+.about h3 {
+	height: 66px;
+}
+.about .what h3{
+	background-image: url("../img/main02_q01_title.jpg");
+}
+.about .contents h3{
+	background-image: url("../img/main02_q02_title.jpg");
+}
+.about .region h3{
+	background-image: url("../img/main02_q03_title.jpg");
+}
+
+/* message */
+.message h2{
+	height: 113px;
+	margin-left: 32px;
+	background-image: url("../img/main03_title.jpg");
+}
+.message ul{
+	margin-left: 30px;
+	overflow:hidden;
+}
+.message ul:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+.message li{
+	float:left;
+	width: 460px;
+	padding-bottom: 50px;
+}
+.message .tokyo{
+	background: url("../img/main03_chuoku_btm.jpg") no-repeat bottom left;
+}
+.message .japan{
+	background: url("../img/main03_zenkoku_btm.jpg") no-repeat bottom left;
+}
+.message li p {
+	min-height: 110px;
+	padding: 5px 25px 0;
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+.message .tokyo p{
+	background: url("../img/main03_chuoku_base.jpg") repeat-y top left;
+}
+.message .japan p{
+	background: url("../img/main03_zenkoku_base.jpg") repeat-y top left;
+}
+.message h3 {
+	height: 120px;
+}
+.message .tokyo h3{
+	background: url("../img/main03_chuoku_title.jpg");
+}
+.message .japan h3{
+	background: url("../img/main03_zenkoku_title.jpg");
+}
+.message .to-miniku {
+	text-align: center;
+}
+.message .to-miniku a{
+	width: 840px;
+	height: 261px;
+	margin: 0 auto;
+	background-image: url("../img/main03_miniku_btn_off.jpg");
+}
+.message .to-miniku a:hover {
+	background-image: url("../img/main03_miniku_btn_on.jpg");
+}
+
+/* contact */
+.contact ul{
+	margin: 22px 0 27px 510px;
+}
+.contact li{
+	width: 442px;
+	height: 36px;
+	margin-bottom: 10px;
+	background: url("../img/main04_linkbox.png") no-repeat top left;
+}
+.contact a {
+	display:block;
+	height: 100%;
+	padding-left: 35px;
+	color: #ff6990;
+	font-weight: bold;
+	font-size: 1.4em;
+	line-height: 36px;
+	text-decoration: none;
+	background: url("../img/main04_linkbox_arrow.gif") no-repeat 15px center;
+}
+.contact a:hover {
+	color: #e2007f;
+}
+
+/*--------------------------------------
+footer
+--------------------------------------*/
+.footer{
+	height: 124px;
+	background: url("../img/footer.jpg") no-repeat left top;   
+}
+.footer p{
+	padding-top: 90px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #fff;
+}

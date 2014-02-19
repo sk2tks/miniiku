@@ -1,0 +1,145 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #EDD47A;
+}
+
+#gNavi >li:nth-child(3) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	font-size: 14px;
+}
+
+#main h3 {
+	font-size: 15px;
+	line-height: 1;
+}
+
+#main p {
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0 11px 16px;
+}
+
+#main .tabSection .subTab li {
+	width: 20%;
+	float: left;
+}
+
+#main .tabSection .subTab li a {
+	margin: 0 auto;
+	width: 88%;
+	display: block;
+}
+
+#main .tabSection .subTabBox01 {
+	border-top: 6px solid #D6AFF3;
+}
+
+#main .tabSection .subTabBox02 {
+	border-top: 6px solid #97D5CF;
+}
+
+#main .tabSection .subTabBox03 {
+	border-top: 6px solid #8DE4A6;
+}
+
+#main .tabSection .subTabBox04 {
+	border-top: 6px solid #FFBA48;
+}
+
+#main .tabSection .subTabBox05 {
+	border-top: 6px solid #FAB3F7;
+}
+
+/*------------------------------------------------------------
+	03
+------------------------------------------------------------*/
+#main .tabSection .text {
+	color: #1a1a1a;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 10px 4px;
+}
+
+#main .tabSection .ttl {
+	color: #222;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0 15px;
+}
+
+#main .tabSection .comTable01.table01 {
+	margin: 0 auto 13px;
+	width: 98%;
+}
+
+/*------------------------------------------------------------
+	04
+------------------------------------------------------------*/
+#main .tabSection .numBox {
+	border: 1px solid #D9D9D9;
+	background-color: #F1F1F1;
+	margin: 0 auto 8px;
+	padding: 6px 15px 5px 10px;
+	width: 69%;
+}
+
+#main .tabSection .numBox .numImg {
+	float: left;
+	width: 39%;
+}
+
+#main .tabSection .numBox .numTable {
+	float: right;
+	width: 55%;
+}
+
+#main .tabSection .numBox .numTable .comTable01 th,
+#main .tabSection .numBox .numTable .comTable01 td {
+	border: 2px solid #E0E0E0;
+	color: #7A7A7A;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 2px 5px 2px;
+}
+
+#main .tabSection .numBox .numTable .comTable01 th {
+	background-color: #E7F4E0;
+}
+
+#main .tabSection .numBox .numTable .comTable01 td {
+	text-align: center;
+}
+
+#main .tabSection .text02 {
+	font-size: 11px;
+	text-align: center;
+	margin-bottom: 13px;
+}
+
+/*------------------------------------------------------------
+	05
+------------------------------------------------------------*/
+#main .tabSection .text03 {
+	color: #38393b;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 1.3;
+	margin: 0 7px;
+}
+
+#main .tabSection .link04 {
+	margin: 0 auto;
+	padding: 28px 0;
+	width: 32%;
+}
+
+#main .pageNavi {
+	margin-bottom: 15px;
+}

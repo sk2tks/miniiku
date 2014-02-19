@@ -1,0 +1,49 @@
+﻿@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#main .indTab li {
+	float: left;
+	width: 50%;
+}
+
+#main .indTab li a {
+	padding: 9px 37px 5px;
+	display: block;
+	position: relative;
+	border-top: 4px solid #FFF;
+}
+
+#main .indTab li a:before {
+	display: inline-block;
+	width: 23px;
+	height: 23px;
+	position: absolute;
+	left: 10px;
+	top: 20%;
+	content: "";
+	background: url(../img/index/img_04.gif) no-repeat left top;
+	background-size: 100%;
+}
+
+#main .indTab li a {
+	margin-right: 1px;
+	background-color: #FCB4DA;
+}
+
+#main .indTab .on a {
+	border-top: 4px solid #FCB4DA;
+}
+
+#main .indTab li:last-child a {
+	background-color: #80D669;
+}
+
+#main .indTab li:last-child a:before {
+	background: url(../img/index/img_05.gif) no-repeat left top;
+	background-size: 100%;
+}
+
+#main .indTab .on:last-child a {
+	border-top: 4px solid #80D669;
+}

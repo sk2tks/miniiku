@@ -1,0 +1,359 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	デフォルトスタイル
+------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+
+	font-size: 1em;
+}
+
+body {
+	font-size: 100%;
+}
+
+body,
+table,
+input, textarea, select, option {
+	font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #444;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #444;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+	レイアウト
+------------------------------------------------------------*/
+body {
+	color: #333;
+	text-align: center;
+	line-height: 1.5;
+	min-width: 982px;
+}
+
+#container {
+	background-color: #FFF;
+	text-align: left;
+}
+
+#main {
+	margin: 0 auto;
+	width: 980px;
+}
+
+	* html #main {
+		zoom: 1;
+	}
+
+	*+html #main {
+		zoom: 1;
+	}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+	ヘッダー
+------------------------------------------------------------*/
+#header {
+	margin-bottom: 12px;
+}
+
+#header .hBox {
+	padding: 0 0 6px 3px;
+	margin: 0 auto;
+	width: 977px;
+}
+
+#header .lBox {
+	float: left;
+}
+
+#header h1 {
+	color: #404040;
+	font-size: 1.2em;
+	line-height: 1.6;
+	font-weight: normal;
+	margin-bottom: 3px;
+	width: 470px;
+}
+
+#header .logo {
+	margin-left: 3px;
+}
+
+#header .ulBox ul a {
+	color: #231815;
+}
+
+#header .rBox {
+	float: right;
+	margin-top: 4px;
+	width: 500px;
+}
+
+#header .rBox li {
+	float: left;	
+}
+
+#header .rBox .ulLink {
+	float: right;
+	padding-bottom: 15px;
+}
+
+#header .rBox .ulLink li {
+	padding: 2px 0 0 7px;
+	font-size: 1.3em;
+}
+
+#header .rBox .ulLink a {
+	margin: 0 3px;
+}
+
+#header .rBox .ulLink .login {
+	padding-top: 0;
+}
+
+#header .rBox .login a {
+	margin: 0;
+}
+
+#header .rBox .ulList {
+	padding-right: 1px;
+	float: right;
+}
+
+#header .rBox .ulList li {
+	padding-left: 14px;
+}
+
+#header a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	グローバルナビ
+------------------------------------------------------------*/
+#gNavi {
+	clear: both;
+	margin: 0 auto;
+	width: 982px;
+}
+
+#gNavi li {
+	float: left;
+}
+
+/*------------------------------------------------------------
+	コンテンツ
+------------------------------------------------------------*/
+#conts {
+	float: left;
+	width: 752px;
+}
+
+/*------------------------------------------------------------
+	サイドバー
+------------------------------------------------------------*/
+#sideBar {
+	width: 216px;
+	float: right;
+}
+
+#sideBar .genre {
+	margin: 0 0 9px 1px;
+	padding-top: 5px;
+	background: #EFFAF0 url(../../img/common/s_genre_bg.gif) no-repeat left top;
+}
+
+#sideBar .genre .bgBox {
+	padding: 0 0 8px 6px;
+	background: url(../../img/common/s_bgbox_bg.gif) no-repeat left bottom;
+}
+
+#sideBar .genre .ttl {
+	font-size: 1.3em;
+}
+
+#sideBar .genre select {
+	color: #333;
+	font-size: 1.5em;
+	height: 24px;
+	margin-bottom: 7px;
+	width: 204px;
+}
+
+#sideBar .genre input {
+	float: left;
+}
+
+#sideBar .genre .searchTxt {
+	margin-right: 4px;
+	border: 1px solid #E4E4E4;
+	height: 21px;
+	width: 156px;
+}
+
+    *+html #sideBar .genre .searchTxt {
+		width: 153px;
+	}
+
+#sideBar .imgBox {
+	margin: 0 1px 12px;
+	padding: 6px 0;
+	border: 1px solid #CCC;
+}
+
+#sideBar .imgBox .photo {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+#sideBar .imgBox .photo img {
+	border: 5px solid #EEE;
+}
+
+#sideBar .imgBox ul {
+	margin: 0 0 3px 13px;
+}
+
+#sideBar .imgBox li {
+	font-size: 1.3em;
+	padding-bottom: 1px;
+}
+
+#sideBar .imgBox span {
+	font-weight: bold;
+}
+
+#sideBar .imgBox .num {
+	color: #88a930;
+	font-size: 1.5em;
+	font-weight: normal;
+	margin-left: 17px;
+}
+
+#sideBar .link {
+	text-align: center;
+}
+
+#sideBar .banner {
+	margin-bottom: 8px;
+}
+
+#sideBar .banner li {
+	float: left;
+	padding-top: 2px;
+}
+
+#sideBar .banner img {
+	display: block;
+}
+
+#sideBar .freeSpace {
+	clear: both;
+	margin: 0 -1px;
+	position: relative;
+	text-align: center;
+	zoom: 1;
+}
+
+#sideBar a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	フッター
+------------------------------------------------------------*/
+#footer {
+	background: url(../../img/common/footer_bg.jpg) no-repeat center top;
+	clear: both;
+	padding: 98px 0 14px;
+}
+
+#footer .fBox {
+	margin: 0 auto;
+	width: 980px;
+}
+
+#footer .fBox ul {
+	margin: 0 0 10px 0px;
+}
+
+#footer .fBox li {
+	float: left;
+	font-size: 1.3em;
+	margin-right: 48px;
+}
+
+#footer .fBox li a {
+	color: #000;
+}
+
+#footer .fBox li img {
+	display: inline-block;
+	margin: -1px 5px 0 0;
+	vertical-align: top;
+}
+
+#footer .fBox p {
+	color: #000;
+	font-size: 1.2em;
+	text-align: center;
+}

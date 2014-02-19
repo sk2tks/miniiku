@@ -1,0 +1,199 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	background: url(../../img/client/community/h2_bg.gif) no-repeat left top !important;
+}
+
+/* cid=2 spot */
+
+body#index2 #conts .cid-2 .linkUl .tab01 a {
+    background: url(../../img/client/spot/ind2_link01_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-2 .linkUl .tab02 a {
+    background: url(../../img/client/spot/ind2_link02_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-2 .linkUl .tab04 a {
+    background: url(../../img/client/spot/ind2_link03_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-2 .linkUl .tab05 a {
+    background: url(../../img/client/spot/ind2_link04_on.jpg) no-repeat;
+}
+
+
+
+/* cid=3 culture */
+#conts .cid-3 .linkUl .tab01 a {
+	background: url(../../img/client/learn/link01_on.jpg) no-repeat;
+}
+
+#conts .cid-3 .linkUl .tab02 a {
+	background: url(../../img/client/learn/link02_on.jpg) no-repeat;
+}
+
+#conts .cid-3 .linkUl .tab04 a {
+	background: url(../../img/client/learn/link03_on.jpg) no-repeat;
+}
+
+#conts .cid-3 .linkUl .tab05 a {
+	background: url(../../img/client/learn/link04_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-3 .linkUl .tab01 a {
+	background: url(../../img/client/learn/ind02_link01_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-3 .linkUl .tab02 a {
+	background: url(../../img/client/learn/ind02_link02_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-3 .linkUl .tab03 a {
+	background: url(../../img/client/learn/ind02_link03_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-3 .linkUl .tab04 a {
+	background: url(../../img/client/learn/ind02_link04_on.jpg) no-repeat;
+}
+
+body#index2 #conts .cid-3 .linkUl .tab05 a {
+	background: url(../../img/client/learn/ind02_link05_on.jpg) no-repeat;
+}
+/* cid=4 community */
+
+
+#conts .cid-4 .linkUl .tab01 a {
+	background: url(../../img/client/community/link01_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl .tab02 a {
+	background: url(../../img/client/community/link02_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl .tab04 a {
+	background: url(../../img/client/community/link03_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl .tab05 a {
+	background: url(../../img/client/community/link04_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl01 .tab01 a {
+	background: url(../../img/client/community/ind02_link01_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl01 .tab02 a {
+	background: url(../../img/client/community/ind02_link02_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl01 .tab04 a {
+	background: url(../../img/client/community/ind02_link03_on.jpg) no-repeat !important;
+}
+
+#conts .cid-4 .linkUl01 .tab05 a {
+	background: url(../../img/client/community/ind02_link04_on.jpg) no-repeat !important;
+}
+
+
+
+
+
+
+
+#conts .tabBox01 {
+	margin: 0 15px 0 20px;
+}
+
+#conts .tabBox p {
+	color: #444;
+	font-size: 1.5em;
+}
+
+#conts .tabBox .comTable01 {
+	margin-bottom: 10px;
+}
+
+#conts .tabBox .comTable01 th,
+#conts .tabBox .comTable01 td {
+	color: #444;
+	font-size: 1.4em;
+	border-left: none;	
+	border-right: none;	
+	border-top: none;
+	border-bottom: 1px solid #CFCFCF !important;
+	padding: 8px 10px 5px;
+}
+
+#conts .tabBox .comTable01 th {
+	background-color: #FFF;
+	font-weight: normal;
+}
+
+#conts .tabBox .comTable01 td li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#conts .tabBox .comTable01 td textarea {
+	width: 536px;
+}
+
+#conts .tabBox .comTable01 td .name {
+	width: 270px;
+}
+
+#conts .tabBox .comTable01 td .email {
+	width: 392px;
+}
+
+#conts .tabBox .submit {
+	text-align: center;
+}
+
+#conts .tabBox .submit input {
+	vertical-align: top;
+}
+
+#conts .tabBox .fEmail {
+	width: 385px;
+}
+
+/* graph */
+#conts .jScroll td .inner {
+	margin-bottom: 5px;
+}
+
+#conts .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+#conts .photoBox_graphbox {
+	float: right;
+	margin-top: 22px;
+	margin-bottom: 2px;
+	height: 75px;
+	width: 95px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #333;
+}
+#conts .photoBox_graph1 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .photoBox_graph2 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .photoBox_graph3 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+
+
+
+
+

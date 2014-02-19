@@ -1,0 +1,53 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+.comPopup #main .clientForm p {
+	color: #222;
+	margin: 0 8px 5px;
+}
+
+.comPopup #main .clientForm .radioList {
+	margin: 0 5px 15px;
+}
+
+.comPopup #main .clientForm .radioList input {
+	color: #070707;
+	font-size: 14px;
+	width: 70%;
+}
+
+.comPopup #main .clientForm .radioList li {
+	color: #070707;
+}
+
+.comPopup #main .clientForm .checkBox {
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.comPopup #main .clientForm .checkBox .point {
+	position: absolute;
+	left: 30%;
+	top: 17.5%;
+}
+
+.comPopup #main .clientForm .checkBox .point:nth-child(2) {
+	top: 37%;
+}
+
+.comPopup #main .clientForm .checkBox .point:nth-child(3) {
+	top: 55%;
+}
+
+.comPopup #main .clientForm .checkBox .point:nth-child(4) {
+	top: 74%;
+}
+
+.comPopup #main .clientForm .checkBox .point:last-child {
+	top: 94%;
+}
+
+.comPopup #main .clientForm .checkBox .point img {
+	margin: -10px 0 0 -10px;
+}

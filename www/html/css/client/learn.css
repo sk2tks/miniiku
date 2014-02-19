@@ -1,0 +1,103 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	background: url(../../img/client/learn/h2_bg.gif) no-repeat left 4px;
+}
+
+#conts .comH3 span {
+	background: none;
+	border: none;
+}
+
+#conts .tabBox01 {
+	margin: 0 15px 0 20px;
+}
+
+#conts .tabBox p {
+	color: #444;
+	font-size: 1.5em;
+}
+
+#conts .tabBox .comTable01 {
+	margin-bottom: 10px;
+}
+
+#conts .tabBox .comTable01 th,
+#conts .tabBox .comTable01 td {
+	color: #444;
+	font-size: 1.4em;
+	border-left: none;	
+	border-right: none;	
+	border-top: none;
+	border-bottom: 1px solid #CFCFCF !important;
+	padding: 8px 7px 5px;
+}
+
+#conts .tabBox .comTable01 th {
+	background-color: #FFF;
+	font-weight: normal;
+}
+
+#conts .tabBox .comTable01 td li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#conts .tabBox .comTable01 td textarea {
+	height: 130px;
+	width: 536px;
+}
+
+#conts .tabBox .comTable01 td .name {
+	width: 270px;
+}
+
+#conts .tabBox .comTable01 td .email {
+	width: 392px;
+}
+
+#conts .tabBox .submit {
+	text-align: center;
+}
+
+#conts .tabBox .submit input {
+	vertical-align: top;
+}
+
+#conts .linkUl .tab01 a {
+	background: url(../../img/client/learn/link01_on.jpg) no-repeat;
+}
+
+#conts .linkUl .tab02 a {
+	background: url(../../img/client/learn/link02_on.jpg) no-repeat;
+}
+
+#conts .linkUl .tab03 a {
+	background: url(../../img/client/learn/link03_on.jpg) no-repeat;
+}
+
+#conts .linkUl .tab04 a {
+	background: url(../../img/client/learn/link04_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab01 a {
+	background: url(../../img/client/learn/ind02_link01_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab02 a {
+	background: url(../../img/client/learn/ind02_link02_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab03 a {
+	background: url(../../img/client/learn/ind02_link03_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab04 a {
+	background: url(../../img/client/learn/ind02_link04_on.jpg) no-repeat;
+}
+
+body#index2 #conts .linkUl .tab05 a {
+	background: url(../../img/client/learn/ind02_link05_on.jpg) no-repeat;
+}

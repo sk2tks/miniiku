@@ -1,0 +1,434 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+ デフォルトスタイル
+ ------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	border: 0;
+	outline: 0;
+	font-size: 1em;
+}
+
+body {
+	font-size: 62.5%;
+}
+
+body, table, input, textarea, select, option {
+	font-family: Meiryo, "メイリオ", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+:focus {
+	outline: 0;
+}
+
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+a:link {
+	color: #444;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #444;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: underline;
+}
+
+a:active {
+	color: #444;
+	text-decoration: underline;
+}
+
+a.about {
+	color: #66F;
+	text-decoration: underline;
+}
+
+/*------------------------------------------------------------
+ レイアウト
+ ------------------------------------------------------------*/
+body {
+	color: #333;
+	text-align: center;
+	line-height: 1.5;
+	min-width: 982px;
+}
+
+#container {
+	background-color: #FFF;
+	text-align: left;
+}
+
+#main {
+	margin: 0 auto;
+	width: 980px;
+}
+
+* html #main {
+	zoom: 1;
+}
+
+*+ html #main {
+	zoom: 1;
+}
+
+#main:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+/*------------------------------------------------------------
+ ヘッダー
+ ------------------------------------------------------------*/
+#header {
+	margin-bottom: 12px;
+	position: relative;
+	z-index: 1000;
+}
+
+#header .hBox {
+	padding: 1px 0 6px 3px;
+	margin: 0 auto;
+	width: 977px;
+}
+
+#header .lBox {
+	float: left;
+}
+
+#header h1 {
+	color: #404040;
+	font-size: 1.2em;
+	line-height: 1.6;
+	font-weight: normal;
+	margin-bottom: 3px;
+	width: 470px;
+}
+
+#header .logo {
+	margin-left: 3px;
+}
+
+#header .ulBox ul a {
+	color: #231815;
+}
+
+#header .rBox {
+	float: right;
+	margin-top: 4px;
+	width: 350px;
+}
+
+#header .rBox li {
+	float: left;
+}
+
+#header .rBox .hLink {
+	float: right;
+	padding-bottom: 15px;
+}
+
+#header .rBox .hLink .mailForm {
+	float: left;
+	font-size: 1.3em;
+	padding: 3px 11px 0 0;
+}
+
+#header .rBox .hLink .mailForm p {
+	display: inline;
+}
+
+#header .rBox .hLink .mailForm select {
+	height: 22px;
+	width: 99px;
+}
+
+#header .rBox .hLink .login {
+	float: left;
+	padding-top: 0;
+}
+
+#header .rBox .login a {
+	margin: 0;
+}
+
+#header .rBox .ulList {
+	float: right;
+	padding-right: 1px;
+}
+
+#header .rBox .ulList li {
+	padding-left: 14px;
+}
+
+#header .logo a:hover img, #header .ulList a:hover img, #header .login a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#header .naviBox {
+	clear: both;
+	margin: 0 auto;
+	width: 982px;
+}
+
+#header .naviBox .searchBox {
+	background: url(../../img/common/img/search_box_bg.gif) no-repeat left top;
+	float: right;
+	padding: 8px 5px 9px 7px;
+	width: 218px;
+}
+
+#header .naviBox .searchBox input {
+	float: left;
+}
+
+#header .naviBox .searchBox .searchTxt {
+	margin-right: 4px;
+	border: 1px solid #DCDCDC;
+	height: 21px;
+	width: 163px;
+}
+
+*+ html #header .naviBox .searchBox .searchTxt {
+	width: 161px;
+}
+
+/*------------------------------------------------------------
+ グローバルナビ
+ ------------------------------------------------------------*/
+#gNavi {
+	float: left;
+	width: 752px;
+}
+
+#gNavi li {
+	float: left;
+	position: relative;
+}
+
+#gNavi li ul {
+	position: absolute;
+	width: 151px;
+	left: 1px;
+	top: 42px;
+}
+
+/*------------------------------------------------------------
+ コンテンツ
+ ------------------------------------------------------------*/
+#conts {
+	float: left;
+	width: 752px;
+}
+
+/*------------------------------------------------------------
+ 検索切替
+ ------------------------------------------------------------*/
+* {
+	margin: 0;
+	padding: 0;
+}
+#tab-box ul {
+	width: 500px;
+	margin: 0 10px;
+	padding: 0;
+	list-style: none;
+}
+#tab-box ul li {
+	margin-right: 3px;
+	float: left;
+	display: inline;
+	font-size: 0;
+}
+#tab-box ul li a img {
+	outline: none;
+	border: none;
+}
+#tab-box div {
+	display: none;
+	width: 500px;
+	margin-bottom: 30px;
+	padding: 20px;
+	border: 3px solid #0066cc;
+}
+.clearFix:after {
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	zoom: 1;
+}
+/*------------------------------------------------------------
+ サイドバー
+ ------------------------------------------------------------*/
+#sideBar {
+	float: right;
+	width: 216px;
+}
+
+#sideBar .entry {
+	background-color: #E3F4DC;
+	border: 1px solid #CCC;
+	margin-bottom: 6px;
+	padding: 12px 10px 7px;
+}
+
+#sideBar .entry p {
+	margin-bottom: 6px;
+}
+
+#sideBar .entry .entryList {
+	background: #FFF url(../../img/common/img/entry_top_bg.gif) no-repeat left top;
+	margin-bottom: 6px;
+}
+
+#sideBar .entry .entryList ul {
+	padding: 19px 5px 4px;
+	background: url(../../img/common/img/entry_btm_bg.gif) no-repeat left bottom;
+}
+
+#sideBar .entry .entryList li {
+	background: url(../../img/common/img/icon02.gif) no-repeat left 5px;
+	font-size: 1.3em;
+	line-height: 1.3;
+	padding: 0 0 10px 12px;
+}
+
+#sideBar .banner {
+	padding-bottom: 10px;
+}
+
+#sideBar .banner li {
+	float: left;
+	padding-top: 2px;
+}
+
+#sideBar .banner img {
+	display: block;
+}
+
+#sideBar .freeSpace {
+	clear: both;
+	margin: 0 -1px;
+	position: relative;
+	text-align: center;
+	zoom: 1;
+}
+
+#sideBar a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#sideBar .imgBox {
+	margin: 0 1px 6px;
+	padding: 10px 0 6px;
+	border: 1px solid #CCC;
+}
+
+#sideBar .imgBox .photo {
+	text-align: center;
+}
+
+#sideBar .imgBox .photo img {
+	border: 5px solid #fff;
+	border-right: 5px solid #fff;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 1px 2px 4px rgba(0,0,0,.5);
+	box-shadow: 1px 1px 4px rgba(0,0,0,.5);
+	margin-bottom: 8px;
+}
+
+* html #sideBar .imgBox .photo {
+	margin-left: 1px;
+}
+
+*+ html #sideBar .imgBox .photo {
+	margin-left: 1px;
+}
+
+#sideBar .imgBox ul {
+	margin: 0 0 5px 13px;
+}
+
+#sideBar .imgBox li {
+	font-size: 1.3em;
+	margin-bottom: 10px;
+	letter-spacing: -1px;
+}
+
+#sideBar .imgBox span {
+	font-weight: bold;
+}
+
+#sideBar .link {
+	text-align: center;
+}
+
+/*------------------------------------------------------------
+ フッター
+ ------------------------------------------------------------*/
+#footer {
+	background: url(../../img/common/img/footer_bg.jpg) no-repeat center top;
+	clear: both;
+	padding: 98px 0 14px;
+}
+
+#footer .fBox {
+	margin: 0 auto;
+	width: 980px;
+}
+
+#footer .fBox ul {
+	margin: 0 0 10px 0px;
+}
+
+#footer .fBox li {
+	float: left;
+	font-size: 1.3em;
+	margin-right: 48px;
+}
+
+#footer .fBox li a {
+	color: #000;
+}
+
+#footer .fBox li img {
+	display: inline-block;
+	margin: -1px 5px 0 0;
+	vertical-align: top;
+}
+
+#footer .fBox p {
+	color: #000;
+	font-size: 1.2em;
+	text-align: center;
+}

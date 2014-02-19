@@ -1,0 +1,141 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #F9B3D7;
+}
+
+#gNavi >li:nth-child(2) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	margin-bottom: 6px;
+	font-size: 14px;
+}
+
+#main h2 span {
+	margin-top: 2px;
+	width: 91%;
+}
+
+#main .topUl {
+	margin: 0 4px;
+}
+
+#main .topUl li {
+	float: left;
+	padding-bottom: 5px;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main .topUl li span {
+	float: left;
+	width: 52px;
+}
+
+#main .topUl li .textSpan {
+	padding: 1px 0 0 5px;
+	width: 78%;
+	background-color: #F6E8F6;
+}
+
+#main .topUl .liStyle01 {
+	width: 58%;
+}
+
+#main .topUl .liStyle01 .textSpan {
+	width: 58%;
+	background-color: #FAEFE1;
+}
+
+#main .topUl .liStyle02 {
+	width: 42%;
+}
+
+#main .topUl .liStyle02 .textSpan {
+	margin: 0 4px;
+	width: 18%;	
+	background-color: #E1FFC9;
+}
+
+#main .title {
+	margin-bottom: 3px;
+	padding: 7px 7px 4px;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #F3C0DA;
+	background: -moz-linear-gradient(  
+                top,  
+                #FFF9FB 0%,  
+                #FFECF4 25%,  
+                #FFEBF4);  
+    background: -webkit-gradient(  
+                linear, left top, left bottom,   
+                from(#FFF9FB),  
+                color-stop(0.25, #FFECF4),  
+                to(#FFEBF4));
+}
+
+#main .text {
+	margin: 0 6px 6px;
+	font-size: 10px;
+	line-height: 1.8;
+}
+
+#main .linkUl {
+	margin: 0 auto 12px;
+	width: 312px;
+}
+
+#main .linkUl li {
+	width: 48%;
+	float: left;
+}
+
+#main .linkUl .liStyle {
+	padding: 2px 7px 7px;
+	width: 45.5%;
+	float: right;
+	background-color: #FCBFE0;
+	border-radius: 8px; 
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+
+#main .linkUl .liStyle .linkTitle {
+	padding: 3px 0 0 18px;
+	font-weight: bold;
+	background: url(../img/ikuji/3x2_img.gif) no-repeat left top;
+	background-size: 16px 17px;
+}
+
+#main .linkUl .liStyle ul {
+	padding-bottom: 3px;
+	background-color: #FFF;
+}
+
+#main .linkUl .liStyle li {
+	padding: 6px 2px 0;
+	width: auto;
+	float: none;
+}
+
+#main .linkUl .liStyle li a {
+	display: inline-block;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+#main .linkUl .liStyle li a:hover {
+	text-decoration: none;
+}
+
+#main h4 {
+	background-color: #F87DBC;
+}
+
+
+

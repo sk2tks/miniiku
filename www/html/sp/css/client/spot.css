@@ -1,0 +1,72 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #EDD47A;
+}
+
+#gNavi >li:nth-child(3) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	font-size: 14px;
+}
+
+#main h3 {
+	font-size: 15px;
+	line-height: 1;
+}
+
+#main p {
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0 11px 16px;
+}
+
+#main .tabSection .subTab li {
+	width: 20%;
+	float: left;
+}
+
+#main .tabSection .subTab li a {
+	margin: 0 auto;
+	width: 88%;
+	display: block;
+}
+
+#main .tabSection .subTabBox01 {
+	border-top: 6px solid #D6AFF3;
+}
+
+#main .tabSection .subTabBox02 {
+	border-top: 6px solid #97D5CF;
+}
+
+#main .tabSection .subTabBox03 {
+	border-top: 6px solid #FFBA48;
+}
+
+#main .tabSection .subTabBox04 {
+	border-top: 6px solid #8DE4A6;
+}
+
+/*------------------------------------------------------------
+	03
+------------------------------------------------------------*/
+#main .tabSection .numTxt {
+	padding-bottom: 7px;
+}
+
+#main .subTabBox04 .infoDl {
+	margin-bottom: 10px;
+}
+
+#main .tabSection .subTabBox04 .map {
+	margin-bottom: 17px;
+}
+
+#main .pageNavi {
+	margin-bottom: 15px;
+}

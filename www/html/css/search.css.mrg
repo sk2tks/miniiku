@@ -1,0 +1,641 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts h2 {
+	background: url(../img/search/h2_bg.gif) no-repeat left 1px;
+	border-bottom: 3px solid #87C374;
+	font-size: 2.0em;
+	line-height: 1.2;
+	margin-bottom: 3px;
+	padding: 5px 47px 2px;
+}
+
+#conts .map {
+	background-color: #fff;
+	margin-bottom: 11px;
+	padding: 9px 10px 5px;
+}
+
+#conts .map a {
+	color: #0000E9;
+	display: inline-block;
+	margin-top: 9px;
+}
+#conts .formBox {
+	margin: 0 0 11px 5px;
+}
+
+#conts .formBox .formDl {
+	float: left;
+	width: 140px;
+}
+
+#conts .formBox .formDl dt {
+	float: left;
+	font-size: 1.3em;
+	margin-top: 6px;
+	width: 40px;
+}
+
+#conts .formBox .formDl dd {
+	float: right;
+}
+
+#conts .formBox .formDl dd select {
+	height: 22px;
+	margin-top: 3px;
+	width: 100px;
+}
+
+#conts .formBox .formDlR {
+	float: right;
+	width: 235px;
+}
+
+#conts .formBox .formDlR dt {
+	width: 65px;
+}
+
+#conts .formBox .formDlR dd {
+	width: 170px;
+}
+
+#conts .formBox .formDlR dd input {
+	float: left;
+}
+
+#conts .formBox .formDlR dd .fKeyword {
+	border: 1px solid #D9D9D9;
+	color: #333;
+	height: 25px;
+	padding: 0 0 0 13px;
+	vertical-align: middle;
+	width: 115px;
+}
+
+#conts .formBox .formDlR .fSearch {
+	margin-top: 1px;
+	float: right;
+}
+
+#conts .formBox ul {
+	float: left;
+	padding-left: 7px;
+	width: 360px;
+}
+
+#conts .formBox ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+#conts .jScroll {
+	border: 1px solid #E0E0E0;
+	height: 680px;
+	clear: both;
+	padding: 3px 2px;
+	overflow-y: scroll;
+}
+
+#conts .jScroll table {
+	border-collapse: collapse;
+	width: 728px;
+}
+
+#conts .jScroll th,
+#conts .jScroll td {
+	border: 1px solid #E0E0E0;
+	text-align: left;
+	vertical-align: top;
+	word-break: break-all;
+}
+
+#conts .jScroll th {
+	background-color: #EAEAEA;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#conts .jScroll td {
+	padding: 5px;
+}
+
+#conts .jScroll td .pLink {
+	border-bottom: 2px solid #E0E0E0;
+	font-size: 1.6em;
+	margin-bottom: 14px;
+	padding: 6px 0 3px 15px;
+}
+
+#conts .jScroll td .pLink span {
+	float: left;
+	width: 148px;
+}
+
+#conts .jScroll td .pLink a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#conts .jScroll td .pLink a:hover {
+	text-decoration: none;
+}
+
+#conts .jScroll td .pLink .textR {
+	font-size: 0.8em;
+	float: right;
+	margin-top: 4px;
+}
+
+#conts .jScroll td .pLink .textR a {
+	margin-left: 12px;
+}
+
+#conts .jScroll td .pLink .textR img {
+	margin-top: -4px;
+	zoom: 1;
+}
+
+#conts .jScroll td .text {
+	color: #444;
+	font-size: 1.4em;
+	margin: 0 11px;
+}
+
+#conts .jScroll td .text span {
+	padding-top: 9px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#conts .jScroll td .text .color {
+	color: #619e4d;
+	display: inline;
+}
+
+#conts .jScroll td li {
+	float: left;
+}
+
+#conts .jScroll td .tdTable {
+	float: right;
+	width: 120px;
+}
+
+#conts .jScroll td .tdTable table {
+	width: 100%;
+}
+
+#conts .jScroll td .tdTable th,
+#conts .jScroll td .tdTable td {
+	border: 2px solid #E0E0E0;
+	color: #464646;
+	font-size: 1.2em;
+	font-weight:normal;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+#conts .jScroll td .tdTable th {
+	background-color: #E7F4E0;
+	padding-left: 4px;
+	text-align: left;
+}
+
+#conts .jScroll td .pText {
+	color: #464646;
+	font-size: 1.2em;
+}
+
+#conts .jScroll td .pText span {
+	float: left;
+	width: 100px;
+}
+
+#conts .jScroll td .pText .colorBg {
+	background-color: #FEDCEC;
+	float: none;
+	padding: 1px 6px;
+	width: auto;
+}
+
+#conts .jScroll td .pText .colorBg01 {
+	background-color: #FFF59C;
+}
+
+#conts .jScroll td .pText .widthTd {
+	float: right;
+	width: 114px;
+}
+
+#conts .jScroll .special {
+	border: none;
+	height: 4px;
+	padding: 0;
+}
+
+/*------------------------------------------------------------
+	521
+------------------------------------------------------------*/
+#conts .h2Ttl {
+	background: url(../img/search/h2_bg02.gif) no-repeat left 2px;
+}
+
+#conts .jScroll td .title {
+	font-size: 1.1em;
+	margin-bottom: 4px;
+	text-align: right;
+}
+
+#conts .jScroll td .inner {
+	margin-bottom: 5px;
+}
+
+#conts .jScroll td .inner .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+#conts .jScroll td .inner .photoBox_graphbox {
+	float: right;
+	margin-top: 22px;
+	margin-bottom: 2px;
+	height: 75px;
+	width: 95px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #333;
+}
+#conts .jScroll td .inner .photoBox_graph1 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .jScroll td .inner .photoBox_graph2 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .jScroll td .inner .photoBox_graph3 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .jScroll td .inner .textBox {
+	float: left;
+	width: 119px;
+}
+
+#conts .jScroll td .inner .textBox li {
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+#conts .jScroll td .inner .textBox span {
+	display: inline-block;
+	width: 78px;
+}
+
+#conts .jScroll td .inner .textBox .color {
+	background-color: #EFEFEF;
+	margin-right: 4px;
+	padding: 4px 3px 0;
+	width: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .jScroll td .inner .textBox .color { letter-spacing: -1px;} }
+
+/*------------------------------------------------------------
+	531
+------------------------------------------------------------*/
+#conts .h2Ttl2 {
+	background: url(../img/search/h2_bg03.gif) no-repeat left 2px;
+}
+
+/*------------------------------------------------------------
+	541
+------------------------------------------------------------*/
+#conts .h2Ttl3 {
+	background: url(../img/search/h2_bg04.gif) no-repeat left 2px;
+}
+
+/*------------------------------------------------------------
+	551
+------------------------------------------------------------*/
+#conts .h2Ttl4 {
+	background: url(../img/search/h2_bg05.gif) no-repeat left 2px;
+}
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts h2 {
+	background: url(../img/search/h2_bg.gif) no-repeat left 1px;
+	border-bottom: 3px solid #87C374;
+	font-size: 2.0em;
+	line-height: 1.2;
+	margin-bottom: 3px;
+	padding: 5px 47px 2px;
+}
+
+#conts .map {
+	background-color: #fff;
+	margin-bottom: 11px;
+	padding: 9px 10px 5px;
+}
+
+#conts .map a {
+	color: #0000E9;
+	display: inline-block;
+	margin-top: 9px;
+}
+
+#conts .formBox {
+	margin: 0 0 11px 5px;
+}
+
+#conts .formBox .formDl {
+	float: left;
+	width: 140px;
+}
+
+#conts .formBox .formDl dt {
+	float: left;
+	font-size: 1.3em;
+	margin-top: 6px;
+	width: 40px;
+}
+
+#conts .formBox .formDl dd {
+	float: right;
+}
+
+#conts .formBox .formDl dd select {
+	height: 22px;
+	margin-top: 3px;
+	width: 100px;
+}
+
+#conts .formBox .formDlR {
+	float: right;
+	width: 235px;
+}
+
+#conts .formBox .formDlR dt {
+	width: 65px;
+}
+
+#conts .formBox .formDlR dd {
+	width: 170px;
+}
+
+#conts .formBox .formDlR dd input {
+	float: left;
+}
+
+#conts .formBox .formDlR dd .fKeyword {
+	border: 1px solid #D9D9D9;
+	color: #333;
+	height: 25px;
+	padding: 0 0 0 13px;
+	vertical-align: middle;
+	width: 115px;
+}
+
+#conts .formBox .formDlR .fSearch {
+	margin-top: 1px;
+	float: right;
+}
+
+#conts .formBox ul {
+	float: left;
+	padding-left: 7px;
+	width: 360px;
+}
+
+#conts .formBox ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+#conts .jScroll {
+	border: 1px solid #E0E0E0;
+	height: 680px;
+	clear: both;
+	padding: 3px 2px;
+	overflow-y: scroll;
+}
+
+#conts .jScroll table {
+	border-collapse: collapse;
+	width: 728px;
+}
+
+#conts .jScroll th,
+#conts .jScroll td {
+	border: 1px solid #E0E0E0;
+	text-align: left;
+	vertical-align: top;
+	word-break: break-all;
+}
+
+#conts .jScroll th {
+	background-color: #EAEAEA;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#conts .jScroll td {
+	padding: 5px;
+}
+
+#conts .jScroll td .pLink {
+	border-bottom: 2px solid #E0E0E0;
+	font-size: 1.6em;
+	margin-bottom: 14px;
+	padding: 6px 0 3px 15px;
+}
+
+#conts .jScroll td .pLink span {
+	float: left;
+	width: 148px;
+}
+
+#conts .jScroll td .pLink a {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#conts .jScroll td .pLink a:hover {
+	text-decoration: none;
+}
+
+#conts .jScroll td .pLink .textR {
+	font-size: 0.8em;
+	float: right;
+	margin-top: 4px;
+}
+
+#conts .jScroll td .pLink .textR a {
+	margin-left: 12px;
+}
+
+#conts .jScroll td .pLink .textR img {
+	margin-top: -4px;
+	zoom: 1;
+}
+
+#conts .jScroll td .text {
+	color: #444;
+	font-size: 1.4em;
+	margin: 0 11px;
+}
+
+#conts .jScroll td .text span {
+	padding-top: 9px;
+	font-size: 1.1em;
+	display: block;
+}
+
+#conts .jScroll td .text .color {
+	color: #619e4d;
+	display: inline;
+}
+
+#conts .jScroll td li {
+	float: left;
+}
+
+#conts .jScroll td .tdTable {
+	float: right;
+	width: 120px;
+}
+
+#conts .jScroll td .tdTable table {
+	width: 100%;
+}
+
+#conts .jScroll td .tdTable th,
+#conts .jScroll td .tdTable td {
+	border: 2px solid #E0E0E0;
+	color: #464646;
+	font-size: 1.2em;
+	font-weight:normal;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+#conts .jScroll td .tdTable th {
+	background-color: #E7F4E0;
+	padding-left: 4px;
+	text-align: left;
+}
+
+#conts .jScroll td .pText {
+	color: #464646;
+	font-size: 1.2em;
+	margin-top: 5px;
+}
+
+#conts .jScroll td .pText span {
+	float: left;
+	width: 100px;
+}
+
+#conts .jScroll td .pText .colorBg {
+	background-color: #FEDCEC;
+	float: none;
+	padding: 1px 6px;
+	width: auto;
+}
+
+#conts .jScroll td .pText .colorBg01 {
+	background-color: #FFF59C;
+}
+
+#conts .jScroll td .pText .widthTd {
+	float: right;
+	width: 114px;
+}
+
+#conts .jScroll .special {
+	border: none;
+	height: 4px;
+	padding: 0;
+}
+
+/*------------------------------------------------------------
+	521 子連れスポット
+------------------------------------------------------------*/
+#conts .h2Ttl {
+	background: url(../img/search/h2_bg02.gif) no-repeat left 2px;
+}
+
+#conts .jScroll td .title {
+	font-size: 1.1em;
+	margin-bottom: 4px;
+	text-align: right;
+}
+
+#conts .jScroll td .inner {
+	margin-bottom: 5px;
+}
+
+#conts .jScroll td .inner .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+
+#conts .jScroll td .inner .textBox {
+	float: left;
+	width: 119px;
+}
+
+#conts .jScroll td .inner .textBox li {
+	font-size: 1.2em;
+	padding-bottom: 5px;
+}
+
+#conts .jScroll td .inner .textBox span {
+	display: inline-block;
+	width: 78px;
+}
+
+#conts .jScroll td .inner .textBox .color {
+	background-color: #EFEFEF;
+	margin-right: 4px;
+	padding: 4px 3px 0;
+	width: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .jScroll td .inner .textBox .color { letter-spacing: -1px;} }
+
+/*------------------------------------------------------------
+	531　習い事
+------------------------------------------------------------*/
+#conts .h2Ttl2{
+	background: url(../img/search/h2_bg03.gif) no-repeat left 2px;
+}
+
+/*------------------------------------------------------------
+	541　コミュニティ
+------------------------------------------------------------*/
+#conts .h2Ttl3{
+	background: url(../img/search/h2_bg04.gif) no-repeat left 2px;
+}
+
+/*------------------------------------------------------------
+	551　医療
+------------------------------------------------------------*/
+#conts .h2Ttl4{
+	background: url(../img/search/h2_bg05.gif) no-repeat left 2px;
+}

@@ -1,0 +1,253 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gHeader {
+	margin-bottom: 0;
+}
+
+#gNavi {
+	border-bottom: 2px solid #FDA963;
+}
+
+#gNavi >li:first-child >a img {
+	visibility: hidden;
+}
+
+#main .mainImg {
+	margin-bottom: 3px;
+	padding: 5px 6px 5px;
+	position: relative;
+	background: url(../img/index/main_img.jpg) no-repeat left top;
+	background-size: cover;
+}
+
+#main .mainImg img {
+	float: right;
+}
+
+#main .mainImg .liBg {
+	float: right;
+}
+
+#main .mainImg ul {
+	margin-top: 3%;
+	position: relative;
+	width: 38%;
+}
+
+#main .mainImg li {
+	width: 100%;
+	position: absolute;
+	left: 157.5%;
+	top: 0;
+}
+
+#main .mainImg li span {
+	margin-top: -38px;
+	padding: 7px 2px 2px 5px;
+	height: 30px;
+	display: block;
+	position: relative;
+	color: #FFF;
+	font-size: 9px;
+	line-height: 1.5;
+	background: url(../img/index/span_bg.png) repeat left top;
+	z-index: 100;
+	zoom: 1;
+}
+
+#main .ulLink {
+	margin-bottom: 4px;
+}
+
+#main .ulLink li {
+	float: left;
+	width: 50%;
+}
+
+#main .ulLink a {
+	margin: 3px auto;
+	width: 98%;
+	display: block;
+}
+
+#main h2 {
+	margin-bottom: 0;
+    padding: 3px 6px 2px;
+}
+
+#main h2 span {
+	margin-top: 2px;
+}
+
+#main .news {
+	margin-bottom: 6px;
+	padding: 5px;
+}
+
+#main .news dl,
+#main .news ul {
+	padding: 0 5px 4px;
+	border-radius: 5px;
+	background-color: #FFF;
+}
+
+#main .news li {
+	padding: 4px 5px 5px;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+#main .news a {
+	color: #333;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+#main .firstNews {
+	background-color: #BDE387;
+}
+
+#main .twoNews {
+	background-color: #EECD66;
+}
+
+#main .threeNews {
+	margin-bottom: 4px;
+	background-color: #F5ABA9;
+}
+#main .fourNews {
+	margin-bottom: 4px;
+	background-color: #DAFFBE;
+	padding-bottom: 25px;
+}
+
+
+#main .indTabBox .fourNews:first-child {
+	background-color: #FFEAF7;
+}
+
+#main .news dl {
+	margin-bottom: 4px;
+	padding: 3px 5px 5px;
+	font-size: 11px;
+}
+
+#main .news dt {
+	padding: 7px 0 0 10px;
+	float: left;
+	clear: left;
+	color: #000;
+	letter-spacing: -1px;
+}
+
+#main .news dd {
+	padding: 7px 0 2px 9.4em;
+}
+
+#main .news dd a {
+	text-decoration: none;
+}
+
+#main .news dd {
+	border-bottom: 1px solid #D6D6D6;
+}
+
+#main .news dd a {
+	color: #000;
+}
+
+#main .fourNews ul {
+	width: 100%;
+	overflow: hidden;
+	zoom: 1;
+	vertical-align: middle;
+	background: none;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+
+
+#main .fourNews .form_se1 {
+	float: left;
+	margin-right: 1%;
+	padding: 0;
+	width: 50%;
+	border-bottom: none;
+}
+
+#main .fourNews .form_se1 input {
+	width: 90%;
+	font-size: 10px;
+	height: 14px;
+	line-height: 1.8;
+	border: 1px solid #FFF;
+}
+
+#main .fourNews .form_se2 {
+	width: 15%;
+	float: left;
+}
+
+#main .fourNews .form_se2 input {
+	width: 50px;
+}
+
+#main .fourNews .form_se3 {
+	width: 30%;
+	text-align: right;
+	float: right;
+	margin-top: 3px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+#main .fourNews .form_se3 a {
+	text-align: right;
+	text-decoration: underline;
+}
+
+
+
+
+#main h3 {
+	margin-bottom: 0;
+	padding: 11px 32px 4px;
+	clear: both;
+	position: relative;
+	border: none;
+	background: #FED980;
+}
+
+#main h3:before {
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 9px;
+	top: 18%;
+	content: "";
+	background: url(../img/index/img_06.gif) no-repeat left center;
+	background-size: 100%;
+}
+
+#main .fiveNews {
+	background-color: #FFF3CB;
+}
+
+#main .fiveNews dd {
+	padding-left: 7.6em;
+}
+
+#main .fiveNews p {
+	text-align: right;
+}
+
+#main .fiveNews p a {
+	text-decoration: underline;
+}
+
+
+

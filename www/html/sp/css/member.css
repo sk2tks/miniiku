@@ -1,0 +1,52 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	memberForm
+------------------------------------------------------------*/
+#main .memberForm dl {
+	margin: 0 15px;
+	font-size: 11px;
+}
+
+#main .memberForm dt {
+	margin-bottom: 2px;
+}
+
+#main .memberForm dd {
+	margin-bottom: 5px;
+	color: #1f1f1f;
+}
+
+#main .memberForm dd .text {
+	width: 100%;
+}
+
+#main .memberForm .ddSpecial {
+	padding-top: 2px;
+}
+
+#main .memberForm .ddSpecial input {
+	margin: 0;
+	vertical-align: middle;
+}
+
+#main .memberForm p {
+	margin: 0 0 10px 15px;
+}
+
+#main .memberForm .radioUl {
+	margin: 0 0 10px 40px;
+}
+
+#main .memberForm .radioUl li {
+	float: left;
+	width: 50%;
+}
+
+#main .memberForm .radioUl li:last-child {
+	width: 45%;
+}
+
+#main .memberForm .radioUl li input {
+	margin: 0;
+	vertical-align: middle;
+}

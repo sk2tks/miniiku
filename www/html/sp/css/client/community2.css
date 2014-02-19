@@ -1,0 +1,279 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #EDD47A;
+}
+
+#gNavi >li:nth-child(3) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	font-size: 14px;
+}
+
+#main h3 {
+	font-size: 15px;
+	line-height: 1;
+}
+
+#main p {
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0 11px 16px;
+}
+
+#main .tabSection .subTab li {
+	width: 20%;
+	float: left;
+}
+
+#main .tabSection .subTab li a {
+	margin: 0 auto;
+	width: 88%;
+	display: block;
+}
+
+#main .tabSection .subTabBox01 {
+	border-top: 6px solid #D6AFF3;
+}
+
+#main .tabSection .subTabBox02 {
+	border-top: 6px solid #97D5CF;
+}
+
+#main .tabSection .subTabBox03 {
+	border-top: 6px solid #FFBA48;
+}
+
+#main .tabSection .subTabBox04 {
+	border-top: 6px solid #8DE4A6;
+}
+
+/*------------------------------------------------------------
+	03
+------------------------------------------------------------*/
+#main .tabSection .numTxt {
+	padding-bottom: 7px;
+}
+
+#main .vote .lVote {
+	float: none;
+}
+
+#main .vote .rVote {
+	float: none;
+	width: 100%;
+}
+
+#main .vote .rVote .btnVote {
+	text-align: right;
+	width: 95%;
+}
+
+#main .vote .rVote .btnVote a img {
+	width: 21.5%;
+}
+
+#main .tabSection .subTabBox04 p {
+	font-size: 11px;
+	margin: 0 5px 10px;
+}
+
+#main .comTable th {
+	background-color: #D5F183;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#main .comTable td {
+	padding: 4px 12px 7px;
+}
+
+#main .comTable td input {
+	height: 15px;
+	width: 88%;
+}
+
+#main .comTable td .input01 {
+	width: 100%;
+}
+
+#main .comTable td select {
+	font-size: 14px;
+}
+
+#main .comTable td .fContent {
+	border: 1px solid #CCC;
+	height: 120px;
+	width: 100%;
+}
+
+#main .mailForm .btn {
+	margin: 0 auto;
+	width: 55%;
+}
+
+#main .mailForm .btn input {
+	width: 100%;
+}
+
+#main .pageNavi {
+	margin-bottom: 15px;
+}
+
+/*棒グラフここから140123*/
+
+.subTabBox .title {
+	font-size: 0.9em;
+	margin-bottom: 4px;
+	text-align: right;
+}
+
+.subTabBox .inner {
+	margin-bottom: 5px;
+}
+
+.subTabBox .inner .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+.subTabBox .inner .photoBox_graphbox {
+	float: left;
+	margin-top: 32px;
+	margin-bottom: 2px;
+	height: 75px;
+	width: 40%;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #333;
+}
+.subTabBox .inner .photoBox_graph1 {
+	height: 15px;
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+.subTabBox .inner .photoBox_graph2 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+	height: 15px;
+}
+.subTabBox .inner .photoBox_graph3 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+	height: 15px;
+}
+.subTabBox .inner .textBox {
+	float: left;
+	width: 40%;
+	margin-left: 10px;
+}
+
+.subTabBox .inner .textBox li {
+	font-size: 1.0em;
+	padding-bottom: 5px;
+}
+
+.subTabBox .inner .textBox span {
+	display: inline-block;
+	width: 78px;
+}
+
+.subTabBox .inner .textBox .color {
+	background-color: #EFEFEF;
+	margin-right: 4px;
+	padding: 4px 3px 0;
+	width: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { .subTabBox td .inner .textBox .color { letter-spacing: -1px;} }
+/*棒グラフここまで140123*/
+#main .subTabBox .inner {
+	float: left;
+	width: 100%;
+}
+
+#main .subTabBox .inner .textBox li {
+	padding-bottom: 7px;
+	overflow: hidden;
+	zoom:1;
+}
+
+#main .subTabBox .inner .textBox span {
+	float: left;
+}
+
+#main .subTabBox .inner .textBox .title {
+	margin: 0 0 5px 90px;
+	width: auto;
+	text-align: left;
+	letter-spacing: -1px;
+}
+
+#main .subTabBox .inner .photoBox_graphbox {
+    border-left: 2px solid #333333;
+    float: left;
+    margin-bottom: 0;
+    margin-top: 25px;
+    width: auto;
+}
+
+#main .subTabBox .inner .textBox li:last-child {
+	padding-bottom: 0;
+}
+
+#main .box .rVote {
+	float: right;
+	padding: 0 4% 0 0;
+	width: 19%;
+}
+
+#main .subTabBox .box {
+	margin-bottom: 5px;
+}
+
+#main .subTabBox .inner .photoBox_graph1 {
+
+
+}
+
+#main .subTabBox .inner .photoBox_graph2 {
+
+
+}
+
+#main .subTabBox .inner .photoBox_graph3 {
+
+	margin-bottom: 0;
+
+}
+
+.subTabBox .inner .textBox span {
+	width: 100px;
+}
+
+.subTabBox .inner .textBox .color {
+	margin-top: -3px;
+	width: 15px;
+}
+
+#main .subTabBox .inner .photoBox_graphbox {
+	margin-top: 16px;
+}
+
+.subTabBox .inner .textBox {
+	width: 45%;
+}
+
+
+
+/* culture */
+
+
+/* spot */
+
+
+/* medical */

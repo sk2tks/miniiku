@@ -1,0 +1,748 @@
+﻿@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #C5DC70;
+}
+
+#gNavi >li:nth-child(5) >a img {
+	visibility: hidden;
+}
+
+/*------------------------------------------------------------
+	 comUl
+------------------------------------------------------------*/
+#main .comUl {
+	margin: 0 5px 20px;
+	clear: both;
+}
+
+#main .comUl li {
+	margin-bottom: 3px;
+	overflow: hidden;
+	display: table;
+	width: 99%;
+	border: 2px solid #D6D6D6;
+}
+
+#main .comUl li .lBox {
+	padding: 6px 0 3px;
+	width: 90%;
+	display: table-cell;
+}
+
+#main .comUl li .lBox dl {
+	padding: 0 20px 4px 10px;
+	line-height: 1.1;
+}
+
+#main .comUl li .lBox dt {
+	margin-bottom: 4px;
+	font-size: 13px;
+}
+
+#main .comUl li .lBox dd {
+	font-size: 20px;
+}
+
+#main .comUl li .lBox dd a {
+	display: inline-block;
+	width: auto;
+	text-decoration: underline;
+}
+
+#main .comUl li .lBox dd a:hover {
+	text-decoration: none;
+}
+
+#main .comUl li .lBox .btmBox {
+	padding: 0 10px;
+	width: 80%;
+}
+
+#main .comUl li .lBox .btmBox p {
+	width: 47%;
+	float: left;
+	font-size: 13px;
+	letter-spacing: -1px;
+}
+
+#main .comUl li .lBox .btmBox p a {
+	width: auto;
+	display: inline-block;
+}
+
+#main .comUl li .rBox {
+	width: 8%;
+	position: relative;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	background: #E2FFD8;
+}
+
+#main .comTab {
+	margin-bottom: 0;
+}
+
+#main .tabBox {
+	padding-top: 2px;
+}
+
+#main .tabBox01 {
+	border-top: 3px solid #FDBDDF;
+}
+
+#main .subTab li {
+	width: 50%;
+	float: left;
+}
+
+#main .subTab li a {
+	margin: 0 auto;
+	width: 94%;
+	display: block;
+}
+
+#main .subTabBox {
+	padding-top: 10px;
+}
+
+#main .tabBox01 .subTabBox01 {
+	border-top: 3px solid #FBAAD3;
+}
+
+#main .tabBox01 .subTabBox02 {
+	border-top: 3px solid #FFC875;
+}
+
+#main .tabBox02 .subTabBox01 {
+	border-top: 3px solid #FFCA7A;
+}
+
+#main .tabBox02 .subTabBox02 {
+	border-top: 3px solid #A1EE64;
+}
+
+#main .subTabBox .txt01 {
+	margin: 0 5px 3px;
+	color: #0f0f0f;
+	font-size: 12px;
+}
+
+#main .subTabBox .txt01 span {
+	color: #dc0000;
+}
+
+#main .subTabBox table {
+	width: 100%;
+}
+
+#main .subTabBox th {
+	padding: 3px 10px 0;
+	color: #0f0f0f;
+	font-size: 12px;
+	font-weight: normal;
+	background-color: #E2FFD8;
+}
+
+#main .subTabBox td {
+	padding: 12px 0 12px 10px;
+	color: #0f0f0f;
+	font-size: 12px;
+}
+
+#main .subTabBox td .color01 {
+	color: #d10000;
+}
+
+#main .subTabBox td .inputTxt01,
+#main .subTabBox td .inputTxt01 {
+	height: 14px;
+	border: 1px solid #CCC;
+}
+
+#main .subTabBox td .inputTxt01 {
+	width: 99%;
+}
+
+#main .subTabBox td .inputTxt02 {
+	width: 37%;
+}
+
+#main .subTabBox td .inputTxt03 {
+	width: 30%;
+}
+
+#main .subTabBox td .txt02 {
+	margin-left: 6px;
+	width: 24px;
+	display: inline-block;
+}
+
+#main .subTabBox td .btn01 {
+	width: 82%;
+}
+
+#main .subTabBox .selectPhoto input {
+	width: 63%;
+}
+
+#main .subTabBox .selectPhoto li {
+	float: left;
+	width: 38%;
+}
+
+#main .subTabBox .radioUl li {
+	margin-right: 15px;
+	float: left;
+	font-size: 12px;
+}
+
+#main .subTabBox .radioUl span {
+	margin-top: 2px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main .subTabBox .birth li {
+	margin-right: 8px;
+	float: left;
+}
+
+#main .subTabBox .telUl li {
+	float: left;
+	width: 60%;
+}
+
+#main .subTabBox td .inputTxt04 {
+	width: 15%;
+	border: 1px solid #CCC;
+}
+
+#main .subTabBox td .inputTxt05 {
+	width: 20%;
+	border: 1px solid #CCC;
+}
+
+#main .subTabBox .telUl li:nth-child(2) {
+	margin-right: 10px;
+}
+
+#main .subTabBox .telUl li:nth-child(3) {
+	width: 30%;
+}
+
+#main .subTabBox .submit {
+	text-align: center;
+}
+
+#main .subTabBox .submit li {
+	margin-bottom: 3px;
+	width: 100%;
+	float: left;
+}
+
+#main .subTabBox .submit li img {
+	vertical-align: top;
+}
+
+#main .subTabBox .submit li input {
+	width: 45%;
+}
+
+#main .subTabBox .telUl li:nth-child(2) {
+	margin-bottom: 0;
+}
+
+#main .subTabBox02 .title02,
+#main .subTabBox02 .title01 {
+	margin: 0 3px 5px;
+	color: #ffac25;
+	font-size: 15px;
+	font-weight: bold;
+	border-bottom: 2px solid #FDEA7F;
+}
+
+#main .subTabBox02 .title02 {
+	padding-left: 5px;
+	color: #56af06;
+	border-bottom: 2px solid #ADE47A;
+}
+
+#main .subTabBox02 .parentTable th {
+	background-color: #FFE4B8;
+}
+
+#main .subTabBox02 .parentTable td {
+	padding: 8px 12px;
+}
+
+#main .subTabBox02 .parentTable td .inputTxt01 {
+	width: 78%;
+}
+
+#main .subTabBox02 .parentTable td .inner {
+	padding: 0 4px 7px;
+	position: relative;
+	border-bottom: 2px solid #FDEA7F;
+}
+
+#main .subTabBox02 .parentTable td .photo {
+	width: 73px;
+	position: relative;
+}
+
+#main .subTabBox02 .parentTable td .photo a {
+	display: block;
+	width: 17px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#main .subTabBox02 .parentTable td .pLink {
+	position: absolute;
+	right: 0;
+}
+
+#main .subTabBox02 td .pLink {
+	clear: both;
+	text-align: right;
+}
+
+#main .subTabBox02 td .pLink a {
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+	text-decoration: underline;
+}
+
+#main .subTabBox02 td .pLink a:before {
+	width: 12px;
+	height: 6px;
+	display: inline-block;
+	position: absolute;
+	left: -15px;
+	top: 30%;
+	content: "";
+	background: url(../img/maypage/icon_02.gif) no-repeat center;
+	background-size: 100%;
+}
+
+#main .subTabBox02 .parentTable td .borderNone {
+	border-bottom: none;
+}
+
+#main .subTabBox02 .childTable td {
+	padding: 6px 0 6px 6px;
+}
+
+#main .subTabBox02 .childTable .selectPhoto li {
+	position: relative;
+}
+
+#main .subTabBox02 .childTable .selectPhoto li:last-child a {
+	position: absolute;
+	left: 27px;
+	top: 0;
+}
+
+#main .subTabBox02 .childTable .facility li {
+	width: 43%;
+	float: left;
+}
+
+#main .subTabBox02 .childTable .facility select {
+	width: 87%;
+}
+
+#main .subTabBox02 .txt02 {
+	margin-top: 12px;
+	padding-top: 2px;
+	border-top: 2px solid #ADE47A;
+}
+
+/*------------------------------------------------------------
+	tabBox02
+------------------------------------------------------------*/
+#main .tabBox .formBox {
+	margin-bottom: 10px;
+	color: #231815;
+}
+
+#main .tabBox .formBox dl {
+	margin-top: 2px;
+	width: 40%;
+	float: left;
+}
+
+#main .tabBox .formBox dt {
+	margin-top: 2px;
+	float: left;
+	clear: left;
+}
+
+#main .tabBox .formBox dd {
+	float: left;
+	width: 70%;
+}
+
+#main .tabBox .formBox dd select {
+	margin-top: -1px;
+	vertical-align: top;
+}
+
+#main .tabBox .formBox p {
+	width: 60%;
+	float: right;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#main .tabBox .formBox p input:first-child {
+	margin-right: 3px;
+	padding: 4px 5px;
+	float: left;
+	width: 78%;
+	font-size: 11px;
+	height: 22px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border: 1px solid #D9D9D9;
+}
+
+#main .tabBox .formBox p input:nth-child(2) {
+	width: 18.5%;
+	float: left;
+}
+
+#main .comUl li {
+	margin-bottom: 7px;
+}
+
+#main .comUl li .lBox {
+	margin-top: -2px;
+}
+
+#main .comUl li .lBox dt {
+	padding-top: 2px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#main .comUl li .lBox dt span {
+	width: 60%;
+	float: left;
+	display: block;
+}
+
+#main .comUl li .lBox dt span:nth-child(2) {
+	padding-left: 20px;
+	width: 30%;
+	float: right;
+	position: relative;
+}
+
+#main .comUl li .lBox dt span:nth-child(2):before {
+	width: 16px;
+	height: 16px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: -1px;
+	content: "";
+
+	/*background: url(../img/maypage/icon_03.jpg) no-repeat center;*/
+	background-size: 100%;
+}
+
+#main .comUl li .rBox input {
+	margin: 10px auto 0;
+}
+
+#main .tabBox .delBox {
+	margin-bottom: 10px;
+	color: #040000;
+	font-size: 12px;
+	text-align: center;
+}
+
+#main .tabBox .delBox span {
+	margin-right: 6px;
+	margin-top: 3%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#main .tabBox .delBox input {
+	width: 32%;
+}
+
+#main .tabBox02 {
+	border-top: 3px solid #FFBA48;
+}
+
+#main .tabBox02 .subTabBox02 .link {
+	margin-top: -2px;
+	padding-left: 3px;
+	float: left;
+	width: 35%;
+}
+
+#main .tabBox02 .subTabBox .comUl li:last-child {
+	margin-bottom: 0;
+}
+
+#main .tabBox02 .subTabBox02 .comUl li .lBox .btmBox p {
+	width: 100%;
+}
+
+#main .tabBox02 .subTabBox02 .btmBox p span {
+	margin: 5px 5px 0 0;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*------------------------------------------------------------
+	tabBox03
+------------------------------------------------------------*/
+#main .tabBox03 {
+	padding-top: 6px;
+	border-top: 3px solid #8EE4A7;
+}
+
+#main .tabBox03 .txt03 {
+	margin: 0 10px 2px 8px;
+	padding: 10px 5px;
+	position: relative;
+	color: #222;
+	font-size: 12px;
+	letter-spacing: -1px;
+	background-color: #F5F5F5;
+}
+
+/*------------------------------------------------------------
+	tabBox04
+------------------------------------------------------------*/
+#main .tabBox04 {
+	padding: 13px 7px 0 5px;
+	border-top: 3px solid #78D2C8;
+}
+
+#main .tabBox04 p {
+	color: #333;
+	font-size: 14px;
+	line-height: 1.3;
+	margin: 0 0 6px 6px;
+}
+
+#main .tabBox04 h4 {
+	background: none;
+	border-bottom: 2px solid #2b8c83;
+	color: #2b8c83;
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1.2;
+	margin-bottom: 12px;
+	padding: 0 0 0 2px;
+}
+
+#main .tabBox04 .mailForm {
+	border-bottom: 1px solid #CDCDCD;
+	margin-bottom: 11px;
+	padding-bottom: 1px;
+}
+
+#main .tabBox04 .mailForm table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+#main .tabBox04 .mailForm th,
+#main .tabBox04 .mailForm td {
+	color: #222;
+	font-size: 14px;
+	font-weight: normal;
+	padding-bottom: 9px;
+	vertical-align: top;
+	text-align: left;
+}
+
+#main .tabBox04 .mailForm th {
+	padding-left: 3px;
+}
+
+#main .tabBox04 .mailForm td .fContent {
+	border: 1px solid #CCC;
+	height: 55px;
+	width: 99%;
+}
+
+#main .tabBox04 .mailForm td span {
+	display: block;
+}
+
+#main .tabBox04 .mailForm td .note {
+	margin: 3px 8px;
+}
+
+#main .tabBox04 .mailForm td .btn {
+	margin-left: 3px;
+	width: 24%;
+}
+
+#main .tabBox04 .selectImg {
+	padding: 1px 7px 0 0;
+}
+
+#main .tabBox04 .selectImg .fileImg {
+	background: url(../img/maypage/img_08.jpg) no-repeat;
+	cursor: pointer;
+	float: right;
+	height: 110px;
+	overflow: hidden;
+	position: relative;
+	width: 108px;
+}
+
+#main .tabBox04 .selectImg .fileImg input {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 110px;
+	width: 108px;
+	opacity: 0;
+}
+
+#main .tabBox04 .selectImg .fileImg span {
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+#main .tabBox04 .selectImg .fileBox {
+	float: left;
+}
+
+#main .tabBox04 .selectImg .fileBox .fileBtn {
+	background: url(../img/maypage/img_link02.jpg) no-repeat;
+	cursor: pointer;
+	height: 24px;
+	margin-bottom: 8px;
+	overflow: hidden;
+	position: relative;
+	width: 121px;
+}
+
+#main .tabBox04 .selectImg .fileBox .fileBtn input {
+	cursor: pointer;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 121px;
+	opacity: 0;
+}
+
+#main .tabBox04 .h4Ttl {
+	margin-bottom: 5px;
+}
+
+#main .tabBox04 .text {
+	font-size: 15px;
+	margin: 0 0 12px 11px;
+}
+
+#main .tabBox04 .date {
+	background-color: #DAFFE8;
+	font-size: 17px;
+	margin: 0 0 3px 5px;
+	padding: 3px 9px 2px;
+	width: 39%;
+}
+
+#main .tabBox04 .photoDl {
+	padding: 0 5px 12px 6px;
+}
+
+#main .tabBox04 .photoDl01 {
+	border-bottom: 1px solid #CDCDCD;
+	margin-bottom: 7px;
+	padding-bottom: 18px;
+}
+
+#main .tabBox04 .photoDl dt {
+	float: left;
+	width: 32%;
+}
+
+#main .tabBox04 .photoDl dt span {
+	float: left;
+	width: 59%;
+}
+
+#main .tabBox04 .photoDl dt span img {
+	width: 100%;
+}
+
+#main .tabBox04 .photoDl dd {
+	background-color: #F0F0F0;
+	float: right;
+	font-size: 15px;
+	padding: 8px 3px 12px;
+	width: 61.4%;
+}
+
+#main .tabBox04 .pageNavi {
+	padding-top: 6px;
+}
+
+
+
+/*------------------------------------------------------------
+	tuuenForm
+------------------------------------------------------------*/
+#main .tuuenForm p {
+	margin: 0 5px;
+	font-size: 12px;
+}
+
+#main .tuuenForm .radioList {
+	margin-bottom: 18px;
+}
+
+#main .tuuenForm .radioList li {
+	padding: 8px 0;
+	float: left;
+	letter-spacing: -1px;
+	width: 33.3%;
+}
+
+#main .tuuenForm .radioList li input {
+	margin-top: -1px;
+	vertical-align: middle;
+}
+
+#main .tuuenForm .radioList li:nth-child(8) {
+	width: 66.7%;
+}
+
+#main .tuuenForm .radioList li:last-child {
+	width: 100%;
+}
+
+#main .tuuenForm .radioList li .inputText {
+	margin-left: 12px;
+	width: 70%;
+}
+
+.fb_rendou{
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+	width: 90%;
+	}

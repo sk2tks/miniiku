@@ -1,0 +1,148 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+	tuuen
+------------------------------------------------------------*/
+#tuuen_pic {
+	margin: 0 auto;
+	width: 548px;
+	min-width: 548px !important;
+}
+
+#tuuen_pic .popBox {
+	background: url(../img/map/tuu_pop_top_bg.png) no-repeat left top;
+	padding-top: 4px;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	width: 548px;
+}
+
+#tuuen_pic .popBox .close {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	background: url(../img/map/tuu_close.gif) no-repeat;
+}
+
+#tuuen_pic .popup {
+	background: url(../img/map/tuu_pop_btm_bg.png) no-repeat left bottom;
+	padding: 19px 22px 43px 18px;
+}
+
+#tuuen_pic .popup h1 {
+	background: url(../img/map/tuu_h1_bg2.gif) no-repeat 5px top;
+	border-bottom: 3px solid #FEB933;
+	color: #333;
+	font-size: 2.2em;
+	line-height: 1.4;
+	margin-bottom: 12px;
+	padding: 7px 0 0 58px;
+	zoom: 1;
+}
+
+#tuuen_pic .popup .popInner {
+	margin: 0 auto;
+	padding-left: 3px;
+	width: 475px;
+}
+
+#tuuen_pic .popup p {
+	color: #222;
+	font-size: 1.4em;
+	margin: 0 0 3px 20px;
+}
+
+#tuuen_pic .popup .mailForm .radioBox {
+	margin-bottom: 17px;
+	padding-top: 8px;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList {
+	background: #FFF url(../img/map/tuu_radio_box_btm_bg.gif) no-repeat left bottom;
+	padding: 7px 10px 7px 30px
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList li {
+	color: #070707;
+	float: left;
+	font-size: 1.6em;
+	padding: 1px 0 15px 0;
+	width: 133px;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList .liSpecial {
+	padding-top: 0;
+	width: 420px;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList li span {
+	vertical-align: top;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList li span input {
+	vertical-align: top;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList .liSpecial .inputText {
+	margin-left: 19px;
+	width: 295px;
+}
+
+#tuuen_pic .popup .mailForm .radioBox .radioList .liSpecial #fNursery09 {
+	margin-top: -2px;
+	vertical-align: middle;
+}
+
+#tuuen_pic .popup .mailForm .submit {
+	text-align: center;
+}
+
+#tuuen_pic .popup .mailForm .submit li {
+	display: inline;
+	margin: 0 17px 0 12px;
+}
+
+#tuuen_pic .popup .mailForm .submit li input {
+	vertical-align: top;
+}
+*/
+
+.pic70{
+	background-image: url(../img/map/photo01.jpg);
+	background-repeat: no-repeat;
+	height: 65px;
+	width: 70px;
+	}
+.pic70 .batsu{
+	float: right;
+	}
+	
+.pic109{
+	background-image: url(../img/map/photo02.jpg);
+	background-repeat: no-repeat;
+	height: 111px;
+	width: 109px;
+	float: right;
+	margin-top: 0px;
+	margin-right: 15px;
+	}
+.pic109 .batsu{
+	float: right;
+	}	
+	
+.pic66{
+	background-image: url(../img/map/photo05.jpg);
+	background-repeat: no-repeat;
+	height: 67px;
+	width: 66px;
+	}
+.pic66 .batsu{
+	float: right;
+	}		

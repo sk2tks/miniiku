@@ -1,0 +1,567 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	書式設定
+------------------------------------------------------------*/
+/* テキストの位置 */
+.taLeft { text-align: left !important; }
+.taCenter { text-align: center !important; }
+.taRight { text-align: right !important; }
+
+/* フォントの大きさ（プラス） */
+.fsP1 { font-size: 1.08em !important; }
+.fsP2 { font-size: 1.16em !important; }
+.fsP3 { font-size: 1.24em !important; }
+.fsP4 { font-size: 1.32em !important; }
+.fsP5 { font-size: 1.4em !important; }
+
+/* フォントの大きさ（マイナス） */
+.fsM1 { font-size: 0.92em !important; }
+.fsM2 { font-size: 0.84em !important; }
+.fsM3 { font-size: 0.76em !important; }
+.fsM4 { font-size: 0.68em !important; }
+.fsM5 { font-size: 0.6em !important; }
+
+/* フォントの太さ */
+.fwNormal { font-weight: normal !important; }
+.fwBold { font-weight: bold !important; }
+
+/*------------------------------------------------------------
+	微調整用クラス（※多用しないこと）
+------------------------------------------------------------*/
+.mt0 { margin-top: 0 !important; }
+.mb0 { margin-bottom: 0 !important; }
+
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+
+.floatL {
+	float: left !important;
+}
+
+.floatR {
+	float: right !important;
+}
+
+img {
+	vertical-align: top;
+}
+
+li img,
+dl img {
+	display: block;
+	vertical-align: baseline;
+}
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+.pageTop {
+	font-size: 1.2em;
+	margin: 18px 0 0 0;
+	position: relative;
+	text-align: right;
+	zoom: 1;
+}
+
+.pageTop a {
+	background: url(../../img/common/img/icon01.gif) no-repeat left 3px;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+/*------------------------------------------------------------
+	pagePath
+------------------------------------------------------------*/
+#pagePath {
+	padding-bottom: 5px;
+}
+
+#pagePath li {
+	display: inline;
+	font-size: 1.4em;
+}
+
+#pagePath li a {
+	color: #333;
+	margin-right: 5px;
+}
+
+/*------------------------------------------------------------
+	h2
+------------------------------------------------------------*/
+#conts h2 {
+	background: url(../../img/search/h2_bg.gif) no-repeat left 1px;
+	border-bottom: 3px solid #87C374;
+	font-size: 2.0em;
+	line-height: 1.2;
+	margin-bottom: 3px;
+	padding: 5px 47px 2px;
+}
+
+/*------------------------------------------------------------
+	comH3
+------------------------------------------------------------*/
+#conts .comH3 {
+	background: #E8FFE2 url(../../img/client/area/h3_bg.gif) no-repeat left bottom;
+	color: #444;
+	font-size: 2.2em;
+	float: left;
+	line-height: 1.4;
+	padding: 6px 5px 6px;
+	width: 680px;
+}
+
+#conts .comH3 span {
+	background-color: #fff;
+	border: 1px solid #D7D7D7;
+	display: block;
+	padding: 0 10px;
+}
+
+/*------------------------------------------------------------
+	comBox
+------------------------------------------------------------*/
+#conts .comBox {
+	margin-bottom: 10px;
+}
+
+#conts .comBox .textImg {
+	margin-top: -2px;
+	float: right;
+	zoom: 1;
+}
+
+#conts .comBox a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+/*------------------------------------------------------------
+	dateUl
+------------------------------------------------------------*/
+#conts .dateUl {
+	padding-bottom: 10px;
+}
+
+#conts .dateUl ul {
+	float: right;
+}
+
+#conts .dateUl li {
+	float: left;
+	font-size: 1.3em;
+	width: 110px;
+}
+
+#conts .dateUl .liSpecial01 {
+	margin-right: 16px;
+	width: 155px;
+}
+
+#conts .dateUl .liSpecial02 {
+	width: 60px;
+}
+
+#conts .dateUl .liSpecial03 {
+	width: 160px;
+}
+#conts .dateUl .liSpecial04 {
+	width: 30px;
+}
+
+#conts .dateUl li span {
+	background-color: #FFE6E6;
+	display: block;
+	padding:2px 7px 0;
+	white-space:nowrap;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .dateUl li span { letter-spacing: -1px;} }
+
+#conts .dateUl .liSpecial03 span {
+	background-color: #FFEDDA;
+}
+
+/*------------------------------------------------------------
+	comList
+------------------------------------------------------------*/
+#conts .comList {
+	clear: both;
+	font-size: 1.3em;
+	margin-right: 5px;
+	text-align: right;
+}
+
+#conts .comList li {
+	display: inline;
+}
+
+#conts .comList li a {
+	margin: 0 1px 0 5px;
+}
+
+#conts .comList .on a,
+#conts .comList li a:hover {
+	color: #338b07;
+}
+
+#conts .comList li .special {
+	margin-right: 7px;
+}
+
+#conts .comList .prev {
+	margin-right: -6px;
+	position: relative;
+	zoom: 1; 
+}
+
+    *+html #conts .comList .prev {
+		margin-right: 0;
+	}
+
+    * html #conts .comList .prev {
+		margin-right: 0;
+	}
+
+#conts .comList .next {
+	margin-left: -6px;
+	position: relative;
+	zoom: 1; 
+}
+
+/*------------------------------------------------------------
+	comSubBox
+------------------------------------------------------------*/
+#conts .comSubBox {
+	border: 1px solid #CCC;
+	background-color: #FFF6F7;
+	padding: 15px 4px 10px;
+}
+
+#conts .comSubBox .formBox {
+	margin-bottom: 15px;
+}
+
+#conts .comSubBox .formBox .formDl {
+	float: left;
+	width: 140px;
+}
+
+#conts .comSubBox .formBox .formDl dt {
+	float: left;
+	font-size: 1.3em;
+	margin-top: 3px;
+	width: 40px;
+}
+
+#conts .comSubBox .formBox .formDl dd {
+	float: right;
+}
+
+#conts .comSubBox .formBox .formDl dd select {
+	color: #231815;
+	font-size: 1.3em;
+	height: 23px;
+	margin-top: 1px;
+	padding: 1px;
+	width: 100px;
+}
+
+#conts .comSubBox .formBox .formDlR {
+	float: right;
+	width: 308px;
+}
+
+#conts .comSubBox .formBox .formDlR dt {
+	width: 65px;
+}
+
+#conts .comSubBox .formBox .formDlR dd {
+	width: 243px;
+}
+
+#conts .comSubBox .formBox .formDlR dd input {
+	float: left;
+}
+
+#conts .comSubBox .formBox .formDlR dd .fKeyword {
+	border: 1px solid #D9D9D9;
+	color: #333;
+	height: 21px;
+	line-height: 1.8;
+	padding: 4px 0 0 6px;
+	vertical-align: middle;
+	width: 188px;
+}
+
+#conts .comSubBox .formBox .formDlR .fSearch {
+	margin-top: 1px;
+	float: right;
+}
+
+#conts .comSubBox .formBox ul {
+	float: left;
+	padding-left: 7px;
+	width: 225px;
+}
+
+#conts .comSubBox .formBox ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+#conts .comSubBox table {
+	border: 1px solid #DADADA;
+	border-collapse: collapse;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+#conts .comSubBox table th,
+#conts .comSubBox table td {
+	border: 1px solid #DADADA;
+	color: #222;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	word-break: break-all;
+}
+
+#conts .comSubBox table th {
+	background-color: #D9F7C1;
+	font-size: 1.3em;
+	padding: 6px 1px 7px 11px;
+}
+
+#conts .comSubBox table td {
+	background-color: #FFF;
+	font-size: 1.5em;
+	padding: 10px 1px 4px 5px;
+}
+
+#conts .comSubBox table .spacing {
+	padding-right: 10px;
+	text-align: center;
+}
+
+#conts .comSubBox table td a {
+	color: #222;
+	text-decoration: underline;
+}
+
+#conts .comSubBox table td a:hover {
+	text-decoration: none;
+}
+
+#conts .comSubBox table td ul li {
+	float: left;
+	margin-right: 5px;
+}
+
+/*------------------------------------------------------------
+	comProduct
+------------------------------------------------------------*/
+#conts .comProduct .photoBox {
+	float: right;
+	width: 210px;
+}
+
+#conts .comProduct .photoBox .photo {
+	margin-bottom: 5px;
+	padding: 11px 0 10px 10px;
+	background: url(../../img/ikuji/photo_bg.gif) no-repeat left top;
+}
+
+#conts .comProduct .photoBox .btmBox {
+	background: url(../../img/ikuji/btm_box02_bg.gif) no-repeat left bottom;
+}
+
+#conts .comProduct .photoBox .btmBox .subBtm {
+	padding: 2px 9px 9px 10px;
+	background: url(../../img/ikuji/btm_box01_bg.gif) no-repeat left top;
+}
+
+#conts .comProduct .photoBox .btmBox .subBtm .title {
+	padding: 2px 0 0 26px;
+	font-size: 15px;
+	background: url(../../img/ikuji/icon.gif) no-repeat left top;
+}
+
+#conts .comProduct .photoBox .btmBox .subBtm ul {
+	background: #fff;
+	font-size: 1.2em;
+	padding: 8px 6px 2px 6px;
+}
+
+#conts .comProduct .photoBox .btmBox .subBtm ul li {
+	margin-bottom: 3px;
+	padding: 2px 5px 0 2px;
+}
+
+#conts .comProduct .textBox {
+	background: #fff;
+	float: left;
+	padding: 12px 6px 12px 14px;
+	width: 503px;
+}
+
+#conts .comProduct .textBox p {
+	font-size: 1.5em;
+	line-height: 1.8;
+}
+
+/*------------------------------------------------------------
+	resultUl
+------------------------------------------------------------*/
+#conts .resultUl {
+	margin: 0 0 10px;
+	clear: both;
+	border-bottom: none;
+	overflow: hidden;
+	zoom: 1;
+}
+
+#conts .resultUl li {
+	padding: 10px 17px;
+	float: left;
+	width: 716px;
+	background-color: #f8ffe8;
+}
+
+#conts .resultUl .bgColor {
+	background-color: #fff;
+	color: #333;
+}
+
+#conts .resultUl li dt {
+	font-size: 1.3em;
+	line-height: 1.8;
+}
+
+#conts .resultUl li dt a {
+	display: inline-block;
+	margin-right: 55px;
+	font-size: 1.23em;
+	color: #333;
+	text-decoration: underline;
+}
+
+#conts .resultUl li dt a:hover {
+	text-decoration: none;
+}
+
+#conts .resultUl li dd {
+	font-size: 1.4em;
+	color: #222;
+}
+
+/*------------------------------------------------------------
+	resultUl
+------------------------------------------------------------*/
+#conts .section td .span01 {
+	background: url(../../img/index/img_01.gif) no-repeat left 1px;
+}
+
+#conts .section td .span02 {
+	background: url(../../img/index/img_02.gif) no-repeat left 1px;
+}
+
+#conts .section td .span03 {
+	background: url(../../img/index/img_03.gif) no-repeat left 1px;
+}
+
+#conts .section td .span04 {
+	background: url(../../img/index/img_04.gif) no-repeat left 1px;
+}
+
+#conts .section td .span05 {
+	background: url(../../img/index/img_05.gif) no-repeat left 1px;
+}
+
+#conts .section td .span06 {
+	background: url(../../img/index/img_06.gif) no-repeat left 1px;
+}
+
+#conts .section td .span07 {
+	background: url(../../img/index/img_07.gif) no-repeat left 1px;
+}
+
+#conts .section td .span08 {
+	background: url(../../img/index/img_08.gif) no-repeat left 1px;
+}
+
+#conts .section td .span09 {
+	background: url(../../img/index/img_09.gif) no-repeat left 1px;
+}
+
+#conts .section td .span10 {
+	background: url(../../img/index/img_10.gif) no-repeat left 1px;
+}
+
+#conts .section td .span101 {
+	background: url(../../img/index/img_101.gif) no-repeat left 1px;
+}
+
+#conts .section td .span102 {
+	background: url(../../img/index/img_102.gif) no-repeat left 1px;
+}
+
+#conts .section td .span103 {
+	background: url(../../img/index/img_103.gif) no-repeat left 1px;
+}
+
+#conts .section td .span104 {
+	background: url(../../img/index/img_104.gif) no-repeat left 1px;
+}
+
+#conts .section td .span105 {
+	background: url(../../img/index/img_105.gif) no-repeat left 1px;
+}
+
+/*------------------------------------------------------------
+	comTab
+------------------------------------------------------------*/
+#conts .comTab .tabNavi01 a {
+	display: block;
+	background: url(../../img/nursery_info/link01_o.jpg) no-repeat;
+}
+
+#conts .comTab .tabNavi02 a {
+	display: block;
+	background: url(../../img/nursery_info/link02_o.jpg) no-repeat;
+}
+
+#conts .comTab .active img {
+	visibility: hidden;
+}
+
+
+
+
+.btn {
+	cursor: pointer;
+}
+.btn:hover {
+    filter: alpha(opacity=70);
+    opacity:0.7;
+}
+.inactive {
+    filter: alpha(opacity=40);
+    opacity: 0.4;
+}
+

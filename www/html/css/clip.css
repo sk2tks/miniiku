@@ -1,0 +1,114 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+	tuuen
+------------------------------------------------------------*/
+body#tuuen {
+	margin: 0 auto;
+	width: 548px;
+	min-width: 548px !important;
+}
+
+body#tuuen .popBox {
+	background: url(../img/clip/pop_top_bg.png) no-repeat left top;
+	padding-top: 4px;
+	position: relative;
+	margin: 0 auto;
+	text-align: left;
+	width: 548px;
+}
+
+body#tuuen .popBox .close {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	width: 26px;
+	height: 26px;
+	cursor: pointer;
+	background: url(../img/clip/close.gif) no-repeat;
+}
+
+body#tuuen .popup {
+	background: url(../img/clip/pop_btm_bg.png) no-repeat left bottom;
+	padding: 19px 22px 43px 18px;
+}
+
+body#tuuen .popup h1 {
+	background: url(../img/clip/h1_bg.gif) no-repeat 5px top;
+	border-bottom: 3px solid #FEB933;
+	color: #333;
+	font-size: 2.2em;
+	line-height: 1.4;
+	margin-bottom: 12px;
+	padding: 7px 0 0 58px;
+	zoom: 1;
+}
+
+body#tuuen .popup .popInner {
+	margin: 0 auto;
+	padding-left: 3px;
+	width: 475px;
+}
+
+body#tuuen .popup p {
+	color: #222;
+	font-size: 1.4em;
+	margin: 0 0 3px 20px;
+}
+
+body#tuuen .popup .mailForm .radioBox {
+
+	margin-bottom: 17px;
+	padding-top: 8px;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList {
+	padding: 7px 10px 7px 30px
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList li {
+	color: #070707;
+	float: left;
+	font-size: 1.6em;
+	padding: 1px 0 15px 0;
+	width: 133px;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList .liSpecial {
+	padding-top: 0;
+	width: 420px;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList li span {
+	vertical-align: top;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList li span input {
+	vertical-align: top;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList .liSpecial .inputText {
+	margin-left: 19px;
+	width: 295px;
+}
+
+body#tuuen .popup .mailForm .radioBox .radioList .liSpecial #fNursery09 {
+	margin-top: -2px;
+	vertical-align: middle;
+}
+
+body#tuuen .popup .mailForm .submit {
+	text-align: center;
+}
+
+body#tuuen .popup .mailForm .submit li {
+	display: inline;
+	margin: 0 17px 0 12px;
+}
+
+body#tuuen .popup .mailForm .submit li input {
+	vertical-align: top;
+}

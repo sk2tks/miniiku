@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #EDD47A;
+}
+
+#gNavi >li:nth-child(3) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	font-size: 14px;
+}
+
+#main h3 {
+	font-size: 15px;
+	line-height: 1;
+}
+
+#main p {
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0 11px 16px;
+}
+
+#main .tabSection .subTab li {
+	width: 20%;
+	float: left;
+}
+
+#main .tabSection .subTab li a {
+	margin: 0 auto;
+	width: 88%;
+	display: block;
+}
+
+#main .tabSection .subTabBox01 {
+	border-top: 6px solid #D6AFF3;
+}
+
+#main .tabSection .subTabBox02 {
+	border-top: 6px solid #97D5CF;
+}
+
+#main .tabSection .subTabBox03 {
+	border-top: 6px solid #FFBA48;
+}
+
+#main .tabSection .subTabBox04 {
+	border-top: 6px solid #8DE4A6;
+}
+
+/*------------------------------------------------------------
+	03
+------------------------------------------------------------*/
+#main .tabSection .numTxt {
+	padding-bottom: 7px;
+}
+
+#main .vote .lVote {
+	float: none;
+}
+
+#main .vote .rVote {
+	float: none;
+	width: 100%;
+}
+
+#main .vote .rVote .btnVote {
+	text-align: right;
+	width: 95%;
+}
+
+#main .vote .rVote .btnVote a img {
+	width: 21.5%;
+}
+
+#main .tabSection .subTabBox04 p {
+	font-size: 11px;
+	margin: 0 5px 10px;
+}
+
+#main .comTable th {
+	background-color: #D5F183;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1;
+}
+
+#main .comTable td {
+	padding: 4px 12px 7px;
+}
+
+#main .comTable td input {
+	height: 15px;
+	width: 88%;
+}
+
+#main .comTable td .input01 {
+	width: 100%;
+}
+
+#main .comTable td select {
+	font-size: 14px;
+}
+
+#main .comTable td .fContent {
+	border: 1px solid #CCC;
+	height: 120px;
+	width: 100%;
+}
+
+#main .mailForm .btn {
+	margin: 0 auto;
+	width: 55%;
+}
+
+#main .mailForm .btn input {
+	width: 100%;
+}

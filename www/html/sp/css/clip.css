@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*-----------------------------------------------
+	contForm
+---------------------------------------------------*/
+#main .contForm {
+	margin: 0 6px;
+}
+
+#main .contForm dd {
+	margin: 0 10px 5px;
+}
+
+#main .contForm input {
+	width: 97.5%;
+}
+
+#main .contForm textarea {
+	width: 100%;
+}

@@ -1,0 +1,232 @@
+﻿
+@charset "utf-8";
+/*------------------------------------------------------------
+	トープページ
+------------------------------------------------------------*/
+#gNavi {
+	border-bottom: 2px solid #6AD144;
+}
+
+#gNavi >li:nth-child(4) >a img {
+	visibility: hidden;
+}
+
+#main h2 {
+	margin-bottom: 3px;
+	padding-bottom: 2px;
+	font-size: 14px;
+}
+
+#main h2 span {
+	margin-top: 2px;
+	width: 92%;
+}
+
+#main .comH3Ttl {
+	padding-left: 5px;
+	font-size: 13px;
+	border-bottom: 1px solid #5ACE3A;
+}
+
+#main .marketBox {
+	margin-bottom: 5px;
+}
+
+#main .marketBox .topUl li {
+	float: left;
+	width: 56%;
+	line-height: 1.7;
+}
+
+#main .marketBox .topUl li span {
+	margin-left: 10px;
+	padding: 3px 3px 0;
+	background-color: #F6E8F6;
+}
+
+#main .marketBox .topUl .liStyle01 {
+	width: 42%;
+}
+
+#main .marketBox .topUl .liStyle01 span {
+	background-color: #FAEFE1;
+}
+
+#main .marketBox .topUl .liStyle02 span {
+	margin-right: 2px;
+	padding: 3px 15px 0;
+	background-color: #E1FFC9;
+}
+#main .marketBox .topUl .liStyle03 {
+	width: 42%;
+}
+#main .marketBox .topUl .liStyle03 span {
+	background-color: #F5CDFE;
+		margin-left: 10px;
+	padding: 3px 3px 0;
+}
+#main .marketBox .topUl .liStyle01 select {
+	width: 85px;
+}
+
+#main .intro {
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+
+#main .intro img {
+	float: left;
+	display: block;
+	vertical-align: middle;
+}
+
+#main .intro span {
+	margin-left: 34px;
+	padding: 7px 4px 4px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	border: 1px solid #F3C0DA;
+	background: -moz-linear-gradient(
+                top,
+                #FFF9FB 0%,
+                #FFECF4 25%,
+                #FFEBF4);
+    background: -webkit-gradient(
+                linear, left top, left bottom,
+                from(#FFF9FB),
+                color-stop(0.25, #FFECF4),
+                to(#FFEBF4));
+
+}
+
+#main .text {
+	margin: 0 2px 6px;
+	font-size: 10px;
+	line-height: 1.8;
+}
+
+#main .searchBox {
+	margin: 0 4px 5px;
+}
+
+#main .searchBox .formDl {
+	margin: 0;
+	width: 73%;
+	float: left;
+}
+
+#main .searchBox .formDl dt {
+	width: 76%;
+	box-sizing: border-box;
+}
+
+#main .searchBox .formDl dt input {
+	padding: 7px 7px 0;
+	height: 14px;
+	font-size: 11px;
+}
+
+#main .searchBox .formDl dd {
+	margin-top: 1px;
+	width: 15%;
+}
+
+#main .searchBox .link {
+	width: 26%;
+	float: right;
+}
+
+#main .tabList li:last-child a {
+	background: url(../img/common/com_btn04_over.jpg) no-repeat;
+	background-size: 100%;
+}
+
+/*------------------------------------------------------------
+	market413
+------------------------------------------------------------*/
+#main .market413 h2 {
+	margin-bottom: 3px;
+	padding-bottom: 2px;
+	font-size: 14px;
+}
+
+#main .market413 h2 span {
+	margin-top: 2px;
+	width: 92%;
+}
+
+#main .market413 .comH3Ttl {
+	font-size: 13px;
+	border-bottom: 1px solid #FFB2D2;
+}
+
+#main .market413 .mailForm {
+	margin: 0 4px;
+}
+
+#main .market413 dt {
+	float: left;
+	font-size: 13px;
+	width: 20%;
+}
+
+#main .market413 dd {
+	margin-bottom: 5px;
+}
+
+#main .market413 dd select {
+	width: 50%;
+}
+
+#main .market413 .next select {
+	width: 30%;
+}
+
+#main .market413 .tag {
+	width: 28%;
+	height: 20px;
+}
+
+#main .market413 .text2 {
+	width: 48%;
+	height: 18px;
+	border: 1px solid #D6D6D6;
+}
+
+#main .market413 .add {
+	width: 16%;
+	height: 22px;
+	background-color: #FDBD00;
+	border: 1px solid #CCC;
+}
+
+#main .market413 .text1 {
+	margin: 10px 0;
+}
+
+#main .market413 .text1 input {
+	color: #C8C8C8;
+	width: 98.5%;
+	font-size: 10px;
+	height: 20px;
+	border: 1px solid #D6D6D6;
+}
+
+#main .market413 p textarea {
+	width: 98%;
+	height: 240px;
+	border: 1px solid #D6D6D6;
+}
+
+#main .mailForm01 {
+	margin: 0 5px;
+}
+
+.textred{
+	color: #C00;
+	margin-top: 4px;
+	margin-right: auto;
+	margin-bottom: 8px;
+	margin-left: auto;
+	}

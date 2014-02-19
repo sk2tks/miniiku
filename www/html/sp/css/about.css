@@ -1,0 +1,211 @@
+﻿@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts h2  {
+	padding: 5px 47px 4px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #69b728;
+	background-image: url(../img/about/h2_bg1.gif);
+	background-repeat: no-repeat;
+	background-position: left 1px;
+}
+#conts .h2Ttl_1 {
+	background: url(../img/about/h2_bg2.gif) no-repeat left 2px;
+	border-bottom-color: #f5a7a5;
+}
+
+#conts .h2Ttl_2 {
+	background: url(../img/about/h2_bg3.gif) no-repeat left 2px;
+	border-bottom-color: #a261b5;
+}
+
+#conts .h2Ttl_3 {
+	background: url(../img/about/h2_bg4.gif) no-repeat left 2px;
+	border-bottom-color: #65c6b9;
+}
+
+#conts .comTable01 {
+	margin-bottom: 10px;
+}
+
+#conts .comTable01 th,
+#conts .comTable01 td {
+	color: #444;
+	font-size: 1.4em;
+	border-left: none;	
+	border-right: none;	
+	border-top: none;
+	border-bottom: 1px solid #CFCFCF !important;
+	padding: 8px 7px 5px;
+}
+
+#conts .comTable01 th {
+	background-color: #FFF;
+	font-weight: normal;
+}
+
+#conts .comTable01 td li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#conts .comTable01 td textarea {
+	height: 130px;
+	width: 536px;
+}
+
+#conts .comTable01 td .name {
+	width: 270px;
+}
+
+#conts .comTable01 td .email {
+	width: 392px;
+}
+
+#conts .submit {
+	text-align: center;
+}
+
+#conts .submit input {
+	vertical-align: top;
+}
+
+/*------------------------------------------------------------
+	comSubBox
+------------------------------------------------------------*/
+#conts .comSubBox_ {
+	background-color: #FFF;
+	padding: 15px 4px 10px;
+}
+
+#conts .comSubBox_ h3{
+	font-size: 1.6em;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	color: #393;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #393;
+}
+
+#conts .comSubBox_ h4{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+	color: #393;
+}
+
+#conts .comSubBox_ h5{
+	font-size: 1.5em;
+	font-weight: bold;
+	padding-top: 8px;
+	padding-right: 4px;
+	padding-bottom: 5px;
+	padding-left: 4px;
+}
+
+#conts .comSubBox_  p {
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-right: 4px;
+	padding-bottom: 10px;
+	padding-left: 4px;
+	text-align: left;
+}
+
+#conts .comSubBox .formBox ul {
+	float: left;
+	padding-left: 7px;
+	width: 225px;
+}
+
+#conts .comSubBox .formBox ul li {
+	float: left;
+	margin-right: 4px;
+}
+
+#conts .comSubBox table {
+	border: 1px solid #DADADA;
+	border-collapse: collapse;
+	margin-bottom: 16px;
+	width: 100%;
+}
+
+#conts .comSubBox table th,
+#conts .comSubBox table td {
+	border: 1px solid #DADADA;
+	color: #222;
+	font-weight: normal;
+	text-align: left;
+	vertical-align: top;
+	word-break: break-all;
+}
+
+#conts .comSubBox table th {
+	background-color: #D9F7C1;
+	font-size: 1.3em;
+	padding: 6px 1px 7px 11px;
+}
+
+#conts .comSubBox table td {
+	background-color: #FFF;
+	font-size: 1.5em;
+	padding: 10px 1px 4px 5px;
+}
+
+#conts .comSubBox table .spacing {
+	padding-right: 10px;
+	text-align: center;
+}
+
+#conts .comSubBox table td a {
+	color: #222;
+	text-decoration: underline;
+}
+
+#conts .comSubBox table td a:hover {
+	text-decoration: none;
+}
+
+#conts .comSubBox table td ul li {
+	float: left;
+	margin-right: 5px;
+}
+
+/*------------------------------------------------------------
+	321
+------------------------------------------------------------*/
+
+#conts .h2Ttl2{
+	background: url(../img/nursery_info/h2_bg02.gif) no-repeat left 1px;
+	padding: 5px 47px 4px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #F2DB84;
+}
+
+
+/*------------------------------------------------------------
+	331
+------------------------------------------------------------*/
+
+#conts .h2Ttl3{
+	background: url(../img/nursery_info/h2_bg03.gif) no-repeat left 1px;
+	padding: 5px 47px 4px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #B7DF7B;
+}

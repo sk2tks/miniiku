@@ -1,0 +1,10 @@
+
+php_value session.cookie_domain ".dropboxminiku"
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{REQUEST_URI} !\.(cgi|css|swf|htc|js|php|jpg|gif|js)$
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>

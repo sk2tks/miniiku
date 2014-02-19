@@ -1,0 +1,2419 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2013-12-26 17:27+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/BbsController.php:164;191;310;487
+#: Controller/CategoriesController.php:49;96;138;180;227;269
+#: Controller/ChildrenController.php:104;132;189
+#: Controller/ClientPollsController.php:49;96;138
+#: Controller/ClientTypesController.php:78;116;149
+#: Controller/ClientVotesController.php:53;217;260
+#: Controller/CommentAlertsController.php:88;137;182
+#: Controller/CommentsController.php:99;125;199
+#: Controller/CustomersController.php:101;127;215
+#: Controller/FamiliesController.php:95;120;179
+#: Controller/RssController.php:57;108;147
+#: Controller/SourcesController.php:49;96;138;180;227;269
+#: Controller/TagsController.php:82;131;175
+#: Controller/TopicsController.php:135;187;234;284;624;671
+#: Controller/UpdateInfosController.php:49;94;134
+#: Controller/UsersController.php:86;122;170
+msgid "Invalid %s"
+msgstr ""
+
+#: Controller/BbsController.php:164;191;265;268;310;314;324;487;668
+#: Controller/TopicsController.php:135;150;160;187;192;202;234;238;248;284;587;597;624;629;639;671;675;685
+msgid "topic"
+msgstr ""
+
+#: Controller/BbsController.php:265
+#: Controller/CategoriesController.php:64;101;195;232
+#: Controller/ChildrenController.php:164
+#: Controller/ClientPollsController.php:64;101
+#: Controller/ClientTypesController.php:93;121
+#: Controller/ClientVotesController.php:124;222
+#: Controller/CommentAlertsController.php:103;142
+#: Controller/CommentsController.php:169
+#: Controller/CustomersController.php:179
+#: Controller/FamiliesController.php:153
+#: Controller/RssController.php:72;113
+#: Controller/SourcesController.php:64;101;195;232
+#: Controller/TagsController.php:97;136
+#: Controller/TopicsController.php:150;192;587;629
+#: Controller/UpdateInfosController.php:64;99
+#: Controller/UsersController.php:103;130
+msgid "The %s has been saved"
+msgstr ""
+
+#: Controller/BbsController.php:268;668
+#: Controller/CategoriesController.php:74;111;205;242
+#: Controller/ChildrenController.php:167
+#: Controller/ClientPollsController.php:74;111
+#: Controller/ClientTypesController.php:98;126
+#: Controller/ClientVotesController.php:194;232
+#: Controller/CommentAlertsController.php:113;152
+#: Controller/CommentsController.php:172
+#: Controller/CustomersController.php:182
+#: Controller/FamiliesController.php:157
+#: Controller/RssController.php:82;119
+#: Controller/SourcesController.php:74;111;205;242
+#: Controller/TagsController.php:107;146
+#: Controller/TopicsController.php:160;202;597;639
+#: Controller/UpdateInfosController.php:74;109
+#: Controller/UsersController.php:106;133
+#: Controller/Component/CommentComponent.php:73
+msgid "The %s could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/BbsController.php:314
+#: Controller/CategoriesController.php:142;273
+#: Controller/ChildrenController.php:193
+#: Controller/ClientPollsController.php:142
+#: Controller/ClientTypesController.php:153
+#: Controller/ClientVotesController.php:264
+#: Controller/CommentAlertsController.php:186
+#: Controller/CommentsController.php:203
+#: Controller/CustomersController.php:219
+#: Controller/FamiliesController.php:183
+#: Controller/RssController.php:151
+#: Controller/SourcesController.php:142;273
+#: Controller/TagsController.php:179
+#: Controller/TopicsController.php:238;675
+#: Controller/UpdateInfosController.php:138
+#: Controller/UsersController.php:173
+msgid "The %s deleted"
+msgstr ""
+
+#: Controller/BbsController.php:324
+#: Controller/CategoriesController.php:152;283
+#: Controller/ChildrenController.php:198
+#: Controller/ClientPollsController.php:152
+#: Controller/ClientTypesController.php:158
+#: Controller/ClientVotesController.php:274
+#: Controller/CommentAlertsController.php:196
+#: Controller/CommentsController.php:213
+#: Controller/CustomersController.php:224
+#: Controller/FamiliesController.php:188
+#: Controller/RssController.php:161
+#: Controller/SourcesController.php:152;283
+#: Controller/TagsController.php:189
+#: Controller/TopicsController.php:248;685
+#: Controller/UpdateInfosController.php:148
+#: Controller/UsersController.php:176
+msgid "The %s was not deleted"
+msgstr ""
+
+#: Controller/CategoriesController.php:49;64;74;96;101;111;138;142;152;180;195;205;227;232;242;269;273;283
+msgid "category"
+msgstr ""
+
+#: Controller/ChildrenController.php:104;132;164;167;189;193;198
+#: Controller/RssController.php:57;72;82;108;113;119;147;151;161
+msgid "child"
+msgstr ""
+
+#: Controller/ClientPollsController.php:49;64;74;96;101;111;138;142;152
+msgid "client poll"
+msgstr ""
+
+#: Controller/ClientTypesController.php:78;93;98;116;121;126;149;153;158
+#: View/ClientTypes/admin_entry.ctp:6;8;24
+#: View/ClientTypes/admin_index.ctp:3;54
+msgid "施設タイプ"
+msgstr ""
+
+#: Controller/ClientVotesController.php:53;124;194;217;222;232;260;264;274
+msgid "client vote"
+msgstr ""
+
+#: Controller/ClientsController.php:157;223;407;427
+msgid "Invalid client"
+msgstr ""
+
+#: Controller/ClientsController.php:340
+msgid "施設を登録しました"
+msgstr ""
+
+#: Controller/ClientsController.php:343
+msgid "The client could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/ClientsController.php:411
+msgid "The client has been deleted."
+msgstr ""
+
+#: Controller/ClientsController.php:413
+msgid "The client could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/CommentAlertsController.php:88;103;113;137;142;152;182;186;196
+msgid "comment alert"
+msgstr ""
+
+#: Controller/CommentsController.php:99;125;169;172;199;203;213
+#: Controller/Component/CommentComponent.php:73
+msgid "comment"
+msgstr ""
+
+#: Controller/CustomersController.php:101;127;179;182;215;219;224
+msgid "customer"
+msgstr ""
+
+#: Controller/FamiliesController.php:95;120;153;157;179;183;188
+msgid "family"
+msgstr ""
+
+#: Controller/SourcesController.php:49;64;74;96;101;111;138;142;152;180;195;205;227;232;242;269;273;283
+msgid "source"
+msgstr ""
+
+#: Controller/TagsController.php:82;97;107;131;136;146;175;179;189
+msgid "tag"
+msgstr ""
+
+#: Controller/UpdateInfosController.php:49;64;74;94;99;109;134;138;148
+msgid "update info"
+msgstr ""
+
+#: Controller/UsersController.php:86;122;170;173;176
+msgid "user"
+msgstr ""
+
+#: Controller/UsersController.php:103;106;130;133
+#: View/Clients/admin_entry.ctp:706;707
+#: View/Users/admin_entry.ctp:6;8;36
+#: View/Users/admin_index.ctp:3;15;62
+msgid "施設管理者"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:10
+msgid "Set theme to place Bootstrap files in."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:15
+msgid "Set file output to webroot Theme dir (use with theme option)."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:22
+msgid "TwitterBootstrap Copy Shell Help."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:29
+msgid "Copies Less, Js & Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:31
+msgid "files will be placed in webroot of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:39
+msgid "Copies Less source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:41
+msgid "files will be placed in webroot/css/lib/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:49
+msgid "Copies Img source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:51
+msgid "files will be placed in webroot/img/ of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:59
+msgid "Copies Js source from Bootstrap submodule in plugin Vendor dir"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:61
+msgid "files will be placed in webroot/js/lib of App or named Theme"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:108
+msgid "Success."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Console/Command/CopyShell.php:110
+msgid "Error!"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:18
+#: webroot/test.php:95
+msgid "Debug setting does not allow access to this url."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:24
+msgid "Alert notice message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:27
+msgid "Alert success message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/Controller/TwitterBootstrapController.php:31
+msgid "Alert error message testing..."
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:6
+msgid "CakePHP: the rapid development php framework:"
+msgstr ""
+
+#: Plugin/TwitterBootstrap/View/Layouts/default.ctp:51
+#: View/Pages/home.ctp:209
+msgid "CakePHP"
+msgstr ""
+
+#: Plugin/cakeplus/Model/Behavior/ValidationErrorI18nBehavior.php:97
+msgid "Invalid Email address."
+msgstr ""
+
+#: Plugin/cakeplus/Model/Behavior/ValidationErrorI18nBehavior.php:98
+msgid "Between %2$d and %3$d characters."
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:29
+#: View/Bbs/admin_index.ctp:56
+#: View/Bbs/admin_view.ctp:3;93;94;96
+#: View/Categories/admin_add.ctp:25
+#: View/Categories/admin_edit.ctp:27
+#: View/Categories/admin_index.ctp:50
+#: View/Categories/admin_view.ctp:50;154
+#: View/Topics/_index.ctp:80
+#: View/Topics/add.ctp:5
+#: View/Topics/admin_add.ctp:5
+#: View/Topics/admin_edit.ctp:10
+#: View/Topics/admin_fetch.ctp:79
+#: View/Topics/admin_index.ctp:92
+#: View/Topics/admin_view.ctp:3;106;107;109
+#: View/Topics/edit.ctp:5
+#: View/Topics/view.ctp:3;106;107;109
+msgid "Topic"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:62
+#: View/Categories/admin_add.ctp:11
+#: View/Categories/admin_edit.ctp:12
+#: View/ClientPolls/add.ctp:14
+#: View/ClientPolls/edit.ctp:15
+#: View/ClientVotes/admin_add.ctp:35
+#: View/ClientVotes/admin_edit.ctp:26
+#: View/CommentAlerts/admin_add.ctp:17
+#: View/CommentAlerts/admin_edit.ctp:18
+#: View/Comments/admin_entry.ctp:17
+#: View/Sources/admin_add.ctp:32
+#: View/Sources/admin_edit.ctp:31
+#: View/Tags/admin_add.ctp:10
+#: View/Tags/admin_edit.ctp:11
+#: View/Topics/add.ctp:25
+#: View/Topics/admin_add.ctp:25
+#: View/Topics/admin_edit.ctp:33
+#: View/Topics/edit.ctp:26
+#: View/Helper/FormHelper.php:1828
+msgid "Submit"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:70
+#: View/Bbs/admin_index.ctp:28;55
+#: View/Bbs/admin_view.ctp:92;140;193;247;292
+#: View/Categories/admin_add.ctp:18
+#: View/Categories/admin_edit.ctp:19
+#: View/Categories/admin_index.ctp:17;43
+#: View/Categories/admin_view.ctp:40;67;118
+#: View/Children/admin_index.ctp:34
+#: View/Children/admin_view.ctp:80
+#: View/ClientPolls/add.ctp:21
+#: View/ClientPolls/edit.ctp:22
+#: View/ClientPolls/index.ctp:20;49
+#: View/ClientPolls/view.ctp:55
+#: View/ClientTypes/admin_index.ctp:27
+#: View/ClientTypes/admin_view.ctp:30
+#: View/ClientVotes/admin_add.ctp:42
+#: View/ClientVotes/admin_edit.ctp:33
+#: View/ClientVotes/admin_index.ctp:21;53
+#: View/ClientVotes/admin_view.ctp:61
+#: View/Clients/admin_index.ctp:50
+#: View/Clients/admin_view.ctp:175
+#: View/CommentAlerts/admin_add.ctp:24
+#: View/CommentAlerts/admin_edit.ctp:27
+#: View/CommentAlerts/admin_index.ctp:38;100
+#: View/CommentAlerts/admin_view.ctp:55
+#: View/Comments/admin_entry.ctp:25
+#: View/Comments/admin_index.ctp:47;115
+#: View/Comments/admin_view.ctp:66
+#: View/Customers/admin_index.ctp:43
+#: View/Customers/admin_view.ctp:135
+#: View/Families/admin_index.ctp:27
+#: View/Families/admin_view.ctp:40;78;144;205;253
+#: View/Sources/admin_add.ctp:39
+#: View/Sources/admin_edit.ctp:38
+#: View/Sources/admin_index.ctp:20;49
+#: View/Sources/admin_view.ctp:55
+#: View/Tags/admin_add.ctp:18
+#: View/Tags/admin_edit.ctp:19
+#: View/Tags/admin_index.ctp:25;52
+#: View/Tags/admin_view.ctp:27
+#: View/Topics/_index.ctp:30;79
+#: View/Topics/add.ctp:32
+#: View/Topics/admin_add.ctp:32
+#: View/Topics/admin_edit.ctp:40
+#: View/Topics/admin_fetch.ctp:32;78
+#: View/Topics/admin_index.ctp:41;91
+#: View/Topics/admin_view.ctp:105;152;205;259;304
+#: View/Topics/edit.ctp:33
+#: View/Topics/view.ctp:105;152;205;259;304
+#: View/UpdateInfos/admin_index.ctp:37
+#: View/UpdateInfos/admin_view.ctp:40
+#: View/Users/admin_index.ctp:30
+#: View/Users/admin_view.ctp:56
+msgid "Actions"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:71;72;74;76;78;80;82;84;86;88;90
+#: View/Bbs/admin_index.ctp:3;57;59;61;63;65;67;69;71;73;75
+#: View/Bbs/admin_view.ctp:95;97;99;101;103;105;107;109;111;113;115
+#: View/Categories/admin_add.ctp:19;20;22;24
+#: View/Categories/admin_edit.ctp:21;22;24;26
+#: View/Categories/admin_index.ctp:3;45;47;49
+#: View/Categories/admin_view.ctp:43;45;47;49
+#: View/Children/admin_entry.ctp:83;84
+#: View/Children/admin_index.ctp:3;68
+#: View/Children/admin_view.ctp:83;85
+#: View/ClientPolls/add.ctp:22;23
+#: View/ClientPolls/edit.ctp:24;25
+#: View/ClientPolls/index.ctp:3;51
+#: View/ClientPolls/view.ctp:58;60
+#: View/ClientTypes/admin_entry.ctp:24
+#: View/ClientTypes/admin_index.ctp:3
+#: View/ClientTypes/admin_view.ctp:33
+#: View/ClientVotes/admin_add.ctp:43;44;46
+#: View/ClientVotes/admin_edit.ctp:35;36;38
+#: View/ClientVotes/admin_index.ctp:3;55;57
+#: View/ClientVotes/admin_view.ctp:64;66;68
+#: View/Clients/admin_entry.ctp:705;706
+#: View/Clients/admin_index.ctp:3
+#: View/Clients/admin_view.ctp:178;180;182;184;186;188
+#: View/CommentAlerts/admin_add.ctp:25;26;28;30
+#: View/CommentAlerts/admin_edit.ctp:29;30;32;34
+#: View/CommentAlerts/admin_index.ctp:6;102;104;106
+#: View/CommentAlerts/admin_view.ctp:58;60;62;64
+#: View/Comments/admin_entry.ctp:27;28
+#: View/Comments/admin_index.ctp:4;117
+#: View/Comments/admin_view.ctp:69;71
+#: View/Customers/admin_entry.ctp:186;189
+#: View/Customers/admin_index.ctp:4;90
+#: View/Customers/admin_view.ctp:138;140;142;144;146
+#: View/Families/admin_entry.ctp:75;76;78
+#: View/Families/admin_index.ctp:3;58
+#: View/Families/admin_view.ctp:43;45;47;49;51
+#: View/Sources/admin_add.ctp:40;41
+#: View/Sources/admin_edit.ctp:40;41
+#: View/Sources/admin_index.ctp:3;51
+#: View/Sources/admin_view.ctp:58;60
+#: View/Tags/admin_add.ctp:19;20
+#: View/Tags/admin_edit.ctp:21;22
+#: View/Tags/admin_index.ctp:3;54
+#: View/Tags/admin_view.ctp:29;30
+#: View/Topics/_index.ctp:3;81;83;85;87;89;91;93;95;97;99
+#: View/Topics/add.ctp:33;34;36;38;40;42;44;46;48;50;52
+#: View/Topics/admin_add.ctp:33;34;36;38;40;42;44;46;48;50;52
+#: View/Topics/admin_edit.ctp:42;43;45;47;49;51;53;55;57;59;61
+#: View/Topics/admin_fetch.ctp:80;82;84;86;88;90;92;94;96;98
+#: View/Topics/admin_index.ctp:13;93;95;97;99;101;103;105;107;109;111
+#: View/Topics/admin_view.ctp:108;110;112;114;116;118;120;122;124;126;128
+#: View/Topics/edit.ctp:35;36;38;40;42;44;46;48;50;52;54
+#: View/Topics/view.ctp:108;110;112;114;116;118;120;122;124;126;128
+#: View/UpdateInfos/admin_index.ctp:3
+#: View/UpdateInfos/admin_view.ctp:43
+#: View/Users/admin_entry.ctp:36;37
+#: View/Users/admin_index.ctp:3;63
+#: View/Users/admin_view.ctp:59;61;63;65
+msgid "List %s"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:71
+#: View/Bbs/admin_index.ctp:3
+#: View/Bbs/admin_view.ctp:95
+#: View/Categories/admin_add.ctp:24
+#: View/Categories/admin_edit.ctp:26
+#: View/Categories/admin_index.ctp:49
+#: View/Categories/admin_view.ctp:49;95
+#: View/Topics/_index.ctp:3
+#: View/Topics/add.ctp:33
+#: View/Topics/admin_add.ctp:33
+#: View/Topics/admin_edit.ctp:42
+#: View/Topics/admin_index.ctp:13
+#: View/Topics/admin_view.ctp:108
+#: View/Topics/edit.ctp:35
+#: View/Topics/view.ctp:108
+msgid "Topics"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:72
+#: View/Bbs/admin_index.ctp:57
+#: View/Bbs/admin_view.ctp:97
+#: View/Categories/admin_add.ctp:20
+#: View/Categories/admin_edit.ctp:22
+#: View/Categories/admin_index.ctp:45
+#: View/Categories/admin_view.ctp:45
+#: View/Clients/admin_view.ctp:180
+#: View/CommentAlerts/admin_add.ctp:26
+#: View/CommentAlerts/admin_edit.ctp:30
+#: View/CommentAlerts/admin_index.ctp:102
+#: View/CommentAlerts/admin_view.ctp:60
+#: View/Topics/_index.ctp:81
+#: View/Topics/add.ctp:34
+#: View/Topics/admin_add.ctp:34
+#: View/Topics/admin_edit.ctp:43
+#: View/Topics/admin_fetch.ctp:80
+#: View/Topics/admin_index.ctp:93
+#: View/Topics/admin_view.ctp:110
+#: View/Topics/edit.ctp:36
+#: View/Topics/view.ctp:110
+msgid "Contents Types"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:73;75;77;79;81;83;85;87;89;91
+#: View/Bbs/admin_index.ctp:56;58;60;62;64;66;68;70;72;74;76
+#: View/Bbs/admin_view.ctp:96;98;100;102;104;106;108;110;112;114;116;168;225;276;315
+#: View/Categories/admin_add.ctp:21;23;25
+#: View/Categories/admin_edit.ctp:23;25;27
+#: View/Categories/admin_index.ctp:44;46;48;50
+#: View/Categories/admin_view.ctp:44;46;48;50;89;154
+#: View/Children/admin_entry.ctp:85
+#: View/Children/admin_index.ctp:17;67;69
+#: View/Children/admin_view.ctp:84;86
+#: View/ClientPolls/add.ctp:24
+#: View/ClientPolls/edit.ctp:26
+#: View/ClientPolls/index.ctp:50;52
+#: View/ClientPolls/view.ctp:59;61
+#: View/ClientTypes/admin_index.ctp:15;54
+#: View/ClientTypes/admin_view.ctp:34
+#: View/ClientVotes/admin_add.ctp:45;47
+#: View/ClientVotes/admin_edit.ctp:37;39
+#: View/ClientVotes/admin_index.ctp:54;56;58
+#: View/ClientVotes/admin_view.ctp:65;67;69
+#: View/Clients/admin_entry.ctp:707
+#: View/Clients/admin_index.ctp:18;102
+#: View/Clients/admin_view.ctp:179;181;183;185;187;189
+#: View/CommentAlerts/admin_add.ctp:27;29;31
+#: View/CommentAlerts/admin_edit.ctp:31;33;35
+#: View/CommentAlerts/admin_index.ctp:101;103;105;107
+#: View/CommentAlerts/admin_view.ctp:59;61;63;65
+#: View/Comments/admin_entry.ctp:29
+#: View/Comments/admin_index.ctp:116;118
+#: View/Comments/admin_view.ctp:70;72
+#: View/Customers/admin_entry.ctp:190
+#: View/Customers/admin_index.ctp:19;89;91
+#: View/Customers/admin_view.ctp:139;141;143;145;147
+#: View/Families/admin_entry.ctp:77;79
+#: View/Families/admin_index.ctp:15;57;59
+#: View/Families/admin_view.ctp:44;46;48;50;52;109;186;231;282
+#: View/Sources/admin_add.ctp:42
+#: View/Sources/admin_edit.ctp:42
+#: View/Sources/admin_index.ctp:50;52
+#: View/Sources/admin_view.ctp:59;61
+#: View/Tags/admin_add.ctp:21
+#: View/Tags/admin_edit.ctp:23
+#: View/Tags/admin_index.ctp:53;55
+#: View/Tags/admin_view.ctp:31
+#: View/Topics/_index.ctp:80;82;84;86;88;90;92;94;96;98;100
+#: View/Topics/add.ctp:35;37;39;41;43;45;47;49;51;53
+#: View/Topics/admin_add.ctp:35;37;39;41;43;45;47;49;51;53
+#: View/Topics/admin_edit.ctp:44;46;48;50;52;54;56;58;60;62
+#: View/Topics/admin_fetch.ctp:79;81;83;85;87;89;91;93;95;97;99
+#: View/Topics/admin_index.ctp:92;94;96;98;100;102;104;106;108;110;112
+#: View/Topics/admin_view.ctp:109;111;113;115;117;119;121;123;125;127;129;180;237;288;327
+#: View/Topics/edit.ctp:37;39;41;43;45;47;49;51;53;55
+#: View/Topics/view.ctp:109;111;113;115;117;119;121;123;125;127;129;180;237;288;327
+#: View/UpdateInfos/admin_index.ctp:23
+#: View/UpdateInfos/admin_view.ctp:44
+#: View/Users/admin_entry.ctp:38
+#: View/Users/admin_index.ctp:15;62;64
+#: View/Users/admin_view.ctp:60;62;64;66
+#: View/Helper/FormHelper.php:882
+msgid "New %s"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:73
+#: View/Bbs/admin_index.ctp:58
+#: View/Bbs/admin_view.ctp:10;98
+#: View/Categories/admin_add.ctp:21
+#: View/Categories/admin_edit.ctp:23
+#: View/Categories/admin_index.ctp:46
+#: View/Categories/admin_view.ctp:15;46
+#: View/Clients/admin_view.ctp:20;181
+#: View/CommentAlerts/admin_add.ctp:27
+#: View/CommentAlerts/admin_edit.ctp:31
+#: View/CommentAlerts/admin_index.ctp:103
+#: View/CommentAlerts/admin_view.ctp:10;61
+#: View/Topics/_index.ctp:82
+#: View/Topics/add.ctp:35
+#: View/Topics/admin_add.ctp:35
+#: View/Topics/admin_edit.ctp:44
+#: View/Topics/admin_fetch.ctp:81
+#: View/Topics/admin_index.ctp:94
+#: View/Topics/admin_view.ctp:10;111
+#: View/Topics/edit.ctp:37
+#: View/Topics/view.ctp:10;111
+msgid "Contents Type"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:74
+#: View/Bbs/admin_index.ctp:59
+#: View/Bbs/admin_view.ctp:99
+#: View/Categories/admin_add.ctp:19
+#: View/Categories/admin_edit.ctp:21
+#: View/Categories/admin_index.ctp:3
+#: View/Categories/admin_view.ctp:43
+#: View/Tags/admin_add.ctp:20
+#: View/Tags/admin_edit.ctp:22
+#: View/Tags/admin_index.ctp:54
+#: View/Tags/admin_view.ctp:30
+#: View/Topics/_index.ctp:83
+#: View/Topics/add.ctp:36
+#: View/Topics/admin_add.ctp:36
+#: View/Topics/admin_edit.ctp:45
+#: View/Topics/admin_fetch.ctp:82
+#: View/Topics/admin_index.ctp:95
+#: View/Topics/admin_view.ctp:112
+#: View/Topics/edit.ctp:38
+#: View/Topics/view.ctp:112
+msgid "Categories"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:75
+#: View/Bbs/admin_index.ctp:60
+#: View/Bbs/admin_view.ctp:15;100
+#: View/Categories/admin_add.ctp:5
+#: View/Categories/admin_edit.ctp:5
+#: View/Categories/admin_index.ctp:44
+#: View/Categories/admin_view.ctp:3;41;42;44
+#: View/Tags/admin_add.ctp:21
+#: View/Tags/admin_edit.ctp:23
+#: View/Tags/admin_index.ctp:55
+#: View/Tags/admin_view.ctp:10;31
+#: View/Topics/_index.ctp:84
+#: View/Topics/add.ctp:37
+#: View/Topics/admin_add.ctp:37
+#: View/Topics/admin_edit.ctp:46
+#: View/Topics/admin_fetch.ctp:83
+#: View/Topics/admin_index.ctp:96
+#: View/Topics/admin_view.ctp:15;113
+#: View/Topics/edit.ctp:39
+#: View/Topics/view.ctp:15;113
+msgid "Category"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:76
+#: View/Bbs/admin_index.ctp:61
+#: View/Bbs/admin_view.ctp:101
+#: View/ClientVotes/admin_add.ctp:46
+#: View/ClientVotes/admin_edit.ctp:38
+#: View/ClientVotes/admin_index.ctp:57
+#: View/ClientVotes/admin_view.ctp:68
+#: View/Clients/admin_view.ctp:182
+#: View/CommentAlerts/admin_add.ctp:30
+#: View/CommentAlerts/admin_edit.ctp:34
+#: View/CommentAlerts/admin_index.ctp:106
+#: View/CommentAlerts/admin_view.ctp:64
+#: View/Comments/admin_entry.ctp:28
+#: View/Comments/admin_index.ctp:117
+#: View/Comments/admin_view.ctp:71
+#: View/Customers/admin_view.ctp:140
+#: View/Topics/_index.ctp:85
+#: View/Topics/add.ctp:38
+#: View/Topics/admin_add.ctp:38
+#: View/Topics/admin_edit.ctp:47
+#: View/Topics/admin_fetch.ctp:84
+#: View/Topics/admin_index.ctp:97
+#: View/Topics/admin_view.ctp:114
+#: View/Topics/edit.ctp:40
+#: View/Topics/view.ctp:114
+#: View/Users/admin_view.ctp:59
+msgid "Users"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:77
+#: View/Bbs/admin_index.ctp:62
+#: View/Bbs/admin_view.ctp:25;102
+#: View/ClientVotes/admin_add.ctp:47
+#: View/ClientVotes/admin_edit.ctp:39
+#: View/ClientVotes/admin_index.ctp:58
+#: View/ClientVotes/admin_view.ctp:16;69
+#: View/Clients/admin_view.ctp:25;183
+#: View/CommentAlerts/admin_add.ctp:31
+#: View/CommentAlerts/admin_edit.ctp:35
+#: View/CommentAlerts/admin_index.ctp:107
+#: View/CommentAlerts/admin_view.ctp:25;65
+#: View/Comments/admin_entry.ctp:29
+#: View/Comments/admin_index.ctp:118
+#: View/Comments/admin_view.ctp:25;72
+#: View/Customers/admin_view.ctp:40;141
+#: View/Topics/_index.ctp:86
+#: View/Topics/add.ctp:39
+#: View/Topics/admin_add.ctp:39
+#: View/Topics/admin_edit.ctp:48
+#: View/Topics/admin_fetch.ctp:85
+#: View/Topics/admin_index.ctp:98
+#: View/Topics/admin_view.ctp:20;115
+#: View/Topics/edit.ctp:41
+#: View/Topics/view.ctp:20;115
+#: View/Users/admin_view.ctp:3;57;58;60
+msgid "User"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:78
+#: View/Bbs/admin_index.ctp:63
+#: View/Bbs/admin_view.ctp:103
+#: View/Clients/admin_view.ctp:184
+#: View/Customers/admin_view.ctp:142
+#: View/Topics/_index.ctp:87
+#: View/Topics/add.ctp:40
+#: View/Topics/admin_add.ctp:40
+#: View/Topics/admin_edit.ctp:49
+#: View/Topics/admin_fetch.ctp:86
+#: View/Topics/admin_index.ctp:99
+#: View/Topics/admin_view.ctp:116
+#: View/Topics/edit.ctp:42
+#: View/Topics/view.ctp:116
+msgid "Areas"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:79
+#: View/Bbs/admin_index.ctp:64
+#: View/Bbs/admin_view.ctp:40;104
+#: View/Clients/admin_view.ctp:30;185
+#: View/Customers/admin_view.ctp:45;143
+#: View/Topics/_index.ctp:88
+#: View/Topics/add.ctp:41
+#: View/Topics/admin_add.ctp:41
+#: View/Topics/admin_edit.ctp:50
+#: View/Topics/admin_fetch.ctp:87
+#: View/Topics/admin_index.ctp:100
+#: View/Topics/admin_view.ctp:25;117
+#: View/Topics/edit.ctp:43
+#: View/Topics/view.ctp:25;117
+msgid "Area"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:80
+#: View/Bbs/admin_index.ctp:65
+#: View/Bbs/admin_view.ctp:105
+#: View/Clients/admin_view.ctp:186
+#: View/Sources/admin_add.ctp:41
+#: View/Sources/admin_edit.ctp:41
+#: View/Sources/admin_index.ctp:51
+#: View/Sources/admin_view.ctp:60
+#: View/Topics/_index.ctp:89
+#: View/Topics/add.ctp:42
+#: View/Topics/admin_add.ctp:42
+#: View/Topics/admin_edit.ctp:51
+#: View/Topics/admin_fetch.ctp:88
+#: View/Topics/admin_index.ctp:101
+#: View/Topics/admin_view.ctp:118
+#: View/Topics/edit.ctp:44
+#: View/Topics/view.ctp:118
+msgid "Municipals"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:81
+#: View/Bbs/admin_index.ctp:66
+#: View/Bbs/admin_view.ctp:35;106
+#: View/Clients/admin_view.ctp:35;187
+#: View/Sources/admin_add.ctp:42
+#: View/Sources/admin_edit.ctp:42
+#: View/Sources/admin_index.ctp:52
+#: View/Sources/admin_view.ctp:45;61
+#: View/Topics/_index.ctp:90
+#: View/Topics/add.ctp:43
+#: View/Topics/admin_add.ctp:43
+#: View/Topics/admin_edit.ctp:52
+#: View/Topics/admin_fetch.ctp:89
+#: View/Topics/admin_index.ctp:102
+#: View/Topics/admin_view.ctp:30;119
+#: View/Topics/edit.ctp:45
+#: View/Topics/view.ctp:30;119
+msgid "Municipal"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:82
+#: View/Bbs/admin_index.ctp:67
+#: View/Bbs/admin_view.ctp:107
+#: View/Clients/admin_view.ctp:188
+#: View/Customers/admin_view.ctp:144
+#: View/Topics/_index.ctp:91
+#: View/Topics/add.ctp:44
+#: View/Topics/admin_add.ctp:44
+#: View/Topics/admin_edit.ctp:53
+#: View/Topics/admin_fetch.ctp:90
+#: View/Topics/admin_index.ctp:103
+#: View/Topics/admin_view.ctp:120
+#: View/Topics/edit.ctp:46
+#: View/Topics/view.ctp:120
+msgid "Prefectures"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:83
+#: View/Bbs/admin_index.ctp:68
+#: View/Bbs/admin_view.ctp:30;108
+#: View/Clients/admin_view.ctp:40;189
+#: View/Customers/admin_view.ctp:55;145
+#: View/Topics/_index.ctp:92
+#: View/Topics/add.ctp:45
+#: View/Topics/admin_add.ctp:45
+#: View/Topics/admin_edit.ctp:54
+#: View/Topics/admin_fetch.ctp:91
+#: View/Topics/admin_index.ctp:104
+#: View/Topics/admin_view.ctp:35;121
+#: View/Topics/edit.ctp:47
+#: View/Topics/view.ctp:35;121
+msgid "Prefecture"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:84
+#: View/Bbs/admin_index.ctp:69
+#: View/Bbs/admin_view.ctp:109;125
+#: View/CommentAlerts/admin_add.ctp:25
+#: View/CommentAlerts/admin_edit.ctp:29
+#: View/CommentAlerts/admin_index.ctp:6
+#: View/CommentAlerts/admin_view.ctp:58
+#: View/Topics/_index.ctp:93
+#: View/Topics/add.ctp:46
+#: View/Topics/admin_add.ctp:46
+#: View/Topics/admin_edit.ctp:55
+#: View/Topics/admin_fetch.ctp:92
+#: View/Topics/admin_index.ctp:105
+#: View/Topics/admin_view.ctp:122;137
+#: View/Topics/edit.ctp:48
+#: View/Topics/view.ctp:122;137
+msgid "Comment Alerts"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:85
+#: View/Bbs/admin_index.ctp:70
+#: View/Bbs/admin_view.ctp:110;168
+#: View/CommentAlerts/admin_add.ctp:5
+#: View/CommentAlerts/admin_edit.ctp:6
+#: View/CommentAlerts/admin_index.ctp:101
+#: View/CommentAlerts/admin_view.ctp:3;56;57;59
+#: View/Topics/_index.ctp:94
+#: View/Topics/add.ctp:47
+#: View/Topics/admin_add.ctp:47
+#: View/Topics/admin_edit.ctp:56
+#: View/Topics/admin_fetch.ctp:93
+#: View/Topics/admin_index.ctp:106
+#: View/Topics/admin_view.ctp:123;180
+#: View/Topics/edit.ctp:49
+#: View/Topics/view.ctp:123;180
+msgid "Comment Alert"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:86
+#: View/Bbs/admin_index.ctp:71
+#: View/Bbs/admin_view.ctp:111;174
+#: View/CommentAlerts/admin_add.ctp:28
+#: View/CommentAlerts/admin_edit.ctp:32
+#: View/CommentAlerts/admin_index.ctp:104
+#: View/CommentAlerts/admin_view.ctp:62
+#: View/Comments/admin_entry.ctp:27
+#: View/Comments/admin_index.ctp:4
+#: View/Comments/admin_view.ctp:69
+#: View/Topics/_index.ctp:95
+#: View/Topics/add.ctp:48
+#: View/Topics/admin_add.ctp:48
+#: View/Topics/admin_edit.ctp:57
+#: View/Topics/admin_fetch.ctp:94
+#: View/Topics/admin_index.ctp:107
+#: View/Topics/admin_view.ctp:124;186
+#: View/Topics/edit.ctp:50
+#: View/Topics/view.ctp:124;186
+msgid "Comments"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:87
+#: View/Bbs/admin_index.ctp:72
+#: View/Bbs/admin_view.ctp:112;225
+#: View/CommentAlerts/admin_add.ctp:29
+#: View/CommentAlerts/admin_edit.ctp:33
+#: View/CommentAlerts/admin_index.ctp:105
+#: View/CommentAlerts/admin_view.ctp:20;63
+#: View/Comments/admin_entry.ctp:7
+#: View/Comments/admin_index.ctp:116
+#: View/Comments/admin_view.ctp:3;67;68;70
+#: View/Topics/_index.ctp:96
+#: View/Topics/add.ctp:49
+#: View/Topics/admin_add.ctp:49
+#: View/Topics/admin_edit.ctp:58
+#: View/Topics/admin_fetch.ctp:95
+#: View/Topics/admin_index.ctp:108
+#: View/Topics/admin_view.ctp:125;237
+#: View/Topics/edit.ctp:51
+#: View/Topics/view.ctp:125;237
+msgid "Comment"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:88
+#: View/Bbs/admin_index.ctp:73
+#: View/Bbs/admin_view.ctp:113;231
+#: View/Families/admin_view.ctp:51;237
+#: View/Topics/_index.ctp:97
+#: View/Topics/add.ctp:50
+#: View/Topics/admin_add.ctp:50
+#: View/Topics/admin_edit.ctp:59
+#: View/Topics/admin_fetch.ctp:96
+#: View/Topics/admin_index.ctp:109
+#: View/Topics/admin_view.ctp:126;243
+#: View/Topics/edit.ctp:52
+#: View/Topics/view.ctp:126;243
+msgid "Family Likes"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:89
+#: View/Bbs/admin_index.ctp:74
+#: View/Bbs/admin_view.ctp:114;276
+#: View/Families/admin_view.ctp:52;282
+#: View/Topics/_index.ctp:98
+#: View/Topics/add.ctp:51
+#: View/Topics/admin_add.ctp:51
+#: View/Topics/admin_edit.ctp:60
+#: View/Topics/admin_fetch.ctp:97
+#: View/Topics/admin_index.ctp:110
+#: View/Topics/admin_view.ctp:127;288
+#: View/Topics/edit.ctp:53
+#: View/Topics/view.ctp:127;288
+msgid "Family Like"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:90
+#: View/Bbs/admin_index.ctp:75
+#: View/Bbs/admin_view.ctp:115;282
+#: View/Topics/_index.ctp:99
+#: View/Topics/add.ctp:52
+#: View/Topics/admin_add.ctp:52
+#: View/Topics/admin_edit.ctp:61
+#: View/Topics/admin_fetch.ctp:98
+#: View/Topics/admin_index.ctp:111
+#: View/Topics/admin_view.ctp:128;294
+#: View/Topics/edit.ctp:54
+#: View/Topics/view.ctp:128;294
+msgid "Topic Votes"
+msgstr ""
+
+#: View/Bbs/admin_entry.ctp:91
+#: View/Bbs/admin_index.ctp:76
+#: View/Bbs/admin_view.ctp:116;315
+#: View/Topics/_index.ctp:100
+#: View/Topics/add.ctp:53
+#: View/Topics/admin_add.ctp:53
+#: View/Topics/admin_edit.ctp:62
+#: View/Topics/admin_fetch.ctp:99
+#: View/Topics/admin_index.ctp:112
+#: View/Topics/admin_view.ctp:129;327
+#: View/Topics/edit.ctp:55
+#: View/Topics/view.ctp:129;327
+msgid "Topic Vote"
+msgstr ""
+
+#: View/Bbs/admin_index.ctp:17
+#: View/Categories/admin_index.ctp:6
+#: View/Children/admin_index.ctp:19
+#: View/ClientPolls/index.ctp:6
+#: View/ClientTypes/admin_index.ctp:17
+#: View/ClientVotes/admin_index.ctp:6
+#: View/Clients/admin_index.ctp:27
+#: View/CommentAlerts/admin_index.ctp:23
+#: View/Comments/admin_index.ctp:32
+#: View/Customers/admin_index.ctp:21
+#: View/Families/admin_index.ctp:17
+#: View/Sources/admin_index.ctp:6
+#: View/Tags/admin_index.ctp:16
+#: View/Topics/_index.ctp:6
+#: View/Topics/admin_fetch.ctp:11
+#: View/Topics/admin_index.ctp:16
+#: View/UpdateInfos/admin_index.ctp:26
+#: View/Users/admin_index.ctp:18
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/Bbs/admin_index.ctp:42
+#: View/Bbs/admin_view.ctp:157;214;265;304
+#: View/Categories/admin_index.ctp:31
+#: View/Categories/admin_view.ctp:78;143
+#: View/Children/admin_index.ctp:50
+#: View/ClientPolls/index.ctp:37
+#: View/ClientTypes/admin_index.ctp:38
+#: View/ClientVotes/admin_index.ctp:41
+#: View/Clients/admin_index.ctp:86
+#: View/CommentAlerts/admin_index.ctp:76
+#: View/Comments/admin_index.ctp:84
+#: View/Customers/admin_index.ctp:73
+#: View/Families/admin_index.ctp:40
+#: View/Families/admin_view.ctp:98;175;220;271
+#: View/Sources/admin_index.ctp:37
+#: View/Tags/admin_index.ctp:39
+#: View/Topics/_index.ctp:67
+#: View/Topics/admin_fetch.ctp:66
+#: View/Topics/admin_index.ctp:79
+#: View/Topics/admin_view.ctp:169;226;277;316
+#: View/Topics/view.ctp:169;226;277;316
+#: View/UpdateInfos/admin_index.ctp:48
+#: View/Users/admin_index.ctp:46
+msgid "Edit"
+msgstr ""
+
+#: View/Bbs/admin_index.ctp:43
+#: View/Bbs/admin_view.ctp:158;215;266;305
+#: View/Categories/admin_edit.ctp:20
+#: View/Categories/admin_index.ctp:32
+#: View/Categories/admin_view.ctp:79;144
+#: View/Children/admin_index.ctp:51
+#: View/ClientPolls/edit.ctp:23
+#: View/ClientPolls/index.ctp:38
+#: View/ClientTypes/admin_index.ctp:39
+#: View/ClientVotes/admin_edit.ctp:34
+#: View/ClientVotes/admin_index.ctp:42
+#: View/Clients/admin_entry.ctp:704
+#: View/Clients/admin_index.ctp:87
+#: View/CommentAlerts/admin_edit.ctp:28
+#: View/CommentAlerts/admin_index.ctp:83
+#: View/Comments/admin_entry.ctp:26
+#: View/Comments/admin_index.ctp:94
+#: View/Customers/admin_entry.ctp:185
+#: View/Customers/admin_index.ctp:74
+#: View/Families/admin_index.ctp:41
+#: View/Families/admin_view.ctp:99;176;221;272
+#: View/Sources/admin_edit.ctp:39
+#: View/Sources/admin_index.ctp:38
+#: View/Tags/admin_edit.ctp:20
+#: View/Tags/admin_index.ctp:40
+#: View/Tags/admin_view.ctp:28
+#: View/Topics/_index.ctp:68
+#: View/Topics/admin_edit.ctp:41
+#: View/Topics/admin_fetch.ctp:67
+#: View/Topics/admin_index.ctp:80
+#: View/Topics/admin_view.ctp:170;227;278;317
+#: View/Topics/edit.ctp:34
+#: View/Topics/view.ctp:170;227;278;317
+#: View/UpdateInfos/admin_index.ctp:49
+#: View/Users/admin_index.ctp:47
+msgid "Delete"
+msgstr ""
+
+#: View/Bbs/admin_index.ctp:43
+#: View/Bbs/admin_view.ctp:94;158;215;266;305
+#: View/Categories/admin_edit.ctp:20
+#: View/Categories/admin_index.ctp:32
+#: View/Categories/admin_view.ctp:42;79;144
+#: View/Children/admin_index.ctp:51
+#: View/Children/admin_view.ctp:82
+#: View/ClientPolls/edit.ctp:23
+#: View/ClientPolls/index.ctp:38
+#: View/ClientPolls/view.ctp:57
+#: View/ClientTypes/admin_index.ctp:39
+#: View/ClientTypes/admin_view.ctp:32
+#: View/ClientVotes/admin_edit.ctp:34
+#: View/ClientVotes/admin_index.ctp:42
+#: View/ClientVotes/admin_view.ctp:63
+#: View/Clients/admin_entry.ctp:704
+#: View/Clients/admin_index.ctp:87
+#: View/Clients/admin_view.ctp:177
+#: View/CommentAlerts/admin_edit.ctp:28
+#: View/CommentAlerts/admin_index.ctp:86
+#: View/CommentAlerts/admin_view.ctp:57
+#: View/Comments/admin_entry.ctp:26
+#: View/Comments/admin_index.ctp:99
+#: View/Comments/admin_view.ctp:68
+#: View/Customers/admin_entry.ctp:185
+#: View/Customers/admin_index.ctp:74
+#: View/Customers/admin_view.ctp:137
+#: View/Families/admin_index.ctp:41
+#: View/Families/admin_view.ctp:42;99;176;221;272
+#: View/Sources/admin_edit.ctp:39
+#: View/Sources/admin_index.ctp:38
+#: View/Sources/admin_view.ctp:57
+#: View/Tags/admin_edit.ctp:20
+#: View/Tags/admin_index.ctp:40
+#: View/Tags/admin_view.ctp:28
+#: View/Topics/_index.ctp:68
+#: View/Topics/admin_edit.ctp:41
+#: View/Topics/admin_fetch.ctp:67
+#: View/Topics/admin_index.ctp:80
+#: View/Topics/admin_view.ctp:107;170;227;278;317
+#: View/Topics/edit.ctp:34
+#: View/Topics/view.ctp:107;170;227;278;317
+#: View/UpdateInfos/admin_index.ctp:49
+#: View/UpdateInfos/admin_view.ctp:42
+#: View/Users/admin_index.ctp:47
+#: View/Users/admin_view.ctp:58
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:5;129;178;235;286
+#: View/Categories/admin_view.ctp:5;62;99
+#: View/Children/admin_view.ctp:5
+#: View/ClientPolls/view.ctp:5
+#: View/ClientTypes/admin_view.ctp:5
+#: View/ClientVotes/admin_view.ctp:6
+#: View/Clients/admin_view.ctp:5
+#: View/CommentAlerts/admin_view.ctp:5
+#: View/Comments/admin_view.ctp:5
+#: View/Customers/admin_view.ctp:5
+#: View/Families/admin_view.ctp:5;64;119;196;241
+#: View/Sources/admin_view.ctp:5
+#: View/Tags/admin_view.ctp:5
+#: View/Topics/admin_view.ctp:5;141;190;247;298
+#: View/Topics/view.ctp:5;141;190;247;298
+#: View/UpdateInfos/admin_view.ctp:5
+#: View/Users/admin_view.ctp:5;78;253;393
+msgid "Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:20
+#: View/Categories/admin_add.ctp:23
+#: View/Categories/admin_edit.ctp:25
+#: View/Categories/admin_index.ctp:48
+#: View/Categories/admin_view.ctp:48;64;89
+#: View/Tags/admin_add.ctp:5
+#: View/Tags/admin_edit.ctp:5
+#: View/Tags/admin_index.ctp:53
+#: View/Tags/admin_view.ctp:3
+msgid "Tag"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:45
+#: View/Categories/admin_view.ctp:107
+#: View/Clients/admin_view.ctp:45
+#: View/Topics/admin_view.ctp:45
+#: View/Topics/view.ctp:45
+#: View/Users/admin_view.ctp:113
+msgid "Publicity Range"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:50;185
+#: View/Categories/admin_view.ctp:106
+#: View/Families/admin_view.ctp:199
+#: View/Topics/admin_view.ctp:40;197
+#: View/Topics/view.ctp:40;197
+#: View/UpdateInfos/admin_view.ctp:10
+msgid "Title"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:55;186
+#: View/Categories/admin_view.ctp:108
+#: View/Comments/admin_view.ctp:30
+#: View/Topics/admin_view.ctp:50;198
+#: View/Topics/view.ctp:50;198
+#: View/UpdateInfos/admin_view.ctp:15
+msgid "Body"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:60
+#: View/Categories/admin_view.ctp:115
+#: View/Topics/admin_view.ctp:85
+#: View/Topics/view.ctp:85
+msgid "Related Topic"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:65
+#: View/Clients/admin_view.ctp:115
+#: View/Users/admin_view.ctp:183
+msgid "File Name1"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:70
+#: View/Clients/admin_view.ctp:120
+#: View/Users/admin_view.ctp:188
+msgid "File Name2"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:76;138;191;245;290
+#: View/Categories/admin_view.ctp:25;65;116
+#: View/Children/admin_view.ctp:65
+#: View/ClientPolls/view.ctp:40
+#: View/ClientTypes/admin_view.ctp:15
+#: View/ClientVotes/admin_view.ctp:46
+#: View/Clients/admin_view.ctp:160
+#: View/CommentAlerts/admin_view.ctp:40
+#: View/Comments/admin_view.ctp:50
+#: View/Families/admin_view.ctp:25;76;203;251
+#: View/Sources/admin_view.ctp:15
+#: View/Topics/admin_view.ctp:150;203;257;302
+#: View/Topics/view.ctp:150;203;257;302
+#: View/UpdateInfos/admin_view.ctp:25
+#: View/Users/admin_view.ctp:40;228;408
+msgid "Modified"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:81;139;192;246;291
+#: View/Categories/admin_view.ctp:30;66;117
+#: View/Children/admin_view.ctp:70
+#: View/ClientPolls/view.ctp:45
+#: View/ClientTypes/admin_view.ctp:20
+#: View/ClientVotes/admin_view.ctp:51
+#: View/Clients/admin_view.ctp:165
+#: View/CommentAlerts/admin_view.ctp:45
+#: View/Comments/admin_view.ctp:55
+#: View/Families/admin_view.ctp:30;77;204;252
+#: View/Sources/admin_view.ctp:10
+#: View/Topics/admin_view.ctp:95;151;204;258;303
+#: View/Topics/view.ctp:95;151;204;258;303
+#: View/UpdateInfos/admin_view.ctp:30
+#: View/Users/admin_view.ctp:45;233;413
+msgid "Created"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:93
+#: View/Categories/admin_edit.ctp:5
+#: View/Categories/admin_view.ctp:41
+#: View/Children/admin_view.ctp:81
+#: View/ClientPolls/edit.ctp:5
+#: View/ClientPolls/view.ctp:56
+#: View/ClientTypes/admin_view.ctp:31
+#: View/ClientVotes/admin_edit.ctp:5
+#: View/ClientVotes/admin_view.ctp:62
+#: View/Clients/admin_view.ctp:176
+#: View/CommentAlerts/admin_view.ctp:56
+#: View/Comments/admin_view.ctp:67
+#: View/Customers/admin_view.ctp:136
+#: View/Families/admin_view.ctp:41
+#: View/Sources/admin_edit.ctp:5
+#: View/Sources/admin_view.ctp:56
+#: View/Topics/admin_view.ctp:106
+#: View/Topics/edit.ctp:5
+#: View/Topics/view.ctp:106
+#: View/UpdateInfos/admin_view.ctp:41
+#: View/Users/admin_view.ctp:57;243;383;423
+#: View/Helper/FormHelper.php:888
+msgid "Edit %s"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:94
+#: View/Categories/admin_view.ctp:42
+#: View/Children/admin_view.ctp:82
+#: View/ClientPolls/view.ctp:57
+#: View/ClientTypes/admin_view.ctp:32
+#: View/ClientVotes/admin_view.ctp:63
+#: View/Clients/admin_view.ctp:177
+#: View/CommentAlerts/admin_view.ctp:57
+#: View/Comments/admin_view.ctp:68
+#: View/Customers/admin_view.ctp:137
+#: View/Families/admin_view.ctp:42
+#: View/Sources/admin_view.ctp:57
+#: View/Topics/admin_view.ctp:107
+#: View/Topics/view.ctp:107
+#: View/UpdateInfos/admin_view.ctp:42
+#: View/Users/admin_view.ctp:58
+msgid "Delete %s"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:125;174;231;282
+#: View/Categories/admin_view.ctp:58;95
+#: View/Families/admin_view.ctp:60;115;192;237
+#: View/Topics/admin_view.ctp:137;186;243;294
+#: View/Topics/view.ctp:137;186;243;294
+#: View/Users/admin_view.ctp:75;250;390
+msgid "Related %s"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:130
+#: View/Topics/admin_view.ctp:142
+#: View/Topics/view.ctp:142
+msgid "Content Type Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:131;180;236
+#: View/Families/admin_view.ctp:70;130;197;242
+#: View/Topics/admin_view.ctp:143;192;248
+#: View/Topics/view.ctp:143;192;248
+#: View/Users/admin_view.ctp:308
+msgid "Family Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:132;181;240
+#: View/Children/admin_view.ctp:50
+#: View/Families/admin_view.ctp:73;246
+#: View/Topics/admin_view.ctp:144;193;252
+#: View/Topics/view.ctp:144;193;252
+msgid "Client Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:133;182;241;287
+#: View/Families/admin_view.ctp:247
+#: View/Topics/admin_view.ctp:145;194;253;299
+#: View/Topics/view.ctp:145;194;253;299
+msgid "Topic Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:134;183
+#: View/Topics/admin_view.ctp:146;195
+#: View/Topics/view.ctp:146;195
+msgid "Comment Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:135;184;237;288
+#: View/Categories/admin_view.ctp:102
+#: View/Families/admin_view.ctp:126;243
+#: View/Topics/admin_view.ctp:147;196;249;300
+#: View/Topics/view.ctp:147;196;249;300
+#: View/Users/admin_view.ctp:288;398
+msgid "User Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:136
+#: View/CommentAlerts/admin_view.ctp:30
+#: View/Topics/admin_view.ctp:148
+#: View/Topics/view.ctp:148
+msgid "Alert Flag"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:137
+#: View/CommentAlerts/admin_view.ctp:35
+#: View/Topics/admin_view.ctp:149
+#: View/Topics/view.ctp:149
+msgid "Alert Check"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:156;213;264;303
+#: View/Categories/admin_index.ctp:30
+#: View/Categories/admin_view.ctp:77;142
+#: View/ClientPolls/index.ctp:36
+#: View/ClientVotes/admin_index.ctp:40
+#: View/Families/admin_view.ctp:97;174;219;270
+#: View/Topics/_index.ctp:66
+#: View/Topics/admin_fetch.ctp:65
+#: View/Topics/admin_view.ctp:168;225;276;315
+#: View/Topics/view.ctp:168;225;276;315
+msgid "View"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:179;238
+#: View/Categories/admin_view.ctp:100
+#: View/Comments/admin_view.ctp:10
+#: View/Families/admin_view.ctp:244
+#: View/Topics/admin_view.ctp:191;250
+#: View/Topics/view.ctp:191;250
+#: View/Users/admin_view.ctp:93
+msgid "Contents Type Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:187
+#: View/Categories/admin_view.ctp:109
+#: View/Children/admin_view.ctp:40
+#: View/Customers/admin_view.ctp:80
+#: View/Families/admin_view.ctp:15;71;134
+#: View/Topics/admin_view.ctp:55;199
+#: View/Topics/view.ctp:55;199
+#: View/Users/admin_view.ctp:328
+msgid "File Name"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:188
+#: View/Comments/admin_view.ctp:35
+#: View/Topics/admin_view.ctp:200
+#: View/Topics/view.ctp:200
+msgid "Delete Flag"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:189
+#: View/Comments/admin_view.ctp:40
+#: View/Topics/admin_view.ctp:201
+#: View/Topics/view.ctp:201
+msgid "Plus"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:190
+#: View/Comments/admin_view.ctp:45
+#: View/Topics/admin_view.ctp:202
+#: View/Topics/view.ctp:202
+msgid "Minus"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:239
+#: View/Families/admin_view.ctp:245
+#: View/Topics/admin_view.ctp:251
+#: View/Topics/view.ctp:251
+msgid "Like Family Id"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:242
+#: View/Families/admin_view.ctp:248
+#: View/Topics/admin_view.ctp:254
+#: View/Topics/view.ctp:254
+msgid "Like Name"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:243
+#: View/Families/admin_view.ctp:201;249
+#: View/Topics/admin_view.ctp:255
+#: View/Topics/view.ctp:255
+msgid "Date"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:244
+#: View/Families/admin_view.ctp:202;250
+#: View/Topics/admin_view.ctp:256
+#: View/Topics/view.ctp:256
+msgid "Memo"
+msgstr ""
+
+#: View/Bbs/admin_view.ctp:289
+#: View/Topics/admin_view.ctp:301
+#: View/Topics/view.ctp:301
+msgid "Value"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:5
+#: View/ClientPolls/add.ctp:5
+#: View/ClientVotes/admin_add.ctp:5
+#: View/Sources/admin_add.ctp:5
+#: View/Topics/add.ctp:5
+msgid "Add %s"
+msgstr ""
+
+#: View/Categories/admin_add.ctp:22
+#: View/Categories/admin_edit.ctp:24
+#: View/Categories/admin_index.ctp:47
+#: View/Categories/admin_view.ctp:47;58
+#: View/Tags/admin_add.ctp:19
+#: View/Tags/admin_edit.ctp:21
+#: View/Tags/admin_index.ctp:3
+#: View/Tags/admin_view.ctp:29
+msgid "Tags"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:10
+msgid "Category Name"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:20
+msgid "Slug"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:63;101
+msgid "Category Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:103
+#: View/Families/admin_view.ctp:127
+#: View/Users/admin_view.ctp:98;293
+msgid "Area Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:104
+#: View/Customers/admin_view.ctp:50
+#: View/Families/admin_view.ctp:128
+#: View/Users/admin_view.ctp:103;298
+msgid "Municipal Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:105
+#: View/Families/admin_view.ctp:129
+#: View/Users/admin_view.ctp:108;303
+msgid "Prefecture Id"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:110
+#: View/Sources/admin_add.ctp:5
+#: View/Sources/admin_edit.ctp:5
+#: View/Sources/admin_index.ctp:50
+#: View/Sources/admin_view.ctp:3;56;57;59
+#: View/Topics/admin_view.ctp:60
+#: View/Topics/view.ctp:60
+msgid "Source"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:111
+#: View/Topics/admin_view.ctp:65
+#: View/Topics/view.ctp:65
+msgid "Source Url"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:112
+#: View/Topics/admin_view.ctp:70
+#: View/Topics/view.ctp:70
+msgid "Site Url"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:113
+#: View/Topics/admin_view.ctp:75
+#: View/Topics/view.ctp:75
+msgid "Site Title"
+msgstr ""
+
+#: View/Categories/admin_view.ctp:114
+#: View/Topics/admin_view.ctp:80
+#: View/Topics/view.ctp:80
+msgid "Pub Date"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:34
+#: View/ClientTypes/admin_entry.ctp:6
+#: View/Clients/admin_entry.ctp:307
+#: View/CommentAlerts/admin_edit.ctp:6
+#: View/Customers/admin_entry.ctp:82
+#: View/Families/admin_entry.ctp:17
+#: View/Tags/admin_edit.ctp:5
+#: View/Topics/admin_edit.ctp:10
+#: View/UpdateInfos/admin_edit.ctp:11
+#: View/Users/admin_entry.ctp:6
+msgid "Admin Edit %s"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:34;36
+#: View/Children/admin_index.ctp:17;67
+#: View/Children/admin_view.ctp:3;81;82;84
+#: View/Families/admin_entry.ctp:79
+#: View/Families/admin_index.ctp:58;59
+#: View/Families/admin_view.ctp:48;109
+msgid "Child"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:36
+#: View/ClientTypes/admin_entry.ctp:8
+#: View/CommentAlerts/admin_add.ctp:5
+#: View/Customers/admin_entry.ctp:84
+#: View/Families/admin_entry.ctp:19
+#: View/Tags/admin_add.ctp:5
+#: View/Topics/admin_add.ctp:5
+#: View/UpdateInfos/admin_add.ctp:11
+#: View/Users/admin_entry.ctp:8
+msgid "Admin Add %s"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:82
+#: View/ClientTypes/admin_entry.ctp:23
+#: View/Customers/admin_entry.ctp:184
+#: View/Families/admin_entry.ctp:74
+msgid "関連する操作"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:83
+#: View/Children/admin_index.ctp:3
+#: View/Children/admin_view.ctp:83
+#: View/Families/admin_entry.ctp:78
+#: View/Families/admin_view.ctp:47;60
+msgid "Children"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:84
+#: View/Children/admin_index.ctp:68
+#: View/Children/admin_view.ctp:85
+#: View/Customers/admin_entry.ctp:189
+#: View/Customers/admin_index.ctp:90
+#: View/Customers/admin_view.ctp:146
+#: View/Families/admin_entry.ctp:75
+#: View/Families/admin_index.ctp:3
+#: View/Families/admin_view.ctp:43
+msgid "Families"
+msgstr ""
+
+#: View/Children/admin_entry.ctp:85
+#: View/Children/admin_index.ctp:69
+#: View/Children/admin_view.ctp:35;86
+#: View/Customers/admin_entry.ctp:190
+#: View/Customers/admin_index.ctp:91
+#: View/Customers/admin_view.ctp:60;147
+#: View/Families/admin_entry.ctp:17;19
+#: View/Families/admin_index.ctp:15;57
+#: View/Families/admin_view.ctp:3;41;42;44
+msgid "Family"
+msgstr ""
+
+#: View/Children/admin_view.ctp:10
+#: View/Customers/admin_view.ctp:30
+#: View/Families/admin_view.ctp:65;124
+#: View/Users/admin_view.ctp:278
+msgid "Gender"
+msgstr ""
+
+#: View/Children/admin_view.ctp:15
+#: View/ClientTypes/admin_view.ctp:10
+#: View/Clients/admin_view.ctp:10
+#: View/Families/admin_view.ctp:66
+#: View/Sources/admin_view.ctp:20
+#: View/Users/admin_view.ctp:25;83
+msgid "Name"
+msgstr ""
+
+#: View/Children/admin_view.ctp:20
+#: View/Clients/admin_view.ctp:15
+#: View/Families/admin_view.ctp:67
+#: View/Users/admin_view.ctp:88
+msgid "Kana"
+msgstr ""
+
+#: View/Children/admin_view.ctp:25
+#: View/Families/admin_view.ctp:20;68
+msgid "Nickname"
+msgstr ""
+
+#: View/Children/admin_view.ctp:30
+#: View/Customers/admin_view.ctp:85
+#: View/Families/admin_view.ctp:69;135
+#: View/Users/admin_view.ctp:333
+msgid "Birth"
+msgstr ""
+
+#: View/Children/admin_view.ctp:45
+#: View/Clients/admin_view.ctp:55
+#: View/Customers/admin_view.ctp:95
+#: View/Families/admin_view.ctp:72;137
+#: View/Users/admin_view.ctp:123;343
+msgid "Info"
+msgstr ""
+
+#: View/Children/admin_view.ctp:55
+#: View/Customers/admin_view.ctp:100
+#: View/Families/admin_view.ctp:74;138
+#: View/Users/admin_view.ctp:348
+msgid "Private Flag"
+msgstr ""
+
+#: View/Children/admin_view.ctp:60
+#: View/Clients/admin_view.ctp:155
+#: View/Customers/admin_view.ctp:105
+#: View/Families/admin_view.ctp:75;139
+#: View/Users/admin_view.ctp:35;223;353
+msgid "Status"
+msgstr ""
+
+#: View/ClientPolls/add.ctp:5
+#: View/ClientPolls/edit.ctp:5
+#: View/ClientPolls/index.ctp:50
+#: View/ClientPolls/view.ctp:3;56;57;59
+msgid "Client Poll"
+msgstr ""
+
+#: View/ClientPolls/add.ctp:22
+#: View/ClientPolls/edit.ctp:24
+#: View/ClientPolls/index.ctp:3
+#: View/ClientPolls/view.ctp:58
+msgid "Client Polls"
+msgstr ""
+
+#: View/ClientPolls/add.ctp:23
+#: View/ClientPolls/edit.ctp:25
+#: View/ClientPolls/index.ctp:51
+#: View/ClientPolls/view.ctp:60
+#: View/ClientVotes/admin_add.ctp:44
+#: View/ClientVotes/admin_edit.ctp:36
+#: View/ClientVotes/admin_index.ctp:55
+#: View/ClientVotes/admin_view.ctp:66
+#: View/Clients/admin_entry.ctp:705
+#: View/Clients/admin_index.ctp:3
+#: View/Clients/admin_view.ctp:178
+#: View/Users/admin_entry.ctp:37
+#: View/Users/admin_index.ctp:63
+#: View/Users/admin_view.ctp:61;75
+msgid "Clients"
+msgstr ""
+
+#: View/ClientPolls/add.ctp:24
+#: View/ClientPolls/edit.ctp:26
+#: View/ClientPolls/index.ctp:52
+#: View/ClientPolls/view.ctp:10;61
+#: View/ClientTypes/admin_index.ctp:15
+#: View/ClientVotes/admin_add.ctp:45
+#: View/ClientVotes/admin_edit.ctp:37
+#: View/ClientVotes/admin_index.ctp:56
+#: View/ClientVotes/admin_view.ctp:11;67
+#: View/Clients/admin_entry.ctp:307
+#: View/Clients/admin_index.ctp:18;102
+#: View/Clients/admin_view.ctp:3;176;177;179
+#: View/Users/admin_entry.ctp:38
+#: View/Users/admin_index.ctp:64
+#: View/Users/admin_view.ctp:62;243
+msgid "Client"
+msgstr ""
+
+#: View/ClientPolls/view.ctp:15
+msgid "Poll N1"
+msgstr ""
+
+#: View/ClientPolls/view.ctp:20
+msgid "Poll N2"
+msgstr ""
+
+#: View/ClientPolls/view.ctp:25
+msgid "Poll N3"
+msgstr ""
+
+#: View/ClientPolls/view.ctp:30
+msgid "Poll N4"
+msgstr ""
+
+#: View/ClientPolls/view.ctp:35
+msgid "Poll N5"
+msgstr ""
+
+#: View/ClientTypes/admin_view.ctp:3;31;32;34
+msgid "Client Type"
+msgstr ""
+
+#: View/ClientTypes/admin_view.ctp:33
+msgid "Client Types"
+msgstr ""
+
+#: View/ClientVotes/admin_add.ctp:5
+#: View/ClientVotes/admin_edit.ctp:5
+#: View/ClientVotes/admin_index.ctp:54
+#: View/ClientVotes/admin_view.ctp:4;62;63;65
+msgid "Client Vote"
+msgstr ""
+
+#: View/ClientVotes/admin_add.ctp:43
+#: View/ClientVotes/admin_edit.ctp:35
+#: View/ClientVotes/admin_index.ctp:3
+#: View/ClientVotes/admin_view.ctp:64
+msgid "Client Votes"
+msgstr ""
+
+#: View/ClientVotes/admin_view.ctp:21
+msgid "N1"
+msgstr ""
+
+#: View/ClientVotes/admin_view.ctp:26
+msgid "N2"
+msgstr ""
+
+#: View/ClientVotes/admin_view.ctp:31
+msgid "N3"
+msgstr ""
+
+#: View/ClientVotes/admin_view.ctp:36
+msgid "N4"
+msgstr ""
+
+#: View/ClientVotes/admin_view.ctp:41
+msgid "N5"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:50
+#: View/Users/admin_view.ctp:118
+msgid "Client Type Id"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:60
+#: View/Users/admin_view.ctp:128
+msgid "Character"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:65
+#: View/Users/admin_view.ctp:133
+msgid "Representative"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:70
+#: View/Users/admin_view.ctp:138
+msgid "Position"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:75
+#: View/Customers/admin_view.ctp:65
+#: View/Families/admin_view.ctp:131
+#: View/Users/admin_view.ctp:143;313
+msgid "Zip"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:80
+#: View/Customers/admin_view.ctp:70
+#: View/Families/admin_view.ctp:132
+#: View/Users/admin_view.ctp:148;318
+msgid "Address"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:85
+#: View/Customers/admin_view.ctp:75
+#: View/Families/admin_view.ctp:133
+#: View/Users/admin_view.ctp:153;323
+msgid "Sub Address"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:90
+#: View/Users/admin_view.ctp:158
+msgid "Tel"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:95
+#: View/Users/admin_view.ctp:163
+msgid "Fax"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:100
+#: View/Customers/admin_view.ctp:110
+#: View/Families/admin_view.ctp:140;198
+#: View/Sources/admin_view.ctp:25
+#: View/Users/admin_view.ctp:168;358
+msgid "Url"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:105
+#: View/Users/admin_view.ctp:173
+msgid "Mail"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:110
+#: View/Users/admin_view.ctp:178
+msgid "Gmap Code"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:125
+#: View/Users/admin_view.ctp:193
+msgid "File Name3"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:130
+#: View/Users/admin_view.ctp:198
+msgid "File Name4"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:135
+#: View/Users/admin_view.ctp:203
+msgid "File Name5"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:140
+#: View/Users/admin_view.ctp:208
+msgid "File Name6"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:145
+#: View/Users/admin_view.ctp:213
+msgid "File Name7"
+msgstr ""
+
+#: View/Clients/admin_view.ctp:150
+#: View/Users/admin_view.ctp:218
+msgid "File Name8"
+msgstr ""
+
+#: View/CommentAlerts/admin_add.ctp:10
+#: View/Sources/admin_add.ctp:9;13;17;21;25;29
+msgid "Required"
+msgstr ""
+
+#: View/CommentAlerts/admin_view.ctp:15
+#: View/Comments/admin_view.ctp:15
+msgid "Contents Target Id"
+msgstr ""
+
+#: View/Comments/admin_view.ctp:20
+msgid "Parent Comment Id"
+msgstr ""
+
+#: View/Customers/admin_entry.ctp:82;84
+#: View/Customers/admin_index.ctp:19;89
+#: View/Customers/admin_view.ctp:3;136;137;139
+#: View/Families/admin_entry.ctp:77
+#: View/Families/admin_view.ctp:10;46;186
+#: View/Users/admin_view.ctp:64;383
+msgid "Customer"
+msgstr ""
+
+#: View/Customers/admin_entry.ctp:186
+#: View/Customers/admin_index.ctp:4
+#: View/Customers/admin_view.ctp:138
+#: View/Families/admin_entry.ctp:76
+#: View/Families/admin_view.ctp:45;115
+#: View/Users/admin_view.ctp:63;250
+msgid "Customers"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:10
+#: View/Families/admin_view.ctp:120
+#: View/Users/admin_view.ctp:258
+msgid "Last Name"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:15
+#: View/Families/admin_view.ctp:121
+#: View/Users/admin_view.ctp:263
+msgid "First Name"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:20
+#: View/Families/admin_view.ctp:122
+#: View/Users/admin_view.ctp:268
+msgid "Last Kana"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:25
+#: View/Families/admin_view.ctp:123
+#: View/Users/admin_view.ctp:273
+msgid "First Kana"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:35
+#: View/Families/admin_view.ctp:125
+#: View/Users/admin_view.ctp:283
+msgid "Customer Type"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:90
+#: View/Families/admin_view.ctp:136
+#: View/Users/admin_view.ctp:338
+msgid "Occupation"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:115
+#: View/Families/admin_view.ctp:141
+#: View/Users/admin_view.ctp:363
+msgid "FB Token"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:120
+#: View/Families/admin_view.ctp:142
+#: View/Users/admin_view.ctp:368
+msgid "FB Id"
+msgstr ""
+
+#: View/Customers/admin_view.ctp:125
+#: View/Families/admin_view.ctp:143
+#: View/Users/admin_view.ctp:373
+msgid "FB Data"
+msgstr ""
+
+#: View/Families/admin_view.ctp:49;192
+msgid "Family Clips"
+msgstr ""
+
+#: View/Families/admin_view.ctp:50;231
+msgid "Family Clip"
+msgstr ""
+
+#: View/Families/admin_view.ctp:200
+msgid "Public Date"
+msgstr ""
+
+#: View/Sources/admin_add.ctp:40
+#: View/Sources/admin_edit.ctp:40
+#: View/Sources/admin_index.ctp:3
+#: View/Sources/admin_view.ctp:58
+msgid "Sources"
+msgstr ""
+
+#: View/Sources/admin_view.ctp:30
+msgid "Rss Name"
+msgstr ""
+
+#: View/Sources/admin_view.ctp:35
+msgid "Rss Url"
+msgstr ""
+
+#: View/Sources/admin_view.ctp:40
+msgid "Type"
+msgstr ""
+
+#: View/Tags/admin_view.ctp:15
+msgid "Word"
+msgstr ""
+
+#: View/Topics/admin_view.ctp:90
+#: View/Topics/view.ctp:90
+msgid "Modfied"
+msgstr ""
+
+#: View/UpdateInfos/admin_add.ctp:11
+#: View/UpdateInfos/admin_edit.ctp:11
+#: View/UpdateInfos/admin_view.ctp:3;41;42;44
+msgid "Update Info"
+msgstr ""
+
+#: View/UpdateInfos/admin_index.ctp:3
+#: View/UpdateInfos/admin_view.ctp:43
+msgid "Update Infos"
+msgstr ""
+
+#: View/UpdateInfos/admin_index.ctp:23
+msgid "UpdateInfo"
+msgstr ""
+
+#: View/UpdateInfos/admin_view.ctp:20
+msgid "Update Date"
+msgstr ""
+
+#: View/Users/admin_entry.ctp:35
+msgid "観覧する操作"
+msgstr ""
+
+#: View/Users/admin_view.ctp:10
+msgid "Last Login"
+msgstr ""
+
+#: View/Users/admin_view.ctp:15
+msgid "Password"
+msgstr ""
+
+#: View/Users/admin_view.ctp:20
+msgid "User Type"
+msgstr ""
+
+#: View/Users/admin_view.ctp:30
+msgid "Email"
+msgstr ""
+
+#: View/Users/admin_view.ctp:65;390
+msgid "User Ips"
+msgstr ""
+
+#: View/Users/admin_view.ctp:66;423
+msgid "User Ip"
+msgstr ""
+
+#: View/Users/admin_view.ctp:403
+msgid "Ip"
+msgstr ""
+
+#: Model/Child.php:validation for field call_name
+msgid "名前、ふりがな、ニックネームのどれか一つは必須です"
+msgstr ""
+
+#: Model/Client.php:validation for field name
+msgid "名前を入力してください"
+msgstr ""
+
+#: Model/Client.php:validation for field kana
+msgid "名前（かな）を入力してください"
+msgstr ""
+
+#: Model/Client.php:validation for field contents_type_id
+msgid "コンテンツタイプを選択してください"
+msgstr ""
+
+#: Model/Client.php:validation for field client_type_id
+msgid "施設タイプを選択してください"
+msgstr ""
+
+#: Model/Client.php:validation for field address
+#: Model/Customer.php:validation for field address
+msgid "住所を入力してください"
+msgstr ""
+
+#: Model/Client.php:validation for field prefecture_id
+#: Model/Customer.php:validation for field prefecture_id
+msgid "都道府県を選択してください"
+msgstr ""
+
+#: Model/Client.php:validation for field zip
+#: Model/Customer.php:validation for field zip
+msgid "郵便番号を入力してください"
+msgstr ""
+
+#: Model/Client.php:validation for field prefecture
+#: Model/Customer.php:validation for field nickname;validation for field prefecture;validation for field birth_year;validation for field birth_month;validation for field borth_day
+#: Model/Owner.php:validation for field user_id;validation for field name
+#: Model/Tag.php:validation for field word
+#: Model/UpdateInfo.php:validation for field title;validation for field body;validation for field update_date
+msgid "notempty"
+msgstr ""
+
+#: Model/Comment.php:validation for field contents_type_id
+msgid "対象コンテンツタイプを選択してください"
+msgstr ""
+
+#: Model/Comment.php:validation for field contents_target_id
+msgid "対象コンテンツIDを入力してください"
+msgstr ""
+
+#: Model/Comment.php:validation for field body
+msgid "本文を入力してください"
+msgstr ""
+
+#: Model/Comment.php:validation for field user_id
+msgid "投稿者ユーザーIDを入力してください"
+msgstr ""
+
+#: Model/Contact.php:validation for field name
+msgid "氏名を入力してください"
+msgstr ""
+
+#: Model/Contact.php:validation for field email
+#: Model/Reminder.php:validation for field email
+#: Model/User.php:validation for field email
+msgid "メールアドレスを入力してください"
+msgstr ""
+
+#: Model/Contact.php:validation for field email
+#: Model/Reminder.php:validation for field email
+#: Model/User.php:validation for field email
+msgid "メールアドレスを正しく入力してください"
+msgstr ""
+
+#: Model/Contact.php:validation for field message
+msgid "内容を入力してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field last_name
+msgid "姓を入力してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field first_name
+msgid "名を入力してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field last_kana
+msgid "姓（かな）を入力してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field first_kana
+msgid "名（かな）を入力してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field gender
+msgid "性別を選択してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field customer_type
+msgid "続柄を選択してください"
+msgstr ""
+
+#: Model/Customer.php:validation for field family_id
+msgid "ファミリーを選択してください"
+msgstr ""
+
+#: Model/FamilyClip.php:validation for field url
+msgid "URLを記入してください"
+msgstr ""
+
+#: Model/FamilyClip.php:validation for field title
+msgid "タイトルを記入してください"
+msgstr ""
+
+#: Model/Reminder.php:validation for field email
+msgid "入力されたメールアドレスのユーザーは存在しません"
+msgstr ""
+
+#: Model/TempUser.php:validation for field agree
+msgid "利用規約に同意してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field name
+#: Model/User.php:validation for field name
+msgid "ユーザー名を入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field name
+#: Model/User.php:validation for field name
+msgid "そのユーザー名は既に登録されています"
+msgstr ""
+
+#: Model/TempUser.php:validation for field name
+msgid "ユーザー名は半角英数で入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field email
+msgid "Emailを入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field email
+msgid "正しいEmailアドレスを入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field email
+#: Model/User.php:validation for field email
+msgid "そのメールアドレスはすでに使われています"
+msgstr ""
+
+#: Model/TempUser.php:validation for field password
+#: Model/User.php:validation for field password
+msgid "パスワードを入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field password
+#: Model/User.php:validation for field password
+msgid "パスワードは半角英数で入力してください"
+msgstr ""
+
+#: Model/TempUser.php:validation for field password2
+msgid "パスワードとパスワード（再入力）が異なります"
+msgstr ""
+
+#: Model/UpdateInfo.php:validation for field update_date
+msgid "datetime"
+msgstr ""
+
+#: Model/User.php:validation for field new_password
+msgid "パスワードとパスワード（再）が異なります"
+msgstr ""
+
+#: View/Errors/error500.ctp:22
+msgid "Error"
+msgstr ""
+
+#: View/Errors/error500.ctp:23
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: View/Helper/FormHelper.php:693
+msgid "Error in field %s"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1456
+msgid "empty"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2754
+msgid "January"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2755
+msgid "February"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2756
+msgid "March"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2757
+msgid "April"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2758
+msgid "May"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2759
+msgid "June"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2760
+msgid "July"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2761
+msgid "August"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2762
+msgid "September"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2763
+msgid "October"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2764
+msgid "November"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2765
+msgid "December"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1578
+msgid "Missing field name for FormHelper::%s"
+msgstr ""
+
+#: View/Layouts/error.ctp:20
+msgid "CakePHP: the rapid development php framework"
+msgstr ""
+
+#: View/Pages/home.ctp:25
+msgid "Release Notes for CakePHP %s."
+msgstr ""
+
+#: View/Pages/home.ctp:27
+msgid "Read the changelog"
+msgstr ""
+
+#: View/Pages/home.ctp:35
+msgid "URL rewriting is not properly configured on your server."
+msgstr ""
+
+#: View/Pages/home.ctp:43
+msgid "Your version of PHP is 5.2.8 or higher."
+msgstr ""
+
+#: View/Pages/home.ctp:47
+msgid "Your version of PHP is too low. You need PHP 5.2.8 or higher to use CakePHP."
+msgstr ""
+
+#: View/Pages/home.ctp:56
+msgid "Your tmp directory is writable."
+msgstr ""
+
+#: View/Pages/home.ctp:60
+msgid "Your tmp directory is NOT writable."
+msgstr ""
+
+#: View/Pages/home.ctp:70
+msgid "The %s is being used for core caching. To change the config edit APP/Config/core.php "
+msgstr ""
+
+#: View/Pages/home.ctp:74
+msgid "Your cache is NOT working. Please check the settings in APP/Config/core.php"
+msgstr ""
+
+#: View/Pages/home.ctp:84
+msgid "Your database configuration file is present."
+msgstr ""
+
+#: View/Pages/home.ctp:89
+msgid "Your database configuration file is NOT present."
+msgstr ""
+
+#: View/Pages/home.ctp:91
+msgid "Rename APP/Config/database.php.default to APP/Config/database.php"
+msgstr ""
+
+#: View/Pages/home.ctp:116
+msgid "Cake is able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:120
+msgid "Cake is NOT able to connect to the database."
+msgstr ""
+
+#: View/Pages/home.ctp:132
+msgid "PCRE has not been compiled with Unicode support."
+msgstr ""
+
+#: View/Pages/home.ctp:134
+msgid "Recompile PCRE with Unicode support by adding <code>--enable-unicode-properties</code> when configuring"
+msgstr ""
+
+#: View/Pages/home.ctp:143
+msgid "DebugKit plugin is present"
+msgstr ""
+
+#: View/Pages/home.ctp:147
+msgid "DebugKit is not installed. It will help you inspect and debug different aspects of your application."
+msgstr ""
+
+#: View/Pages/home.ctp:149
+msgid "You can install it from %s"
+msgstr ""
+
+#: View/Pages/home.ctp:155
+msgid "Editing this Page"
+msgstr ""
+
+#: View/Pages/home.ctp:158
+msgid "To change the content of this page, edit: APP/View/Pages/home.ctp.<br />\nTo change its layout, edit: APP/View/Layouts/default.ctp.<br />\nYou can also add some CSS styles for your pages at: APP/webroot/css."
+msgstr ""
+
+#: View/Pages/home.ctp:164
+msgid "Getting Started"
+msgstr ""
+
+#: View/Pages/home.ctp:168
+msgid "New"
+msgstr ""
+
+#: View/Pages/home.ctp:168
+msgid "CakePHP 2.0 Docs"
+msgstr ""
+
+#: View/Pages/home.ctp:177
+msgid "The 15 min Blog Tutorial"
+msgstr ""
+
+#: View/Pages/home.ctp:184
+msgid "Official Plugins"
+msgstr ""
+
+#: View/Pages/home.ctp:189
+msgid "provides a debugging toolbar and enhanced debugging tools for CakePHP applications."
+msgstr ""
+
+#: View/Pages/home.ctp:193
+msgid "contains various localized validation classes and translations for specific countries"
+msgstr ""
+
+#: View/Pages/home.ctp:198
+msgid "More about Cake"
+msgstr ""
+
+#: View/Pages/home.ctp:200
+msgid "CakePHP is a rapid development framework for PHP which uses commonly known design patterns like Active Record, Association Data Mapping, Front Controller and MVC."
+msgstr ""
+
+#: View/Pages/home.ctp:203
+msgid "Our primary goal is to provide a structured framework that enables PHP users at all levels to rapidly develop robust web applications, without any loss to flexibility."
+msgstr ""
+
+#: View/Pages/home.ctp:207
+msgid "Cake Software Foundation"
+msgstr ""
+
+#: View/Pages/home.ctp:208
+msgid "Promoting development related to CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:210
+msgid "The Rapid Development Framework"
+msgstr ""
+
+#: View/Pages/home.ctp:211
+msgid "CakePHP Documentation"
+msgstr ""
+
+#: View/Pages/home.ctp:212
+msgid "Your Rapid Development Cookbook"
+msgstr ""
+
+#: View/Pages/home.ctp:213
+msgid "CakePHP API"
+msgstr ""
+
+#: View/Pages/home.ctp:214
+msgid "Quick Reference"
+msgstr ""
+
+#: View/Pages/home.ctp:215
+msgid "The Bakery"
+msgstr ""
+
+#: View/Pages/home.ctp:216
+msgid "Everything CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:217
+msgid "CakePHP plugins repo"
+msgstr ""
+
+#: View/Pages/home.ctp:218
+msgid "A comprehensive list of all CakePHP plugins created by the community"
+msgstr ""
+
+#: View/Pages/home.ctp:219
+msgid "CakePHP Google Group"
+msgstr ""
+
+#: View/Pages/home.ctp:220
+msgid "Community mailing list"
+msgstr ""
+
+#: View/Pages/home.ctp:222
+msgid "Live chat about CakePHP"
+msgstr ""
+
+#: View/Pages/home.ctp:223
+msgid "CakePHP Code"
+msgstr ""
+
+#: View/Pages/home.ctp:224
+msgid "For the Development of CakePHP Git repository, Downloads"
+msgstr ""
+
+#: View/Pages/home.ctp:225
+msgid "CakePHP Lighthouse"
+msgstr ""
+
+#: View/Pages/home.ctp:226
+msgid "CakePHP Tickets, Wiki pages, Roadmap"
+msgstr ""
+

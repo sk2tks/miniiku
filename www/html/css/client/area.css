@@ -1,0 +1,1424 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	トップページ
+------------------------------------------------------------*/
+#conts h2 {
+	background: url(../../img/client/area/h2_bg.gif) no-repeat left 4px;
+}
+
+#conts h3 {
+	background: #E8FFE2 url(../../img/client/area/h3_bg.gif) no-repeat left bottom;
+	font-size: 2.2em;
+	float: left;
+	padding: 6px 15px 4px;
+	width: 663px;
+}
+
+#conts .formBox {
+	margin-bottom: 9px;
+}
+
+#conts .formBox a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts .formBox .link {
+	float: left;
+}
+
+#conts .formBox .formR {
+	float: right;
+	margin-top: 5px;
+	width: 380px;
+	word-break: break-all;
+}
+
+#conts .formBox .formDl {
+	float: left;
+	width: 142px;
+}
+
+#conts .formBox dt {
+	float: left;
+	font-size: 1.35em;
+	margin-top: 4px;
+	width: 42px;
+}
+
+#conts .formBox dd {
+	float: right;
+}
+
+#conts .formBox .formDl dd select {
+	height: 22px;
+	margin-top: 3px;
+	width: 100px;
+}
+
+#conts .formBox .dlBox {
+	float: right;
+	width: 222px;
+}
+
+#conts .formBox .dlBox dd {
+	background-color: #E6F6F5;
+	font-size: 1.6em;
+	float: right;
+	padding: 1px 9px;
+	width: 154px;
+}
+
+#conts .tabBox .commentBox li a:hover img,
+body.index2 #conts .tabBox .del a:hover img,
+body.index2 #conts .tabInner .Item li a:hover img,
+body.index2 #conts .tabInner .menuList li a:hover img,
+#conts .features a:hover img,
+#conts .button a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts .tabSection {
+	clear: both;
+	margin: 0 -1px 0 -2px;
+	position: relative;
+	zoom: 1;
+}
+
+#conts .linkUl {
+	margin: 0 -2px 0 0;
+}
+
+#conts .linkUl li {
+	float: left;
+}
+
+#conts .linkUl li a {
+	display: block;
+	height: 61px;
+	text-indent: -9999px;
+	width: 151px;
+}
+
+#conts .linkUl li a:hover,
+#conts .linkUl .on a {
+	position: relative;
+	z-index: 1000;
+	zoom: 1;
+}
+
+#conts .linkUl li a:hover img {
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#conts .tabBox table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#conts .tabBox table th,
+#conts .tabBox table td {
+	border: 1px solid #E4E4E4;
+	font-size: 1.5em;
+	text-align: left;
+	vertical-align: top;
+	padding: 6px 7px 5px;
+	word-break: break-all;
+}
+
+#conts .tabBox table th {
+	background-color: #E8FFE2;
+}
+
+#conts .tabBox table .tdSpecial {
+	border: none;
+	font-size: 1.0em;
+	padding: 0 0 1px 5px;
+}
+
+#conts .tabBox table .tdSpecial a {
+	color: #0000E9;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+#conts .tabBox table .heiSpecial {
+	padding: 6px 7px 18px;
+}
+
+/*------------------------------------------------------------
+	detil
+------------------------------------------------------------*/
+#conts .tabBox .title {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: -6px 0 12px 22px;
+}
+
+#conts .tabBox .tableBox th,
+#conts .tabBox .tableBox td {
+	border: 2px solid #E4E4E4;
+	font-weight: normal;
+	padding-bottom: 6px;
+	text-align: center;
+}
+
+#conts .tabBox .tableBox th.taLeft {
+	padding-left: 15px;
+}
+
+#conts .tabBox .tableBox td.taLeft {
+	padding-left: 25px;
+}
+
+/*------------------------------------------------------------
+	tab04
+------------------------------------------------------------*/
+#conts .tabInner h4 {
+	background-color: #87C374;
+	border: 1px solid #B7DBAC;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-top: 9px;
+	margin-bottom: 3px;
+	padding: 4px 10px 3px;
+}
+
+#conts .tabBox .evaluation {
+	margin: 0 16px 25px 20px;
+}
+
+#conts .tabBox .evaluation dl {
+	float: left;
+	margin-top: 5px;
+	width: 195px;
+	overflow: hidden;
+	zoom:1;
+}
+
+#conts .tabBox .evaluation dt {
+	color: #464646;
+	font-size: 1.7em;
+	float: left;
+}
+
+#conts .tabBox .evaluation dd {
+	color: #464646;
+	font-size: 1.7em;
+	padding-bottom: 20px;
+}
+
+#conts .tabBox .evaluation dd span {
+	padding: 0 4px;
+}
+
+#conts .tabBox .evaluation dd .spanText01 {
+	background-color: #FFD9EC;
+}
+
+#conts .tabBox .evaluation dd .spanText02 {
+	background-color: #FFF49B;
+}
+
+#conts .tabBox .evaluation .rBox {
+	border: 1px solid #CFCFCF;
+	float: right;
+	width: 482px;
+}
+
+#conts .tabBox .evaluation .inner {
+	border-right: 3px solid #D8D8D8;
+	background-color: #F1F1F1;
+	float: left;
+	padding: 6px 17px 5px 12px;
+	width: 238px;
+}
+
+#conts .tabBox .evaluation .inner .photoBox {
+	float: left;
+	margin-top: 2px;
+}
+
+#conts .tabBox .evaluation .inner .tableBox {
+	float: right;
+	width: 129px;
+}
+
+#conts .tabBox .evaluation .inner th {
+	border: 2px solid #D9DFD5;
+	background-color: #E7F4E0;
+	color: #464646;
+	font-size: 1.3em;
+	padding: 0 0 0 5px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#conts .tabBox .evaluation .inner td {
+	border: 2px solid #D9DFD5;
+	background-color: #fff;
+	color: #464646;
+	font-size: 1.3em;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+#conts .tabBox .evaluation .rBox p {
+	color: #464646;
+	font-size: 1.3em;
+	float: right;
+	line-height: 1.9;
+	padding: 8px 10px 0;
+	width: 190px;
+}
+
+#conts .tabBox .commentBox {
+	margin: 0 8px 8px 0;
+}
+
+#conts .tabBox .commentBox div {
+	float: left;
+}
+
+#conts .tabBox .commentBox ul {
+	float: right;
+	padding-top: 7px;
+}
+
+#conts .tabBox .commentBox li {
+	float: left;
+	padding-left: 25px;
+}
+
+#conts .tabBox .commentBox li img {
+	display: block;
+}
+
+#conts .tabBox .comTextBox {
+	margin-bottom: 20px;
+}
+
+#conts .tabBox .comTextBox p {
+	border: 1px solid #D5D5D5;
+	color: #464646;
+	float: left;
+	font-size: 1.5em;
+	line-height: 1.75;
+	padding: 6px 10px 20px;
+	width: 493px;
+}
+
+#conts .tabBox .comTextBox ul {
+	float: right;
+	margin-top: 71px;
+}
+
+#conts .tabBox .comTextBox li {
+	float: left;
+	padding-left: 7px;
+}
+
+#conts .tabBox .comTextBox li img {
+	display: block;
+}
+
+#conts .tabBox .commentBox02 {
+	margin: 0 0 5px 7px;
+}
+
+#conts .tabBox .commentBox02 .dlBox {
+	float: left;
+}
+
+#conts .tabBox .dlBox {
+	margin-top: 3px;
+	width: 525px;
+}
+
+#conts .tabBox .dlBox dl {
+	float: left;
+	overflow: hidden;
+	width: 220px;
+	zoom:1;
+}
+
+#conts .tabBox .dlBox dt {
+	color: #444;
+	font-size: 1.3em;
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	width: 43px;
+	word-wrap: break-word;
+}
+
+#conts .tabBox .dlBox dd {
+	background-color: #F6E8F6;
+	color: #444;
+	float: right;
+	font-size: 1.6em;
+	padding: 1px 5px 1px 8px;
+	width: 158px;
+	word-wrap: break-word;
+}
+
+#conts .tabBox .dlBox .dlStyle {
+	float: right;
+	width: 253px;
+}
+
+#conts .tabBox .dlBox .dlStyle dd {
+	background-color: #FAE8E1;
+	padding-left: 13px;
+	width: 192px;
+}
+
+#conts .tabBox .commentBox02 a {
+	float: right;
+}
+
+#conts .tabBox .infoBox {
+	margin-bottom: 10px;
+}
+
+#conts .tabBox .comInner {
+	width: 520px;
+}
+
+#conts .tabBox .comInner .photoBox {
+	float: left;
+	margin-top: 6px;
+}
+
+#conts .tabBox .comInner .subBox {
+	background: url(../../img/client/area/com_bg02.gif) no-repeat left bottom;
+	float: right;
+	width: 481px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner .subBox .textBox {
+	background: url(../../img/client/area/com_bg01.gif) no-repeat left top;
+	padding: 12px 10px 5px 30px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner .subBox .textBox p {
+	color: #464646;
+	font-size: 1.4em;
+	line-height: 2.0;
+}
+
+#conts .tabBox .jsBox {
+	margin-bottom: 20px;
+}
+
+#conts .tabBox .infoBox02 {
+	clear: both;
+	margin: 0 6px 35px 0;
+}
+
+#conts .tabBox .infoBox02 .comInner {
+	float: left;
+}
+
+#conts .tabBox .infoBox02 .tableBox {
+	float: right;
+	margin-top: 5px;
+	width: 198px;
+}
+
+#conts .tabBox .infoBox02 table {
+	width: 91%;
+}
+
+#conts .tabBox .infoBox02 th {
+	border: none !important;
+	background: none !important;
+	padding: 0 0 9px 0;
+	text-align: center;
+	vertical-align: middle;
+	word-break : break-all;
+}
+
+#conts .tabBox .infoBox02 td {
+	border: none;
+	font-size: 1.4em;
+	padding: 0 0 9px 0;
+	text-align: center;
+	vertical-align: middle;
+	word-break : break-all;
+}
+
+#conts .tabBox .infoBox02 .tdStyle {
+	color: #d36c05;
+	font-size: 2.0em;
+}
+
+#conts .tabBox .infoBox02 .tdStyle02 {
+	color: #219723;
+	font-size: 2.0em;
+}
+
+#conts .tabBox .infoBox02 ul {
+	margin-left: 9px;
+}
+
+#conts .tabBox .infoBox02 li {
+	float: left;
+}
+
+#conts .tabBox .infoBox02 li img {
+	display: block;
+}
+
+#conts .tabBox .dlBox02 {
+	margin: 0 0 10px 50px;
+	width: 480px;
+}
+
+#conts .tabBox .dlBox02 .dlStyle {
+	width: 220px;
+}
+
+#conts .tabBox .dlBox02 .dlStyle dd {
+	width: 155px;
+}
+
+#conts .tabBox .comInner02 {
+	float: left;
+	width: 518px;
+}
+
+#conts .tabBox .comInner02 .photoBox {
+	float: right;
+	margin-top: 15px;
+}
+
+#conts .tabBox .comInner02 .subBox {
+	background: url(../../img/client/area/com_bg04.gif) no-repeat left bottom;
+	float: left;
+	width: 484px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner02 .subBox .textBox {
+	background: url(../../img/client/area/com_bg03.gif) no-repeat left top;
+	padding: 10px 10px 10px 15px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner02 .subBox p {
+	color: #464646;
+	font-size: 1.4em;
+	line-height: 2.0;
+}
+
+#conts .tabBox .infoBox .remove {
+	margin-top: 35px;
+}
+
+/*------------------------------------------------------------
+	tab01
+------------------------------------------------------------*/
+#conts .tabInner .tabBox .features {
+	clear: both;
+	margin: -4px -1px 0 -6px;
+	position: relative;
+	overflow: hidden;
+	width: 741px;
+	zoom: 1;
+}
+
+#conts .tabInner .tabBox .features .photoBox {
+	float: right;
+	width: 354px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .topImg img,
+#conts .tabInner .tabBox .features .photoBox .btmImg img {
+	clear: both;
+	display: block;
+	vertical-align: baseline;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList {
+	background-color: #EAFEE2;
+	padding: 0 6px 0 9px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList .linkPhoto {
+	margin-bottom: 6px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList .linkPhoto li {
+	float: left;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList .linkPhoto img {
+	width: 338px;
+	height: 254px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList .btnBox {
+	background-color: #FFF;
+	border: 2px solid #7AC367;
+	margin-bottom: 6px;
+	padding: 1px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photoList .btnBox p {
+	float: left;
+	font-size: 1.3em;
+	margin-top: 4px;
+	text-align: center;
+	width: 280px;
+}
+
+#conts .tabInner .tabBox .features .photoBox .photo li {
+	cursor: pointer;
+	float: left;
+	padding: 0 3px 5px 0;
+}
+
+#conts .tabInner .tabBox .features .textBox {
+	float: left;
+	width: 379px;
+}
+
+#conts .tabInner .tabBox .features .textBox p {
+	color: #464646;
+	font-size: 1.3em;
+	line-height: 2.1;
+	margin: 0 0 25px 20px;
+}
+
+/*------------------------------------------------------------
+	tab05
+------------------------------------------------------------*/
+#conts .tabInner .tabBox .text {
+	font-size: 1.5em;
+	margin: 0 0 15px 25px;
+}
+
+#conts .tabInner .tabBox .listNavi {
+	margin: 0 -14px 43px -6px;
+	overflow: hidden;
+	width: 755px;
+	zoom: 1;
+}
+
+#conts .tabInner .tabBox .listNavi li {
+	float: left;
+	line-height: 1.7;
+	margin-right: 10px;
+	width: 367px;
+}
+
+#conts .tabInner .tabBox .listNavi li h4 {
+	margin-bottom: 12px;
+}
+
+#conts .tabInner .tabBox .listNavi li p {
+	font-size: 1.4em;
+	margin: 0 11px;
+	word-break: break-all;
+}
+
+#conts .tabInner .tabBox .button {
+	margin-right: 10px;
+	text-align: right;
+}
+
+/*------------------------------------------------------------
+	index2
+------------------------------------------------------------*/
+#conts #index2 .tabSection {
+	margin: 0 -2px;
+}
+
+#conts #index2 .tabInner {
+	background: url(../../img/client/area/sub_box_bg02.gif) no-repeat left bottom;
+	padding: 9px 9px 12px 8px;
+}
+
+#conts #index2 .tabInner .menuList {
+	background-color: #F4F4F4;
+	clear: both;
+	height: 28px;
+	margin-bottom: 8px;
+	overflow: hidden;
+	padding: 12px 0 12px 14px;
+}
+
+#conts #index2 .tabInner .menuList li {
+	float: left;
+	padding-right: 8px;
+}
+
+#conts #index2 .tabInner .menuList li img {
+	display: block;
+}
+
+#conts #index2 .tabInner .tabBox .features {
+	margin: 0;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox h4 {
+	background: none;
+	border: none;
+	color: #1a1a1a;
+	font-weight: bold;
+	margin: 0;
+	padding-left: 10px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox h4 span {
+	margin-left: 15px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .pBox {
+	border: 2px solid #D1D1D1;
+	margin-bottom: 20px;
+	min-height: 155px;
+	padding: 5px 10px 10px 15px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .pBox02 {
+	margin-bottom: 11px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox p {
+	margin: 0;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link {
+	margin: 0 0 5px 3px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link li {
+	float: left;
+	margin-right: 7px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link li img {
+	display: block;
+}
+
+#conts #index2 .tabInner .Item {
+	margin: 10px 10px 0 10px;
+}
+
+#conts #index2 .tabInner .Item ul {
+	float: left;
+	width: 73px;
+}
+
+#conts #index2 .tabInner .Item li {
+	float: left;
+	padding-bottom: 5px;
+}
+
+/*#conts #index2 .tabInner .Item li img {
+	display: block;
+}*/
+
+#conts #index2 .tabInner .Item textarea {
+	float: right;
+	height: 57px;
+	width: 710px;
+}
+
+#conts #index2 .tabBox .date {
+	color: #3a3a3a;
+	font-size: 1.3em;
+	margin: 0 0 11px 4px;
+}
+
+#conts #index2 .tabBox .date span {
+	background-color: #FFE6E6;
+	margin-right: 15px;
+	padding: 2px 10px 0;
+	display: inline-block;
+}
+
+#conts #index2 .tabBox .listNavi {
+	margin: 0 3px 28px 0;
+}
+
+#conts #index2 .tabBox .listNavi li {
+	margin-right: 8px;
+}
+
+#conts #index2 .tabBox .listNavi h4 {
+	margin-bottom: 6px;
+	padding: 7px 20px 1px;
+}
+
+#conts #index2 .tabBox .listNavi p {
+	border: 1px solid #CCC;
+	margin: 0 4px 0 3px;
+	min-height: 119px;
+	padding: 5px 10px 15px;
+}
+
+#conts #index2 .tabBox .del {
+	margin: 10px 0 5px 5px;
+}
+
+#conts #index2 .tabBox .del input {
+	float: left;
+}
+
+#conts #index2 .tabBox .del .proName {
+	color: #0b0b0b;
+	font-size: 1.6em;
+	height: 23px;
+	margin-right: 5px;
+	width: 277px;
+}
+
+#conts #index2 .tabBox .fContent {
+	border: 1px solid #CCC;
+	clear: both;
+	height: 128px;
+	margin-left: 1px;
+	width: 357px;
+}
+
+#conts #index2 .tabBox tbody .taLeft {
+	padding: 8px 0 8px 15px;
+}
+
+#conts #index2 .tabBox .tableBox td {
+	padding: 5px 7px;
+}
+
+#conts #index2 .tabBox .inputTxt01 {
+	height: 23px;
+	width: 90px;
+}
+
+#conts #index2 .tabBox .inputTxt02 {
+	height: 23px;
+	width: 280px;
+}
+
+#conts #index2 .tabBox .evaluation {
+	margin-right: 19px;
+}
+
+#conts .tabBox .voteSection {
+	border: 1px solid #CCC;
+	float: right;
+	padding: 10px 10px 5px 23px;
+	width: 449px;
+}
+
+#conts .tabBox .voteSection .voteImg {
+	float: left;
+}
+
+#conts .tabBox .voteSection .voteBox {
+	float: right;
+	width: 190px;
+}
+
+#conts .tabBox .voteSection .voteBox {
+	margin-top: 7px;
+}
+
+#conts .tabBox .voteSection .voteBox li {
+	color: #464646;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+}
+
+#conts .tabBox .voteSection .voteBox input {
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+
+#conts .tabBox .voteSection .voteBox .btnVote {
+	text-align: right;
+	margin-top: -24px;
+}
+
+
+
+#conts .voteImg2 .inner2 {
+	float: left;
+	width: 228px;
+}
+
+#conts .voteImg2 .inner2 th {
+	border: 2px solid #D9DFD5;
+	background-color: #E7F4E0;
+	color: #464646;
+	font-size: 1.0em;
+	padding: 0 0 0 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#conts .voteImg2 .inner2 td {
+	border: 2px solid #D9DFD5;
+	background-color: #fff;
+	color: #464646;
+	font-size: 1.0em;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+#conts .tabBox .voteSection .voteImg2 {
+	float: left;
+}
+
+.title2 {
+	font-size: 0.8em;
+	margin-bottom: 4px;
+	text-align: right;
+}
+
+.jScroll td .inner2 {
+	margin-bottom: 5px;
+}
+
+.jScroll td .inner2 .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+
+.jScroll td .inner2 .textBox2 {
+	float: left;
+	width: 119px;
+}
+
+.jScroll td .inner2 .textBox2 li {
+	font-size: 0.8em;
+	float: right;
+	padding-bottom: 5px;
+}
+
+.jScroll td .inner2 .textBox2 span {
+	display: inline-block;
+	width: 78px;
+}
+
+.jScroll td .inner2 .textBox2 .color {
+	background-color: #fffF;
+	margin-right: 4px;
+	padding: 4px 3px 0;
+	width: 15px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .jScroll td .inner .textBox .color { letter-spacing: -1px;}}
+
+
+
+
+/*140106*/
+
+/* cid=1 area */
+
+#conts .cid-1 .linkUl .tab02 a,
+#conts .cid-1 .linkUl .tab02 a:hover{
+    background: url(../../img/client/area/link02.jpg) no-repeat;
+	width: 151px;
+}
+
+
+#conts .cid-1 .linkUl .tab02.on a {
+    background: url(../../img/client/area/link02_on.jpg) no-repeat;
+}
+
+#conts .cid-1 .linkUl .tab01 a:hover,
+#conts .cid-1 .linkUl .tab01 a {
+    background: url(../../img/client/area/link01.jpg) no-repeat;
+	width: 152px;
+}
+
+
+#conts .cid-1 .linkUl .tab01.on a {
+    background: url(../../img/client/area/link01_on.jpg) no-repeat;
+}
+
+#conts .cid-1 .linkUl .tab03 a:hover,
+#conts .cid-1 .linkUl .tab03 a {
+    background: url(../../img/client/area/link03.jpg) no-repeat;
+	width: 151px;
+}
+
+#conts .cid-1 .linkUl .tab03.on a {
+    background: url(../../img/client/area/link03_on.jpg) no-repeat;
+}
+
+#conts .cid-1 .linkUl .tab04 a:hover,
+#conts .cid-1 .linkUl .tab04 a {
+    background: url(../../img/client/area/link04.jpg) no-repeat;
+	width: 151px;
+}
+
+#conts .cid-1 .linkUl .tab04.on a {
+    background: url(../../img/client/area/link04_on.jpg) no-repeat;
+}
+
+#conts .cid-1 .linkUl .tab05 a:hover,
+#conts .cid-1 .linkUl .tab05 a {
+    background: url(../../img/client/area/link05.jpg) no-repeat;
+	width: 152px;
+}
+
+
+#conts .cid-1 .linkUl .tab05.on a {
+    background: url(../../img/client/area/link05_on.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab02 a {
+    background: url(../../img/client/area/area_link01.jpg) no-repeat;
+	width: 152px;
+}
+
+#conts #index2 .cid-1 .linkUl .tab02 a:hover,
+#conts #index2 .cid-1 .linkUl .tab02.on a {
+    background: url(../../img/client/area/area_link01_on.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab01 a {
+    background: url(../../img/client/area/area_link02.jpg) no-repeat;
+	width: 150px;
+}
+
+#conts #index2 .cid-1 .linkUl .tab01 a:hover,
+#conts #index2 .cid-1 .linkUl .tab01.on a {
+    background: url(../../img/client/area/area_link02_on.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab03 a {
+    background: url(../../img/client/area/area_link03.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab03 a:hover,
+#conts #index2 .cid-1 .linkUl .tab03.on a {
+    background: url(../../img/client/area/area_link03_on.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab04 a {
+    background: url(../../img/client/area/area_link04.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab04 a:hover,
+#conts #index2 .cid-1 .linkUl .tab04.on a {
+    background: url(../../img/client/area/area_link04_on.jpg) no-repeat;
+}
+
+#conts #index2 .cid-1 .linkUl .tab05 a {
+    background: url(../../img/client/area/area_link05.jpg) no-repeat;
+	width: 152px;
+}
+
+#conts #index2 .cid-1 .linkUl .tab05 a:hover,
+#conts #index2 .cid-1 .linkUl .tab05.on a {
+    background: url(../../img/client/area/area_link05_on.jpg) no-repeat;
+}
+
+
+
+#conts .tabInner {
+	background: url(../../img/client/area/sub_box_bg.gif) no-repeat left bottom;
+	border-top: 1px solid #D7D7D7;
+	margin-top: -1px;
+	padding: 4px 9px 12px 12px;
+	position: relative;
+	z-index: 1;
+	zoom: 1;
+}
+
+#conts #index2 .tabInner {
+	border-top: 1px solid #FECF4D;
+}
+
+#conts .tabBox table .tdSpecial a {
+	color: #0000E9;
+	display: inline-block;
+	margin-top: 3px;
+}
+
+/*140106kokomade*/
+
+
+/*------------------------------------------------------------
+	detil
+------------------------------------------------------------*/
+#conts .tabBox .tableBox td.taLeft {
+	padding-left: 25px;
+}
+
+/*------------------------------------------------------------
+	tab04
+------------------------------------------------------------*/
+#conts .tabBox .evaluation dd span {
+	padding: 0 4px;
+}
+
+#conts .tabBox .infoBox02 .tdStyle {
+	color: #d36c05;
+	font-size: 2.0em;
+}
+
+#conts .tabBox .infoBox02 .tdStyle02 {
+	color: #219723;
+	font-size: 2.0em;
+}
+
+#conts .tabBox .infoBox02 li img {
+	display: block;
+}
+
+#conts .tabBox .dlBox02 .dlStyle {
+	width: 220px;
+}
+
+#conts .tabBox .dlBox02 .dlStyle dd {
+	width: 155px;
+}
+
+#conts .tabBox .comInner02 {
+	float: left;
+	width: 518px;
+}
+
+#conts .tabBox .comInner02 .photoBox {
+	float: right;
+	margin-top: 15px;
+}
+
+#conts .tabBox .comInner02 .subBox {
+	background: url(../../img/client/area/com_bg04.gif) no-repeat left bottom;
+	float: left;
+	width: 484px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner02 .subBox .textBox {
+	background: url(../../img/client/area/com_bg03.gif) no-repeat left top;
+	padding: 10px 10px 10px 15px;
+	zoom: 1;
+}
+
+#conts .tabBox .comInner02 .subBox p {
+	color: #464646;
+	font-size: 1.4em;
+	line-height: 2.0;
+}
+
+#conts .tabBox .infoBox .remove {
+	margin-top: 35px;
+}
+
+/*------------------------------------------------------------
+	tab01
+------------------------------------------------------------*/
+#conts .tabInner .tabBox .features .photoBox {
+	margin-top: 0;
+}
+
+/* graph */
+#conts .jScroll td .inner {
+	margin-bottom: 5px;
+}
+
+#conts .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+#conts .photoBox_graphbox {
+	float: right;
+	margin-top: 22px;
+	margin-bottom: 2px;
+	height: 75px;
+	width: 95px;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #333;
+}
+#conts .photoBox_graph1 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .photoBox_graph2 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+#conts .photoBox_graph3 {
+	margin-top: 6px;
+	margin-bottom: 9px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox h4 span {
+	margin-left: 15px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .pBox {
+	border: 2px solid #D1D1D1;
+	margin-bottom: 20px;
+	min-height: 155px;
+	padding: 5px 10px 10px 15px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .pBox02 {
+	margin-bottom: 11px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox p {
+	margin: 0;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link {
+	margin: 0 0 5px 3px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link li {
+	float: left;
+	margin-right: 7px;
+}
+
+#conts #index2 .tabInner .tabBox .features .textBox .link li img {
+	display: block;
+}
+
+#conts #index2 .tabInner .Item ul {
+	float: left;
+	width: 73px;
+}
+
+#conts #index2 .tabInner .Item li {
+	float: left;
+	padding-bottom: 5px;
+}
+
+#conts #index2 .tabBox .listNavi p {
+	border: 1px solid #CCC;
+	margin: 0 4px 0 3px;
+	min-height: 119px;
+	padding: 5px 10px 15px;
+}
+#conts #index2 .tabBox .inputTxt01 {
+	height: 23px;
+	width: 90px;
+}
+
+#conts #index2 .tabBox .inputTxt02 {
+	height: 23px;
+	width: 280px;
+}
+
+#conts .tabBox .voteSection {
+	border: 1px solid #CCC;
+	float: right;
+	padding: 10px 10px 5px 23px;
+	width: 449px;
+}
+
+#conts .tabBox .voteSection .voteImg {
+	float: left;
+}
+
+#conts .tabBox .voteSection .voteBox li {
+	color: #464646;
+	font-size: 1.4em;
+	padding-bottom: 10px;
+}
+
+#conts .tabBox .voteSection .voteBox input {
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+
+#conts .voteImg2 .inner2 th {
+	border: 2px solid #D9DFD5;
+	background-color: #E7F4E0;
+	color: #464646;
+	font-size: 1.0em;
+	padding: 0 0 0 0px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#conts .voteImg2 .inner2 td {
+	border: 2px solid #D9DFD5;
+	background-color: #fff;
+	color: #464646;
+	font-size: 1.0em;
+	padding: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+.jScroll td .inner2 {
+	margin-bottom: 5px;
+}
+
+.jScroll td .inner2 .photoBox {
+	float: right;
+	margin-top: 22px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { #conts .jScroll td .inner .textBox .color { letter-spacing: -1px;}}
+
+body#spot_index #conts h2,
+body.spot_index2 #conts h2 {
+	background: url(../../img/client/spot/h2_bg.gif) no-repeat 10px 2px !important;
+}
+
+#conts #index2 .tabBox .tableA th {
+	color: #464646;
+	text-align: center;
+}
+
+#conts #index2 .tabBox .tableA td {
+	color: #464646;
+}
+
+#conts #index2 .tabBox .tableA th span {
+	display: block;
+}
+
+#conts #index2 .tabBox .tableA th span a:hover img {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+}
+
+#conts #index2 .tabBox .tableA td span {
+	margin-right: 8px;
+}
+
+#conts #index2 .tabBox .tableA td input {
+	color: #464646;
+	margin: 0 4px;
+	width: 130px;
+}
+
+#conts #index2 .tabBox .tableA td textarea {
+	color: #464646;
+	font-size: 1.0em;
+	height: 45px;
+	width: 620px;
+}
+
+#conts #index2 .tabBox .infoBox02 .tdStyle02 {
+    color: #219723;
+}
+
+#conts #index2 .tab_inner .tabBox .features .textBox h4 {
+	font-weight: bold;
+}
+
+body#spot_index #conts .tabBox .thSpecial,
+#conts #index2 .tabBox .thSpecial {
+	padding-left: 23px;
+	text-align: left !important;
+}
+
+#conts .tabBox01 {
+	margin: 0 15px 0 20px;
+}
+
+#conts .tabBox p {
+	color: #444;
+	font-size: 1.5em;
+}
+
+#conts .tabBox .comTable01 {
+	margin-bottom: 10px;
+}
+
+#conts .tabBox .comTable01 th,
+#conts .tabBox .comTable01 td {
+	color: #444;
+	font-size: 1.4em;
+	border-left: none;	
+	border-right: none;	
+	border-top: none;
+	border-bottom: 1px solid #CFCFCF !important;
+	padding: 8px 10px 5px;
+}
+
+#conts .tabBox .comTable01 th {
+	background-color: #FFF;
+	font-weight: normal;
+}
+
+#conts .tabBox .comTable01 td li {
+	display: inline;
+	margin-right: 30px;
+}
+
+#conts .tabBox .comTable01 td .name {
+	width: 270px;
+}
+
+#conts .tabBox .comTable01 td .email {
+	width: 392px;
+}
+
+#conts .tabBox .submit {
+	text-align: center;
+}
+
+#conts .tabBox .submit input {
+	vertical-align: top;
+}
+
+#conts .tabBox .fEmail {
+	width: 385px;
+}
+
+body#spot_index #conts .tabBox .tableA {
+	clear: both;
+	margin-bottom: 16px;
+}
+
+body#spot_index #conts .tabBox .tableA th {
+	color: #464646;
+	font-size: 1.6em;
+	text-align: left;
+	padding-left: 20px;
+}
+
+body#spot_index #conts .tabBox .tableA td {
+	color: #464646;
+}
+
+body#spot_index #conts .text {
+    overflow: hidden;
+}
+
+body#spot_index #conts .text span {
+    float: left;
+    margin-top: 2px;
+    width: 300px;
+}
+
+body#spot_index #conts .text a {
+    float: right;
+}
+
+body#spot_index #conts .map {
+    margin-left: 5px;
+}
+
+body#spot_index #conts .map a {
+    color: #2224FF;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#conts .tabBox .comTable01 td textarea {
+    height: 130px;
+    width: 536px;
+}
